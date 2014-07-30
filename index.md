@@ -14,8 +14,7 @@ tagline: Supporting tagline
   <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 </head>
 
- <!-- Fixed Navigation Bar with drop down menu
-  ============================================= -->
+<!--Fixed Nav Bar-->
 
 <body>
   <div class="navbar navbar-default navbar-fixed-top">
