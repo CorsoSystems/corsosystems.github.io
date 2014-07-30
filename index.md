@@ -14,11 +14,10 @@ tagline: Supporting tagline
   <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 </head>
 
-<body>
-
-  <!-- Fixed Navigation Bar with drop down menu
+ <!-- Fixed Navigation Bar with drop down menu
   ============================================= -->
 
+<body>
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -29,9 +28,9 @@ tagline: Supporting tagline
       </button>
         <a href="#" class="navbar-brand">Corso Systems</a>
     
-      </div>
+</div>
   
-      <div class="navbar-collapse collapse">
+<div class="navbar-collapse collapse">
         
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
