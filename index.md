@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 
+tagline: 
 ---
 {% include JB/setup %}
-
-<!DOCTYPE html>
 
 <html>
 <head>
