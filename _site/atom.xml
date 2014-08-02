@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Jekyll Bootstrap-3</title>
+ <link href="http://username.github.io/" rel="self"/>
+ <link href="http://username.github.io"/>
+ <updated>2014-08-02T11:57:56-07:00</updated>
+ <id>http://username.github.io</id>
+ <author>
+   <name>Name Lastname</name>
+   <email>blah@email.test</email>
+ </author>
+
+ 
+ <entry>
+   <title>Energy Bar Mixer Replacement</title>
+   <link href="http://username.github.io/short-urls-jekyll"/>
+   <updated>2014-08-01T00:00:00-07:00</updated>
+   <id>http://username.github.io/energy-bar-mixer</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;An energy bar manufacturing facility’s raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface. We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Controls brought up to modern standards&lt;/li&gt;
+	&lt;li&gt;Safety controls re-enabled as part of upgrade&lt;/li&gt;
+	&lt;li&gt;Recipe management capabilities implemented as part of the upgrade&lt;/li&gt;
+	&lt;li&gt;Stand-alone equipment now capable of being integrated into an overall process control system&lt;/li&gt;
+	&lt;li&gt;Customer has updated documentation and copies of all programs and logic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allen Bradley Micrologix 1100&lt;/li&gt;
+	&lt;li&gt;Allen Bradley Panelview Plus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;We met with the client to discuss their existing system and how both the PLC and operator interface were failing due to age and general wear and tear. The mixer had been installed when the plant was first opened in the early 90’s and no software was available for the Cutler Hammer PLC or operator interface 20 years after installation.&lt;/p&gt;
+
+&lt;p&gt;We worked with the plant operators to understand and develop a control philosophy for the mixer. One major issue with the existing hardware was that some of the inputs to the PLC from safety devices had failed. These issues were resolved with the upgraded PLC. &lt;/p&gt;
+
+&lt;p&gt;The operators also requested recipe management functionality, allowing them to easily configure various mixing steps depending on the product being produced. We implemented a screen in the HMI allowing them to configure a handful of steps with various mixing speeds and times which allowed them to reduce a large amount of over and under-mixing caused by manually timing steps using the old system.&lt;/p&gt;
+
+&lt;p&gt;The new system was commissioned, operators were trained and the process was back up and running by lunchtime. The client now has updated copies of all documentation putting them in a better position for the future.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
