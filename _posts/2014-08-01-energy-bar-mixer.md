@@ -4,7 +4,7 @@ title: "Energy Bar Mixer Replacement"
 description: "Replacing aging process control hardware on an OEM mixer unit for an energy bar manufacturing facility."
 category: case_study
 tags: ["Case Study"]
-permalink: short-urls-jekyll
+permalink: energy-bar-mixer
 ---
 
 <h3>Summary</h3>
