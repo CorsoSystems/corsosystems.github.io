@@ -2,7 +2,7 @@
 layout: post
 title: "Energy Bar Conveyor Speed Sync"
 description: "Sychronized multiple conveyors on a process line for an energy bar manufacturing facility."
-tags: ["Case Study"]
+tags: ["Case Study", "Food and Beverage"]
 permalink: energy-bar-conveyor-sync
 ---
 

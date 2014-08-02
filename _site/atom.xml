@@ -4,13 +4,55 @@
  <title>Jekyll Bootstrap-3</title>
  <link href="http://username.github.io/" rel="self"/>
  <link href="http://username.github.io"/>
- <updated>2014-08-02T12:22:49-07:00</updated>
+ <updated>2014-08-02T15:04:16-07:00</updated>
  <id>http://username.github.io</id>
  <author>
    <name>Name Lastname</name>
    <email>blah@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>Multiple solar sites producing 109MW</title>
+   <link href="http://username.github.io/solar-109MW"/>
+   <updated>2014-08-03T00:00:00-07:00</updated>
+   <id>http://username.github.io/solar-109MW</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reduced development time for future plants&lt;/li&gt;
+	&lt;li&gt;Standardized graphics, data structures and network topologies reduced maintenance and training requirements for future plants&lt;/li&gt;
+	&lt;li&gt;Changes to the system at newer facilities could easily be pushed out to all existing facilities&lt;/li&gt;
+	&lt;li&gt;Systems could be operated and maintained remotely&lt;/li&gt;
+	&lt;li&gt;Automated reporting for power production, billing and plant performance including alarms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wonderware System Platform
+	&lt;li&gt;Wonderware InTouch&lt;/li&gt;
+	&lt;li&gt;Wonderware Historian&lt;/li&gt;
+	&lt;li&gt;OSI PI Historian&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+	&lt;li&gt;N-Tron networking equipment&lt;/li&gt;
+	&lt;li&gt;Moxa Modbus communication equipment&lt;/li&gt;
+	&lt;li&gt;Cisco ASA Firewalls&lt;/li&gt;
+	&lt;li&gt;Juniper Firewalls&lt;/li&gt;
+
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. 
+
+As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.
+
+After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.
+
+With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.
+&lt;/li&gt;&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Energy Bar Conveyor Speed Sync</title>

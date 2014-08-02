@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Energy Bar Conveyor Speed Sync</title>
-    <meta name="description" content="Sychronized multiple conveyors on a process line for an energy bar manufacturing facility.">
+    <title>Multiple solar sites producing 109MW</title>
+    <meta name="description" content="Multiple solar sites totaling 109MW of power output.">
     <meta name="author" content="Name Lastname">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,40 +97,49 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Energy Bar Conveyor Speed Sync </h1>
+  <h1>Multiple solar sites producing 109MW </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>02 August 2014</span>
+      <span>03 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>An energy bar manufacturing facility had a number of standalone pieces of equipment on which they wanted the ability to set a global, synchronized speed.</p>
+<p>Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.</p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>Stand alone equipment now integrated with a PLC to provide the capability for full-line automation</li>
-	<li>8 pieces of equipment with local control can now be operated from one operator interface</li>
-	<li>Recipe management capabilities enable operators to configure speeds for various products and select them on the fly</li>
+	<li>Reduced development time for future plants</li>
+	<li>Standardized graphics, data structures and network topologies reduced maintenance and training requirements for future plants</li>
+	<li>Changes to the system at newer facilities could easily be pushed out to all existing facilities</li>
+	<li>Systems could be operated and maintained remotely</li>
+	<li>Automated reporting for power production, billing and plant performance including alarms</li>
 </ul>
 
 <h3>Technology</h3>
 <ul>
-	<li>Allen Bradley Powerflex VFDs</li>
-	<li>Allen Bradley CompactLogix PLC</li>
-	<li>Allen Bradley Panelview Plus</li>
-</ul>
+	<li>Wonderware System Platform
+	<li>Wonderware InTouch</li>
+	<li>Wonderware Historian</li>
+	<li>OSI PI Historian</li>
+	<li>SQL Server</li>
+	<li>N-Tron networking equipment</li>
+	<li>Moxa Modbus communication equipment</li>
+	<li>Cisco ASA Firewalls</li>
+	<li>Juniper Firewalls</li>
+
 
 <h3>Solution</h3>
-<p>The client’s existing process line consisted of 8 stand-alone machines taking raw ingredients, forming them into bars, enrobing in chocolate and drying them prior to entering the packaging line.</p>
+Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. 
 
-<p>Each of these machines has a conveyor with a locally configurable speed for each piece of equipment. Operators were spending a signficant amount of time adjusting the speeds for each piece of equipment when changing products, resulting in issues when the speeds were not exactly the same.</p>
+As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.
 
-<p>We implemented a system using Allen Bradley CompactLogix PLC and Panelview Plus to communicate with Powerflex 4 and 5 VFDs installed on each piece of equipment.</p>
+After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.
 
-<p>The local control capability for each machine was replaced by a screen on the Panelview Plus allowing the operators to set a desired speed and the PLC calculating the required values for each drive based on its conveyor properties and gear ratios. The operators were also given the capability to configure speeds for various products giving them a drop-down menu to cut changeover times essentially to zero with respect to adjusting the speed of the line.</p>
+With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.
+</li></ul>
 
     </div>
 
@@ -147,7 +156,7 @@
      
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(3)</span></a></li>
      
-    	<li><a href="/tags.html#Food and Beverage-ref">Food and Beverage <span>(2)</span></a></li>
+    	<li><a href="/tags.html#Solar-ref">Solar <span>(1)</span></a></li>
     
   
 
@@ -160,11 +169,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/energy-bar-mixer" title="Energy Bar Mixer Replacement">&larr; Previous</a></li>
+        <li class="prev"><a href="/energy-bar-conveyor-sync" title="Energy Bar Conveyor Speed Sync">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/solar-109MW" title="Multiple solar sites producing 109MW">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
     </ul>
     <hr>

@@ -8,5 +8,6 @@ http://username.github.io/rss.xml
 http://username.github.io/sitemap.txt
 http://username.github.io/tags.html
 
+http://username.github.io/solar-109MW
 http://username.github.io/energy-bar-conveyor-sync
 http://username.github.io/energy-bar-mixer
