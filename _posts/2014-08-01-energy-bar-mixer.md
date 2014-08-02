@@ -2,7 +2,6 @@
 layout: post
 title: "Energy Bar Mixer Replacement"
 description: "Replacing aging process control hardware on an OEM mixer unit for an energy bar manufacturing facility."
-category: "Case Study"
 tags: ["Case Study"]
 permalink: energy-bar-mixer
 ---

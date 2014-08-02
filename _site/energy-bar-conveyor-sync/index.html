@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Energy Bar Mixer Replacement</title>
-    <meta name="description" content="Replacing aging process control hardware on an OEM mixer unit for an energy bar manufacturing facility.">
+    <title>Energy Bar Conveyor Speed Sync</title>
+    <meta name="description" content="Sychronized multiple conveyors on a process line for an energy bar manufacturing facility.">
     <meta name="author" content="Name Lastname">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,41 +97,40 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Energy Bar Mixer Replacement </h1>
+  <h1>Energy Bar Conveyor Speed Sync </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>01 August 2014</span>
+      <span>02 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>An energy bar manufacturing facility’s raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface. We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.</p>
+<p>An energy bar manufacturing facility had a number of standalone pieces of equipment on which they wanted the ability to set a global, synchronized speed.</p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>Controls brought up to modern standards</li>
-	<li>Safety controls re-enabled as part of upgrade</li>
-	<li>Recipe management capabilities implemented as part of the upgrade</li>
-	<li>Stand-alone equipment now capable of being integrated into an overall process control system</li>
-	<li>Customer has updated documentation and copies of all programs and logic</li>
+	<li>Stand alone equipment now integrated with a PLC to provide the capability for full-line automation</li>
+	<li>8 pieces of equipment with local control can now be operated from one operator interface</li>
+	<li>Recipe management capabilities enable operators to configure speeds for various products and select them on the fly</li>
 </ul>
 
 <h3>Technology</h3>
 <ul>
-	<li>Allen Bradley Micrologix 1100</li>
+	<li>Allen Bradley Powerflex VFDs</li>
+	<li>Allen Bradley CompactLogix PLC</li>
 	<li>Allen Bradley Panelview Plus</li>
 </ul>
 
 <h3>Solution</h3>
-<p>We met with the client to discuss their existing system and how both the PLC and operator interface were failing due to age and general wear and tear. The mixer had been installed when the plant was first opened in the early 90’s and no software was available for the Cutler Hammer PLC or operator interface 20 years after installation.</p>
+<p>The client’s existing process line consisted of 8 stand-alone machines taking raw ingredients, forming them into bars, enrobing in chocolate and drying them prior to entering the packaging line.</p>
 
-<p>We worked with the plant operators to understand and develop a control philosophy for the mixer. One major issue with the existing hardware was that some of the inputs to the PLC from safety devices had failed. These issues were resolved with the upgraded PLC. </p>
+<p>Each of these machines has a conveyor with a locally configurable speed for each piece of equipment. Operators were spending a signficant amount of time adjusting the speeds for each piece of equipment when changing products, resulting in issues when the speeds were not exactly the same.</p>
 
-<p>The operators also requested recipe management functionality, allowing them to easily configure various mixing steps depending on the product being produced. We implemented a screen in the HMI allowing them to configure a handful of steps with various mixing speeds and times which allowed them to reduce a large amount of over and under-mixing caused by manually timing steps using the old system.</p>
+<p>We implemented a system using Allen Bradley CompactLogix PLC and Panelview Plus to communicate with Powerflex 4 and 5 VFDs installed on each piece of equipment.</p>
 
-<p>The new system was commissioned, operators were trained and the process was back up and running by lunchtime. The client now has updated copies of all documentation putting them in a better position for the future.</p>
+<p>The local control capability for each machine was replaced by a screen on the Panelview Plus allowing the operators to set a desired speed and the PLC calculating the required values for each drive based on its conveyor properties and gear ratios. The operators were also given the capability to configure speeds for various products giving them a drop-down menu to cut changeover times essentially to zero with respect to adjusting the speed of the line.</p>
 
     </div>
 
@@ -159,11 +158,11 @@
     
     <ul class="pagination">
       
-        <li class="prev disabled"><a>&larr; Previous</a></li>
+        <li class="prev"><a href="/energy-bar-mixer" title="Energy Bar Mixer Replacement">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/energy-bar-conveyor-sync" title="Energy Bar Conveyor Speed Sync">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
     </ul>
     <hr>
