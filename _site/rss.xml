@@ -5,10 +5,115 @@
         <description>Jekyll Bootstrap-3 - Name Lastname</description>
         <link>http://username.github.io</link>
         <link>http://username.github.io</link>
-        <lastBuildDate>2014-08-02T15:04:16-07:00</lastBuildDate>
-        <pubDate>2014-08-02T15:04:16-07:00</pubDate>
+        <lastBuildDate>2014-08-03T08:44:48-07:00</lastBuildDate>
+        <pubDate>2014-08-03T08:44:48-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Solar Facility Commissioning with Custom Data Monitoring Website</title>
+                <description>&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Our staff worked with a solar power provider to develop and implement a web-based monitoring system for use at 3 of their new solar power plants.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Completely customized Web-based monitoring of three solar facilities on one site&lt;/li&gt;
+	&lt;li&gt;Power meter, inverter and string box information&lt;/li&gt;
+	&lt;li&gt;Weather station information monitoring&lt;/li&gt;
+	&lt;li&gt;Three levels of access, Public, Customer and Maintenance&lt;/li&gt;
+	&lt;li&gt;Automated billing documentation generation and dissemination&lt;/li&gt;
+	&lt;li&gt;Alarm notifications via email and text message&lt;/li&gt;
+	&lt;li&gt;Automated updates of on-site signage indicating power produced and emissions saved&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;ASP.NET&lt;/li&gt;
+	&lt;li&gt;Red Lion Data Station Plus&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+	&lt;li&gt;B&amp;amp;B Electronic Modbus Converters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;Our staff met with the operations team for a start-up solar power provider to discuss a developing a web-based monitoring system. The goal was to provide a low-cost, high functionality monitoring system for 3 facilities between 1 and 3 MW each.&lt;/p&gt;
+
+&lt;p&gt;We utilized Red Lion Data Station Plus units at each facility to collect data from field equipment and send it via cellular modem to a centralized database. This data was then displayed using trend controls on the site which allowed users to select date ranges, filter on equipment types and specific pieces of equipment.&lt;/p&gt;
+
+&lt;p&gt;If someone accessed the site without login credentials they were presented with a graph of power production limited to 30 days prior and older. If they accessed the site and were one of the customers or the owners of the facility where the plant was located they could see current overall production data and weather station information.&lt;/p&gt;
+
+&lt;p&gt;If the user was part of the solar company or their maintenance team they had access to all current production data for all equipment and weather station information. They could also manage what alarms sent notifications, who received billing information and administer users of the system. They also had access to a trend allowing them to add any datapoints from the site for completely customized data analysis.&lt;/p&gt;
+</description>
+                <link>http://username.github.io/solar-facility-and-monitoring-website</link>
+                <guid>http://username.github.io/solar-monitoring-website</guid>
+                <pubDate>2014-08-06T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
+                <description>&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.&lt;/p&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wonderware Historian/InSQL&lt;/li&gt;
+	&lt;li&gt;Incuity/VantagePoint&lt;/li&gt;
+	&lt;li&gt;FactoryTalk Historian&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+	&lt;li&gt;Allen Bradley ControlLogix PLCs&lt;/li&gt;
+	&lt;li&gt;Allen Bradley CompactLogix PLCs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;All facilities standardized on the latest versions of VantagePoint&lt;/li&gt;
+	&lt;li&gt;All facilities standardized on the lastest versions of FactoryTalk Historian&lt;/li&gt;
+	&lt;li&gt;Upgraded to a new FactoryTalk Historian installation with no loss of data&lt;/li&gt;
+	&lt;li&gt;All facilities were configured for automatic backups of data and configurations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;Our staff was familiar with the company’s existing systems having implemented them originally. We worked on new server hardware at each facility and installed all of the software components. From there we exported all of the Incuity components and imported them into VantagePoint, configured communications between FactoryTalk Historian and various PLCs and configured communications between VantagePoint and FactoryTalk Historian. &lt;/p&gt;
+
+&lt;p&gt;Next we went through the existing Wonderware InSQL/Historian configuration and set up all of the tags to be imported into FactoryTalk Historian. Once imported we verified data was coming across correctly from the process.&lt;/p&gt;
+
+&lt;p&gt;Finally we exported data from the existing Wonderware InSQL/Historian server and developed scripts to automatically import the data into FactoryTalk Historian.&lt;/p&gt;
+
+&lt;p&gt;The client was then able to use the new VantagePoint and FactoryTalk Historian system to view new data and all data that had been collected on the old system with a seamless transition and was able to decommission and remove the old server at each facility.&lt;/p&gt;
+</description>
+                <link>http://username.github.io/wonderware-to-factorytalk-historian-conversion</link>
+                <guid>http://username.github.io/wonderware-to-fthistorian-conversion</guid>
+                <pubDate>2014-08-05T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>Wonderware Historian Implementation for Environmental Impact Reporting</title>
+                <description>&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A small mine in Nevada required automatic pollution reporting and data collection to meet EPA regulations.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Automated daily reporting of pollutant use and discharge directly to the State Department of Environmental Protection&lt;/li&gt;
+	&lt;li&gt;Reporting functionality allowing regulators or mine personnel to review reports from any day after the system was implemented&lt;/li&gt;
+	&lt;li&gt;Process data now stored in a Historian allowing for better data analysis and tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wonderware Historian
+	&lt;li&gt;Wonderware Historian Client
+	&lt;li&gt;SQL Server
+
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+A small gold mine outside of Elko Nevada was required by the State Department of Environmental Protection to submit daily reports detailing pollutant use and discharge along with some process data to verify the readings.
+
+We installed and configured Wonderware Historian to collect and store process data along with Wonderware Historian Client to populate an Excel report at the end of each day. When the report was created we ran a SQL Server stored procedure to print the Excel report to PDF and upload it to the Department of Environmental Protection&#39;s FTP server.
+&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+                <link>http://username.github.io/gold-mine-wonderware-historian</link>
+                <guid>http://username.github.io/gold-mine-ww-historian</guid>
+                <pubDate>2014-08-04T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>Multiple solar sites producing 109MW</title>
@@ -49,6 +154,41 @@ With remote access to each facility we also reduced support time and costs by al
 </description>
                 <link>http://username.github.io/solar-109MW</link>
                 <guid>http://username.github.io/solar-109MW</guid>
+                <pubDate>2014-08-03T00:00:00-07:00</pubDate>
+        </item>
+
+        <item>
+                <title>PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility</title>
+                <description>&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A large potato processing facility in central Idaho replaced Allen Bradley PLC5 processors with ControlLogix and CompactLogix processors and wanted to ensure the new logic conformed to corporate programming standards.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Facility upgraded to modern hardware&lt;/li&gt;
+	&lt;li&gt;Logic was updated to current corporate programming standards&lt;/li&gt;
+	&lt;li&gt;Updating logic to new standards required no unplanned downtime&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;Allen Bradley PLC5&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Allen Bradley ControlLogix PLCs&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Allen Bradley CompactLogix PLCs&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Rockwell Automation RSLogix5&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Rockwell Automation RSLogix5000&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;/ul&amp;gt;&lt;/p&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;The facility’s maintenance staff performed the PLC5 to ControlLogix/CompactLogix conversion and did not have the time to update the logic, addressing, etc. to current corporate programming standards.&lt;/p&gt;
+
+&lt;p&gt;Our staff reviewed all of the affected logic and created new tags to match current naming conventions. From there we did a line-by-line upgrade of the logic (off-site) to match current standards.&lt;/p&gt;
+
+&lt;p&gt;During a scheduled downtime for cleaning and other upgrades, we downloaded the new code into the PLCs and spent time on-site verifying the new logic adjacent to the old logic. As the various routines were verfied we updated the I/O mapping to use the new tags and deleted the old tags and logic from the PLC. &lt;/p&gt;
+
+&lt;p&gt;When we had completed verifying all of the logic the PLC was upgraded to current standards and required no unplanned downtime as part of the process.&lt;/p&gt;
+</description>
+                <link>http://username.github.io/potato-PLC5-conversion</link>
+                <guid>http://username.github.io/PLC5-To-ControlLogix-Conversion</guid>
                 <pubDate>2014-08-03T00:00:00-07:00</pubDate>
         </item>
 

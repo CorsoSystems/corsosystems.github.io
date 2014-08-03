@@ -8,6 +8,10 @@ http://username.github.io/rss.xml
 http://username.github.io/sitemap.txt
 http://username.github.io/tags.html
 
+http://username.github.io/solar-facility-and-monitoring-website
+http://username.github.io/wonderware-to-factorytalk-historian-conversion
+http://username.github.io/gold-mine-wonderware-historian
 http://username.github.io/solar-109MW
+http://username.github.io/potato-PLC5-conversion
 http://username.github.io/energy-bar-conveyor-sync
 http://username.github.io/energy-bar-mixer
