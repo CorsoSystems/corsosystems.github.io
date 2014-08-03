@@ -2,21 +2,267 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jekyll Bootstrap-3</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2014-08-03T08:51:05-07:00</updated>
- <id>http://username.github.io</id>
+ <link href="http://corsosystems.github.io/" rel="self"/>
+ <link href="http://corsosystems.github.io"/>
+ <updated>2014-08-03T12:27:35-07:00</updated>
+ <id>http://corsosystems.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>Corso Systems</name>
+   <email>info@corsosystems.com</email>
  </author>
 
  
  <entry>
+   <title>FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Cement Manufacturing facility</title>
+   <link href="http://corsosystems.github.io/factorytalk-historian-and-vantagepoint-cement-company"/>
+   <updated>2014-08-13T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/factorytalk-vantagepoint-implementation-cement-company</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A large cement manufacturing company wanted to historize process data from one of its facilities and view the data using modern trending and reporting tools.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Process data stored in a centralized database&lt;/li&gt;
+	&lt;li&gt;Data accessible from outside of the HMI application, including access to corporate staff&lt;/li&gt;
+	&lt;li&gt;Automated reporting capability reduced amount of time collecting data required for periodic reporting on various process conditions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;FactoryTalk Historian&lt;/li&gt;
+	&lt;li&gt;FactoryTalk VantagePoint&lt;/li&gt;
+	&lt;li&gt;Allen Bradley ControlLogix PLCs&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;We worked with the client’s process engineer to identify which datapoints they wanted to store as well as to develop the VantagePoint model for making the data easily accessible to operators and maintenance staff.&lt;/p&gt;
+
+&lt;p&gt;Once we had determined the relevant data we implemented the system and provided training for the facility’s staffon using FactoryTalk Historian and VantagePoint.&lt;/p&gt;
+
+&lt;p&gt;The 500 tag licensed system took less than one day to commission after showing up on-site with only the software installed on the server.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Engineering Services Needs Assessment System Implementaiton</title>
+   <link href="http://corsosystems.github.io/needs-assessment-system"/>
+   <updated>2014-08-12T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/needs-assessment-database</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;An engineering firm required a system to manage needs assessment data for small rural water treatment facilities.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;All needs assessment data was stored in a centralized database&lt;/li&gt;
+	&lt;li&gt;Reports on all assessment data can be generated on-demand&lt;/li&gt;
+	&lt;li&gt;Assessments can be searched based on a variety of fields including tags assigned to each record&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;ASP.NET MVC&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;An engineering firm had a contract with the State Department of Environmental Protection to perform a needs assessment for all small rural water treatment systems. The assessment was used to determine the allocation of funds from the State to be used for various engineering tasks required to maintain the water systems or bring them up to current standards.&lt;/p&gt;
+
+&lt;p&gt;The firm required a centralized database accessible my their own staff as well as State staff who needed to access the reports once the assessments were complete.&lt;/p&gt;
+
+&lt;p&gt;Our staff developed and implemented the database and a web-based interface to handle customer relationship management (CRM) functionality for contacting the water systems, manage the questionnaires and to handle data entry and reporting after completing each assessment. Additional functionality alowing users to tag assessments with common issues was later implemented to allow for easy search and tracking various analytics about all of the assessed water systems.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Leading Diatomaceous Earth Processing Company</title>
+   <link href="http://corsosystems.github.io/factorytalk-historian-and-vantagepoint"/>
+   <updated>2014-08-11T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/factorytalk-vantagepoint-implementation</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A large diatomaceous earth process company wanted to historize process data from one of its older facilities and view the data using modern trending and reporting tools.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Process data stored in a centralized database&lt;/li&gt;
+	&lt;li&gt;Data accessible from outside of the HMI application, including access to corporate staff&lt;/li&gt;
+	&lt;li&gt;Automated reporting capability reduced amount of time collecting data required for periodic reporting on various process conditions&lt;/li&gt;
+	&lt;li&gt;Maintenance staff was able to reduce the time to troubleshoot and fix common issues by more than 85% than prior to having historical data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;FactoryTalk Historian&lt;/li&gt;
+	&lt;li&gt;FactoryTalk VantagePoint&lt;/li&gt;
+	&lt;li&gt;Allen Bradley ControlLogix PLCs&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;The client had previous experience with FactoryTalk Historian at another facility. After upgrading one of their older facilities with a new power generation system they wanted to be able to track generation data as well as process data at this facility.&lt;/p&gt;
+
+&lt;p&gt;We worked with their process engineer to identify which datapoints they wanted to store as well as to develop the VantagePoint model for making the data easily accessible to operators and maintenance staff.&lt;/p&gt;
+
+&lt;p&gt;Once we had determined the relevant data we implemented the system and provided training for the facility’s staff.&lt;/p&gt;
+
+&lt;p&gt;After becoming familiar with the system one of the maintenance crew members began looking into issues with some of their equipment and found a correlation between pressure readings and motof failures in different areas of the process. This information reduced the amount of time to find and troubleshoot these issues from almost a day to less than an hour, a decrease of more than 85% on average.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Process Change Management System for a Leading Diatomaceous Earth Processing Company</title>
+   <link href="http://corsosystems.github.io/process-change-management-system"/>
+   <updated>2014-08-10T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/process-change-management-system</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Our staff worked with a leading diatomaceous earth processing facility to implement a centralized, web-based Process Change Management System. &lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Process change requests are now stored in a central database&lt;/li&gt;
+	&lt;li&gt;Process changes can be tracked throughout their lifecycle in one location accessible at anytime&lt;/li&gt;
+	&lt;li&gt;Changes are searchable, sortable and are no longer stored in files on a server reducing the amount of time required to find an old process change request&lt;/li&gt;
+	&lt;li&gt;Information about who created the change request is stored automatically&lt;/li&gt;
+	&lt;li&gt;Affected personnel are automatically notified when a process change request is submitted and/or approved&lt;/li&gt;
+	&lt;li&gt;Process change approvals are now requested automatically by the system reducing the amount of time spent managing the approval workflow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;ASP.NET MVC&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+	&lt;li&gt;jQuery&lt;/li&gt;
+	&lt;li&gt;Javascript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Our client is very aware of new technology and is always looking for ways to both optimize their process and find new materials capable of withstanding the harsh environment their product creates while it is being processed. As a result they frequently upgrade portions of their process and keep excellent documentation on these changes.&lt;/p&gt;
+
+&lt;p&gt;Prior to this project process changes were requested by filling out an Excel document, saving it on the corporate server and printing out multiple copies for people to review and approve the change. Managing this process required a significant amount of time relaying information and collecting approvals or modifications to the request before it could be approved.&lt;/p&gt;
+
+&lt;p&gt;Our system replaces this Excel document with a web-based interface. When creating a new change request the creator can select different people or titles required to approve the change as well as different individuals or departments required to be notified of the change. This process now happens automatically as soon as the change request is generated. &lt;/p&gt;
+
+&lt;p&gt;In addition to the initial notifications an approvals engine is used to manage the process of completing a change. Once the change has been implemented the change requestor marks it as complete in the system. The Safety Coordinator is the notified and requested to mark it complete. It goes through as many rounds of this as needed based on the change’s impact until the Plant Manager is notified and the change is marked as complete in the system. This process reduces the amount of time the change requestor spends tracking people down and getting their approvals. It also makes it easier for people to communicate their concerns about a change by being made aware of the change earlier in the process.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lab Information Management System for a Leading Diatomaceous Earth Processing Company</title>
+   <link href="http://corsosystems.github.io/lab-information-management-system"/>
+   <updated>2014-08-09T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/lab-information-management-system</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A large diatomaceous earth processing company needed a web-based lab information management system to track quality control tests and trend the data alongside historical process information.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Centralized database of quality control data&lt;/li&gt;
+	&lt;li&gt;The ability to view quality control data alongside process data in FactoryTalk VantagePoint&lt;/li&gt;
+	&lt;li&gt;Automated reporting of quality control data including highlighting out-of-specification values for easy data analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;ASP.NET&lt;/li&gt;
+	&lt;li&gt;FactoryTalk Historian&lt;/li&gt;
+	&lt;li&gt;FactoryTalk VantagePoint&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;Our staff worked with a large diatomaceous earth processing facility to implement a lab information management system to track quality control test data.&lt;/p&gt;
+
+&lt;p&gt;We used the client’s existing paper and Excel based tools to develop a database schema for the data including lot numbers, product codes and sample locations in the process. &lt;/p&gt;
+
+&lt;p&gt;With the database in place we developed the web-based front end to enter new data and access existing records. In addition to data entry forms the interface included automated reporting functionality allowing users to select a date-range and/or specific process areas to view quality data. When viewing data the entries are compared to product specification data for each product type and flagged as yellow if it is outside of ideal limits yet still acceptable and red if the data is out of specification.&lt;/p&gt;
+
+&lt;p&gt;This system was such a success at the first facility that it was subsequently rolled out the client’s other facilities.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Casino Gaming Manufacturing Facility HMI System Upgrades</title>
+   <link href="http://corsosystems.github.io/casino-gaming-powerbuilder-upgrade"/>
+   <updated>2014-08-08T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/slot-powerbuilder-upgrade</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;A large casino gaming manufacturing company used Sybase PowerBuilder on a stand-alone operator workstation to track where certain games were in the manufacturing process as well as to re-introduct re-worked games into the system for further processing. Our staff reverse-engineered the PowerBuilder application and re-implemented its functionality using FactoryTalk View SE.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;After upgrades the system met industry standards&lt;/li&gt;
+	&lt;li&gt;The system was fully integrated into the company&#39;s ERP system enabling more precise and traceable scheduling and inventory management&lt;/li&gt;
+	&lt;li&gt;Configuration issues requiring frequent re-starts of the PowerBuilder application were eliminated&lt;/li&gt;
+	&lt;li&gt;The new application incorporated local PanelView Plus screens to provide a full overview of the line from one location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sybase PowerBuilder&lt;/li&gt;
+	&lt;li&gt;FactoryTalk View SE&lt;/li&gt;
+	&lt;li&gt;FactoryTalk Transaction Manager&lt;/li&gt;
+	&lt;li&gt;Allen Bradley CompactLogix PLCs&lt;/li&gt;
+	&lt;li&gt;Allen Bradley PanelView Plus&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+	&lt;li&gt;SAP ERP&lt;/li&gt;
+	&lt;li&gt;Handheld barcode scanners&lt;/li&gt;
+	&lt;li&gt;RFID tags and scanners&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;As part of a larger control system upgrade we worked with the system’s stakeholders to understand their shortcomings with the existing system. One of their issues was not being able to see status of the entire line from this particular workstation. This workstation was frequently used by supervisors to track down specific machines required for re-work, signal them to be removed from the line and re-instat them once re-work was complete. They also wanted to use the workstation to handle on-the-fly scheduling changes requested by the purchasing department.&lt;/p&gt;
+
+&lt;p&gt;We reviewed and reverse engineered the existing codebase and screen layouts from PowerBuilder and re-implemented them as closely as possible in FactoryTalk View SE. From there we implemented new screens incorporating tabular data from the company’s SAP ERP system and used scripting to allow the user to select machines in the list and re-direct them to various locations in the line based on the machine’s serial number and the pallet it was tied to in the system.&lt;/p&gt;
+
+&lt;p&gt;We also incorporated a bar code scanner to scan the serial number barcode on each machine to allow machines to be re-introduced to the line from re-work by automatically pulling up their records once they were scanned.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Casino Gaming Manufacturing Facility Conveyor System Upgrades</title>
+   <link href="http://corsosystems.github.io/casino-gaming-conveyor-upgrade"/>
+   <updated>2014-08-07T00:00:00-07:00</updated>
+   <id>http://corsosystems.github.io/slot-machine-conveyor-upgrades</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;An in-house integrator at a large casino gaming machine manufacturer had implemented a conveyor control system prior to retiring from the company. After his departure and near constant supervision of the system, productivity dropped due to in-process machines being sent to incorrect locations, a holding and re-work area not functioning correctly and various other issues. Our staff was brought in to bring the system up to industry standards and bring productivity to desired levels.&lt;/p&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;After upgrades the system met industry standards for logic and safety&lt;/li&gt;
+	&lt;li&gt;The control system was fully integrated into the company&#39;s ERP system enabling more precise and traceable scheduling and inventory management&lt;/li&gt;
+	&lt;li&gt;The number of machines being sent to incorrect locations was reduced from 50+ per shift to less than one per day on average&lt;/li&gt;
+	&lt;li&gt;The amount of time spent moving machines back to the front of the line and manually directing them went from full-time to essentially zero&lt;/li&gt;
+	&lt;li&gt;System upgrades found 1/3 of the pallets used on the line had incorrectly installed RFID tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Technology&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;FactoryTalk View SE&lt;/li&gt;
+	&lt;li&gt;FactoryTalk Transaction Manager&lt;/li&gt;
+	&lt;li&gt;Allen Bradley CompactLogix PLCs&lt;/li&gt;
+	&lt;li&gt;Allen Bradley PanelView Plus&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+	&lt;li&gt;SAP ERP&lt;/li&gt;
+	&lt;li&gt;RFID tags and scanners&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;Our staff worked with the in-house integrator prior to his departure to understand his design methodology, current issues with the system and future plans for further development. We familiarized ourselves with the existing code base and met with the system’s stakeholders to formulate a plan moving forward.&lt;/p&gt;
+
+&lt;p&gt;Over the course of a few evenings when the line was down we began resolving issues with the Transaction Manager configuration passing incorrect data from the PLC to SQL Server. This exposed several race conditions in the logic preventing some machines from being sent to technician workstations and instead being sent to the end of the line as if they were complete machines. We resolved the race conditions and implemented similar changes to a machine holding/re-work re-entry area at the end of the line. During continued operation of the system we noticed some pallets consistently being sent to incorrect locations on the line and further research indicated the RFID tags on the pallets were incorrectly installed. Resolving this issue along with the logic changes reduced runaway machines from 50+ per shift to less than one a day on average.&lt;/p&gt;
+
+&lt;p&gt;Once all of the logic issues on the line were resolved we completed integration with the company’s SAP ERP system to integrate scheduling and inventory data into the control system to better utilize the technicians on the line. &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Solar Facility Commissioning with Custom Data Monitoring Website</title>
-   <link href="http://username.github.io/solar-facility-and-monitoring-website"/>
+   <link href="http://corsosystems.github.io/solar-facility-and-monitoring-website"/>
    <updated>2014-08-06T00:00:00-07:00</updated>
-   <id>http://username.github.io/solar-monitoring-website</id>
+   <id>http://corsosystems.github.io/solar-monitoring-website</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;Our staff worked with a solar power provider to develop and implement a web-based monitoring system for use at 3 of their new solar power plants.&lt;/p&gt;
 
@@ -52,9 +298,9 @@
  
  <entry>
    <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
-   <link href="http://username.github.io/wonderware-to-factorytalk-historian-conversion"/>
+   <link href="http://corsosystems.github.io/wonderware-to-factorytalk-historian-conversion"/>
    <updated>2014-08-05T00:00:00-07:00</updated>
-   <id>http://username.github.io/wonderware-to-fthistorian-conversion</id>
+   <id>http://corsosystems.github.io/wonderware-to-fthistorian-conversion</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.&lt;/p&gt;
 
@@ -89,9 +335,9 @@
  
  <entry>
    <title>Wonderware Historian Implementation for Environmental Impact Reporting</title>
-   <link href="http://username.github.io/gold-mine-wonderware-historian"/>
+   <link href="http://corsosystems.github.io/gold-mine-wonderware-historian"/>
    <updated>2014-08-04T00:00:00-07:00</updated>
-   <id>http://username.github.io/gold-mine-ww-historian</id>
+   <id>http://corsosystems.github.io/gold-mine-ww-historian</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A small mine in Nevada required automatic pollution reporting and data collection to meet EPA regulations.&lt;/p&gt;
 
@@ -118,9 +364,9 @@
  
  <entry>
    <title>Multiple solar sites producing 109MW</title>
-   <link href="http://username.github.io/solar-109MW"/>
+   <link href="http://corsosystems.github.io/solar-109MW"/>
    <updated>2014-08-03T00:00:00-07:00</updated>
-   <id>http://username.github.io/solar-109MW</id>
+   <id>http://corsosystems.github.io/solar-109MW</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.&lt;/p&gt;
 
@@ -159,9 +405,9 @@
  
  <entry>
    <title>PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility</title>
-   <link href="http://username.github.io/potato-PLC5-conversion"/>
+   <link href="http://corsosystems.github.io/potato-PLC5-conversion"/>
    <updated>2014-08-03T00:00:00-07:00</updated>
-   <id>http://username.github.io/PLC5-To-ControlLogix-Conversion</id>
+   <id>http://corsosystems.github.io/PLC5-To-ControlLogix-Conversion</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A large potato processing facility in central Idaho replaced Allen Bradley PLC5 processors with ControlLogix and CompactLogix processors and wanted to ensure the new logic conformed to corporate programming standards.&lt;/p&gt;
 
@@ -194,9 +440,9 @@
  
  <entry>
    <title>Energy Bar Conveyor Speed Sync</title>
-   <link href="http://username.github.io/energy-bar-conveyor-sync"/>
+   <link href="http://corsosystems.github.io/energy-bar-conveyor-sync"/>
    <updated>2014-08-02T00:00:00-07:00</updated>
-   <id>http://username.github.io/energy-bar-conveyor-sync</id>
+   <id>http://corsosystems.github.io/energy-bar-conveyor-sync</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;An energy bar manufacturing facility had a number of standalone pieces of equipment on which they wanted the ability to set a global, synchronized speed.&lt;/p&gt;
 
@@ -227,9 +473,9 @@
  
  <entry>
    <title>Energy Bar Mixer Replacement</title>
-   <link href="http://username.github.io/energy-bar-mixer"/>
+   <link href="http://corsosystems.github.io/energy-bar-mixer"/>
    <updated>2014-08-01T00:00:00-07:00</updated>
-   <id>http://username.github.io/energy-bar-mixer</id>
+   <id>http://corsosystems.github.io/energy-bar-mixer</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;An energy bar manufacturing facility’s raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface. We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.&lt;/p&gt;
 

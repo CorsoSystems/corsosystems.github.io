@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
-    <meta name="description" content="Converted an existing Wonderware Historian installation to a FactoryTalk Historian with no loss of data.">
+    <title>Engineering Services Needs Assessment System Implementaiton</title>
+    <meta name="description" content="Implemented a needs assessment system for an engineering firm to define and prioritize the needs of rural water systems to delegate state grant money for improvements">
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,44 +97,37 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Conversion from Wonderware Historian to FactoryTalk Historian </h1>
+  <h1>Engineering Services Needs Assessment System Implementaiton </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>05 August 2014</span>
+      <span>12 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.</p>
-
-<h3>Technology</h3>
-<ul>
-	<li>Wonderware Historian/InSQL</li>
-	<li>Incuity/VantagePoint</li>
-	<li>FactoryTalk Historian</li>
-	<li>SQL Server</li>
-	<li>Allen Bradley ControlLogix PLCs</li>
-	<li>Allen Bradley CompactLogix PLCs</li>
-</ul>
+<p>An engineering firm required a system to manage needs assessment data for small rural water treatment facilities.</p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>All facilities standardized on the latest versions of VantagePoint</li>
-	<li>All facilities standardized on the lastest versions of FactoryTalk Historian</li>
-	<li>Upgraded to a new FactoryTalk Historian installation with no loss of data</li>
-	<li>All facilities were configured for automatic backups of data and configurations</li>
+	<li>All needs assessment data was stored in a centralized database</li>
+	<li>Reports on all assessment data can be generated on-demand</li>
+	<li>Assessments can be searched based on a variety of fields including tags assigned to each record</li>
+</ul>
+
+<h3>Technology</h3>
+<ul>
+	<li>ASP.NET MVC</li>
+	<li>SQL Server</li>
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff was familiar with the company’s existing systems having implemented them originally. We worked on new server hardware at each facility and installed all of the software components. From there we exported all of the Incuity components and imported them into VantagePoint, configured communications between FactoryTalk Historian and various PLCs and configured communications between VantagePoint and FactoryTalk Historian. </p>
+<p>An engineering firm had a contract with the State Department of Environmental Protection to perform a needs assessment for all small rural water treatment systems. The assessment was used to determine the allocation of funds from the State to be used for various engineering tasks required to maintain the water systems or bring them up to current standards.</p>
 
-<p>Next we went through the existing Wonderware InSQL/Historian configuration and set up all of the tags to be imported into FactoryTalk Historian. Once imported we verified data was coming across correctly from the process.</p>
+<p>The firm required a centralized database accessible my their own staff as well as State staff who needed to access the reports once the assessments were complete.</p>
 
-<p>Finally we exported data from the existing Wonderware InSQL/Historian server and developed scripts to automatically import the data into FactoryTalk Historian.</p>
-
-<p>The client was then able to use the new VantagePoint and FactoryTalk Historian system to view new data and all data that had been collected on the old system with a seamless transition and was able to decommission and remove the old server at each facility.</p>
+<p>Our staff developed and implemented the database and a web-based interface to handle customer relationship management (CRM) functionality for contacting the water systems, manage the questionnaires and to handle data entry and reporting after completing each assessment. Additional functionality alowing users to tag assessments with common issues was later implemented to allow for easy search and tracking various analytics about all of the assessed water systems.</p>
 
     </div>
 
@@ -154,7 +147,7 @@
      
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
-    	<li><a href="/tags.html#Mining-ref">Mining <span>(5)</span></a></li>
+    	<li><a href="/tags.html#Web-Based Systems-ref">Web-Based Systems <span>(1)</span></a></li>
     
   
 
@@ -165,11 +158,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">&larr; Previous</a></li>
+        <li class="prev"><a href="/factorytalk-historian-and-vantagepoint" title="FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Leading Diatomaceous Earth Processing Company">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/solar-facility-and-monitoring-website" title="Solar Facility Commissioning with Custom Data Monitoring Website">Next &rarr;</a></li>
+        <li class="next"><a href="/factorytalk-historian-and-vantagepoint-cement-company" title="FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Cement Manufacturing facility">Next &rarr;</a></li>
       
     </ul>
     <hr>

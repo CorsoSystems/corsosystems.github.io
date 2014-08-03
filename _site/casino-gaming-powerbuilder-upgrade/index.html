@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
-    <meta name="description" content="Converted an existing Wonderware Historian installation to a FactoryTalk Historian with no loss of data.">
+    <title>Casino Gaming Manufacturing Facility HMI System Upgrades</title>
+    <meta name="description" content="Reverse engineered a PowerBuilder application and implemented its functionality and more using FactoryTalk View SE.">
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,44 +97,45 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Conversion from Wonderware Historian to FactoryTalk Historian </h1>
+  <h1>Casino Gaming Manufacturing Facility HMI System Upgrades </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>05 August 2014</span>
+      <span>08 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.</p>
-
-<h3>Technology</h3>
-<ul>
-	<li>Wonderware Historian/InSQL</li>
-	<li>Incuity/VantagePoint</li>
-	<li>FactoryTalk Historian</li>
-	<li>SQL Server</li>
-	<li>Allen Bradley ControlLogix PLCs</li>
-	<li>Allen Bradley CompactLogix PLCs</li>
-</ul>
+<p>A large casino gaming manufacturing company used Sybase PowerBuilder on a stand-alone operator workstation to track where certain games were in the manufacturing process as well as to re-introduct re-worked games into the system for further processing. Our staff reverse-engineered the PowerBuilder application and re-implemented its functionality using FactoryTalk View SE.</p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>All facilities standardized on the latest versions of VantagePoint</li>
-	<li>All facilities standardized on the lastest versions of FactoryTalk Historian</li>
-	<li>Upgraded to a new FactoryTalk Historian installation with no loss of data</li>
-	<li>All facilities were configured for automatic backups of data and configurations</li>
+	<li>After upgrades the system met industry standards</li>
+	<li>The system was fully integrated into the company's ERP system enabling more precise and traceable scheduling and inventory management</li>
+	<li>Configuration issues requiring frequent re-starts of the PowerBuilder application were eliminated</li>
+	<li>The new application incorporated local PanelView Plus screens to provide a full overview of the line from one location</li>
+</ul>
+
+<h3>Technology</h3>
+<ul>
+	<li>Sybase PowerBuilder</li>
+	<li>FactoryTalk View SE</li>
+	<li>FactoryTalk Transaction Manager</li>
+	<li>Allen Bradley CompactLogix PLCs</li>
+	<li>Allen Bradley PanelView Plus</li>
+	<li>SQL Server</li>
+	<li>SAP ERP</li>
+	<li>Handheld barcode scanners</li>
+	<li>RFID tags and scanners</li>
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff was familiar with the company’s existing systems having implemented them originally. We worked on new server hardware at each facility and installed all of the software components. From there we exported all of the Incuity components and imported them into VantagePoint, configured communications between FactoryTalk Historian and various PLCs and configured communications between VantagePoint and FactoryTalk Historian. </p>
+<p>As part of a larger control system upgrade we worked with the system’s stakeholders to understand their shortcomings with the existing system. One of their issues was not being able to see status of the entire line from this particular workstation. This workstation was frequently used by supervisors to track down specific machines required for re-work, signal them to be removed from the line and re-instat them once re-work was complete. They also wanted to use the workstation to handle on-the-fly scheduling changes requested by the purchasing department.</p>
 
-<p>Next we went through the existing Wonderware InSQL/Historian configuration and set up all of the tags to be imported into FactoryTalk Historian. Once imported we verified data was coming across correctly from the process.</p>
+<p>We reviewed and reverse engineered the existing codebase and screen layouts from PowerBuilder and re-implemented them as closely as possible in FactoryTalk View SE. From there we implemented new screens incorporating tabular data from the company’s SAP ERP system and used scripting to allow the user to select machines in the list and re-direct them to various locations in the line based on the machine’s serial number and the pallet it was tied to in the system.</p>
 
-<p>Finally we exported data from the existing Wonderware InSQL/Historian server and developed scripts to automatically import the data into FactoryTalk Historian.</p>
-
-<p>The client was then able to use the new VantagePoint and FactoryTalk Historian system to view new data and all data that had been collected on the old system with a seamless transition and was able to decommission and remove the old server at each facility.</p>
+<p>We also incorporated a bar code scanner to scan the serial number barcode on each machine to allow machines to be re-introduced to the line from re-work by automatically pulling up their records once they were scanned.</p>
 
     </div>
 
@@ -154,7 +155,7 @@
      
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
-    	<li><a href="/tags.html#Mining-ref">Mining <span>(5)</span></a></li>
+    	<li><a href="/tags.html#Discrete Manufacturing-ref">Discrete Manufacturing <span>(2)</span></a></li>
     
   
 
@@ -165,11 +166,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">&larr; Previous</a></li>
+        <li class="prev"><a href="/casino-gaming-conveyor-upgrade" title="Casino Gaming Manufacturing Facility Conveyor System Upgrades">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/solar-facility-and-monitoring-website" title="Solar Facility Commissioning with Custom Data Monitoring Website">Next &rarr;</a></li>
+        <li class="next"><a href="/lab-information-management-system" title="Lab Information Management System for a Leading Diatomaceous Earth Processing Company">Next &rarr;</a></li>
       
     </ul>
     <hr>

@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
-    <meta name="description" content="Converted an existing Wonderware Historian installation to a FactoryTalk Historian with no loss of data.">
+    <title>Process Change Management System for a Leading Diatomaceous Earth Processing Company</title>
+    <meta name="description" content="Implemented a web-based management system to manage process changes at a leading diatomaceous earth processing facility.">
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,44 +97,45 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Conversion from Wonderware Historian to FactoryTalk Historian </h1>
+  <h1>Process Change Management System for a Leading Diatomaceous Earth Processing Company </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>05 August 2014</span>
+      <span>10 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.</p>
-
-<h3>Technology</h3>
-<ul>
-	<li>Wonderware Historian/InSQL</li>
-	<li>Incuity/VantagePoint</li>
-	<li>FactoryTalk Historian</li>
-	<li>SQL Server</li>
-	<li>Allen Bradley ControlLogix PLCs</li>
-	<li>Allen Bradley CompactLogix PLCs</li>
-</ul>
+<p>Our staff worked with a leading diatomaceous earth processing facility to implement a centralized, web-based Process Change Management System. </p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>All facilities standardized on the latest versions of VantagePoint</li>
-	<li>All facilities standardized on the lastest versions of FactoryTalk Historian</li>
-	<li>Upgraded to a new FactoryTalk Historian installation with no loss of data</li>
-	<li>All facilities were configured for automatic backups of data and configurations</li>
+	<li>Process change requests are now stored in a central database</li>
+	<li>Process changes can be tracked throughout their lifecycle in one location accessible at anytime</li>
+	<li>Changes are searchable, sortable and are no longer stored in files on a server reducing the amount of time required to find an old process change request</li>
+	<li>Information about who created the change request is stored automatically</li>
+	<li>Affected personnel are automatically notified when a process change request is submitted and/or approved</li>
+	<li>Process change approvals are now requested automatically by the system reducing the amount of time spent managing the approval workflow</li>
 </ul>
 
-<h3>Solution</h3>
-<p>Our staff was familiar with the company’s existing systems having implemented them originally. We worked on new server hardware at each facility and installed all of the software components. From there we exported all of the Incuity components and imported them into VantagePoint, configured communications between FactoryTalk Historian and various PLCs and configured communications between VantagePoint and FactoryTalk Historian. </p>
+<h3>Technology</h3>
+<ul>
+	<li>ASP.NET MVC</li>
+	<li>SQL Server</li>
+	<li>jQuery</li>
+	<li>Javascript</li>
+</ul>
 
-<p>Next we went through the existing Wonderware InSQL/Historian configuration and set up all of the tags to be imported into FactoryTalk Historian. Once imported we verified data was coming across correctly from the process.</p>
+<h3>Summary</h3>
+<p>Our client is very aware of new technology and is always looking for ways to both optimize their process and find new materials capable of withstanding the harsh environment their product creates while it is being processed. As a result they frequently upgrade portions of their process and keep excellent documentation on these changes.</p>
 
-<p>Finally we exported data from the existing Wonderware InSQL/Historian server and developed scripts to automatically import the data into FactoryTalk Historian.</p>
+<p>Prior to this project process changes were requested by filling out an Excel document, saving it on the corporate server and printing out multiple copies for people to review and approve the change. Managing this process required a significant amount of time relaying information and collecting approvals or modifications to the request before it could be approved.</p>
 
-<p>The client was then able to use the new VantagePoint and FactoryTalk Historian system to view new data and all data that had been collected on the old system with a seamless transition and was able to decommission and remove the old server at each facility.</p>
+<p>Our system replaces this Excel document with a web-based interface. When creating a new change request the creator can select different people or titles required to approve the change as well as different individuals or departments required to be notified of the change. This process now happens automatically as soon as the change request is generated. </p>
+
+<p>In addition to the initial notifications an approvals engine is used to manage the process of completing a change. Once the change has been implemented the change requestor marks it as complete in the system. The Safety Coordinator is the notified and requested to mark it complete. It goes through as many rounds of this as needed based on the change’s impact until the Plant Manager is notified and the change is marked as complete in the system. This process reduces the amount of time the change requestor spends tracking people down and getting their approvals. It also makes it easier for people to communicate their concerns about a change by being made aware of the change earlier in the process.</p>
+
 
     </div>
 
@@ -165,11 +166,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">&larr; Previous</a></li>
+        <li class="prev"><a href="/lab-information-management-system" title="Lab Information Management System for a Leading Diatomaceous Earth Processing Company">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/solar-facility-and-monitoring-website" title="Solar Facility Commissioning with Custom Data Monitoring Website">Next &rarr;</a></li>
+        <li class="next"><a href="/factorytalk-historian-and-vantagepoint" title="FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Leading Diatomaceous Earth Processing Company">Next &rarr;</a></li>
       
     </ul>
     <hr>
