@@ -17,6 +17,7 @@ A large potato processing facility in central Idaho replaced Allen Bradley PLC5 
 </ul>
 
 <h3>Technology</h3>
+<ul>
 	<li>Allen Bradley PLC5</li>
 	<li>Allen Bradley ControlLogix PLCs</li>
 	<li>Allen Bradley CompactLogix PLCs</li>

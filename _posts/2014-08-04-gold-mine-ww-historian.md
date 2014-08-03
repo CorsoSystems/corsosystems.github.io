@@ -18,9 +18,9 @@ A small mine in Nevada required automatic pollution reporting and data collectio
 
 <h3>Technology</h3>
 <ul>
-	<li>Wonderware Historian
-	<li>Wonderware Historian Client
-	<li>SQL Server
+	<li>Wonderware Historian</li>
+	<li>Wonderware Historian Client</li>
+	<li>SQL Server</li>
 </ul>
 
 <h3>Solution</h3>

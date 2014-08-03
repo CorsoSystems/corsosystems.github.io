@@ -5,8 +5,8 @@
         <description>Jekyll Bootstrap-3 - Name Lastname</description>
         <link>http://username.github.io</link>
         <link>http://username.github.io</link>
-        <lastBuildDate>2014-08-03T08:44:48-07:00</lastBuildDate>
-        <pubDate>2014-08-03T08:44:48-07:00</pubDate>
+        <lastBuildDate>2014-08-03T08:51:05-07:00</lastBuildDate>
+        <pubDate>2014-08-03T08:51:05-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -99,16 +99,15 @@
 
 &lt;h3&gt;Technology&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;Wonderware Historian
-	&lt;li&gt;Wonderware Historian Client
-	&lt;li&gt;SQL Server
-
+	&lt;li&gt;Wonderware Historian&lt;/li&gt;
+	&lt;li&gt;Wonderware Historian Client&lt;/li&gt;
+	&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;Solution&lt;/h3&gt;
-A small gold mine outside of Elko Nevada was required by the State Department of Environmental Protection to submit daily reports detailing pollutant use and discharge along with some process data to verify the readings.
+&lt;p&gt;A small gold mine outside of Elko Nevada was required by the State Department of Environmental Protection to submit daily reports detailing pollutant use and discharge along with some process data to verify the readings.&lt;/p&gt;
 
-We installed and configured Wonderware Historian to collect and store process data along with Wonderware Historian Client to populate an Excel report at the end of each day. When the report was created we ran a SQL Server stored procedure to print the Excel report to PDF and upload it to the Department of Environmental Protection&#39;s FTP server.
-&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;We installed and configured Wonderware Historian to collect and store process data along with Wonderware Historian Client to populate an Excel report at the end of each day. When the report was created we ran a SQL Server stored procedure to print the Excel report to PDF and upload it to the Department of Environmental Protection’s FTP server.&lt;/p&gt;
 </description>
                 <link>http://username.github.io/gold-mine-wonderware-historian</link>
                 <guid>http://username.github.io/gold-mine-ww-historian</guid>
@@ -131,7 +130,7 @@ We installed and configured Wonderware Historian to collect and store process da
 
 &lt;h3&gt;Technology&lt;/h3&gt;
 &lt;ul&gt;
-	&lt;li&gt;Wonderware System Platform
+	&lt;li&gt;Wonderware System Platform&lt;/li&gt;
 	&lt;li&gt;Wonderware InTouch&lt;/li&gt;
 	&lt;li&gt;Wonderware Historian&lt;/li&gt;
 	&lt;li&gt;OSI PI Historian&lt;/li&gt;
@@ -140,17 +139,16 @@ We installed and configured Wonderware Historian to collect and store process da
 	&lt;li&gt;Moxa Modbus communication equipment&lt;/li&gt;
 	&lt;li&gt;Cisco ASA Firewalls&lt;/li&gt;
 	&lt;li&gt;Juniper Firewalls&lt;/li&gt;
-
+&lt;/ul&gt;
 
 &lt;h3&gt;Solution&lt;/h3&gt;
-Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. 
+&lt;p&gt;Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. &lt;/p&gt;
 
-As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.
+&lt;p&gt;As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.&lt;/p&gt;
 
-After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.
+&lt;p&gt;After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.&lt;/p&gt;
 
-With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.
-&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.&lt;/p&gt;
 </description>
                 <link>http://username.github.io/solar-109MW</link>
                 <guid>http://username.github.io/solar-109MW</guid>
@@ -170,13 +168,13 @@ With remote access to each facility we also reduced support time and costs by al
 &lt;/ul&gt;
 
 &lt;h3&gt;Technology&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;Allen Bradley PLC5&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;Allen Bradley ControlLogix PLCs&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;Allen Bradley CompactLogix PLCs&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;Rockwell Automation RSLogix5&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;Rockwell Automation RSLogix5000&amp;lt;/li&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&amp;lt;/ul&amp;gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allen Bradley PLC5&lt;/li&gt;
+	&lt;li&gt;Allen Bradley ControlLogix PLCs&lt;/li&gt;
+	&lt;li&gt;Allen Bradley CompactLogix PLCs&lt;/li&gt;
+	&lt;li&gt;Rockwell Automation RSLogix5&lt;/li&gt;
+	&lt;li&gt;Rockwell Automation RSLogix5000&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;Solution&lt;/h3&gt;
 &lt;p&gt;The facility’s maintenance staff performed the PLC5 to ControlLogix/CompactLogix conversion and did not have the time to update the logic, addressing, etc. to current corporate programming standards.&lt;/p&gt;
