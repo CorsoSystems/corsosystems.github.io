@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Multiple solar sites producing 109MW</title>
-    <meta name="description" content="Multiple solar sites totaling 109MW of power output.">
+    <title>Solar Facility Commissioning with Custom Data Monitoring Website</title>
+    <meta name="description" content="Commissioned three solar facilities and developed a customized monitoring and reporting website.">
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,48 +97,45 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Multiple solar sites producing 109MW </h1>
+  <h1>Solar Facility Commissioning with Custom Data Monitoring Website </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>03 August 2014</span>
+      <span>06 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.</p>
+<p>Our staff worked with a solar power provider to develop and implement a web-based monitoring system for use at 3 of their new solar power plants.</p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>Reduced development time for future plants</li>
-	<li>Standardized graphics, data structures and network topologies reduced maintenance and training requirements for future plants</li>
-	<li>Changes to the system at newer facilities could easily be pushed out to all existing facilities</li>
-	<li>Systems could be operated and maintained remotely</li>
-	<li>Automated reporting for power production, billing and plant performance including alarms</li>
+	<li>Completely customized Web-based monitoring of three solar facilities on one site</li>
+	<li>Power meter, inverter and string box information</li>
+	<li>Weather station information monitoring</li>
+	<li>Three levels of access, Public, Customer and Maintenance</li>
+	<li>Automated billing documentation generation and dissemination</li>
+	<li>Alarm notifications via email and text message</li>
+	<li>Automated updates of on-site signage indicating power produced and emissions saved</li>
 </ul>
 
 <h3>Technology</h3>
 <ul>
-	<li>Wonderware System Platform</li>
-	<li>Wonderware InTouch</li>
-	<li>Wonderware Historian</li>
-	<li>OSI PI Historian</li>
+	<li>ASP.NET</li>
+	<li>Red Lion Data Station Plus</li>
 	<li>SQL Server</li>
-	<li>N-Tron networking equipment</li>
-	<li>Moxa Modbus communication equipment</li>
-	<li>Cisco ASA Firewalls</li>
-	<li>Juniper Firewalls</li>
+	<li>B&amp;B Electronic Modbus Converters</li>
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. </p>
+<p>Our staff met with the operations team for a start-up solar power provider to discuss a developing a web-based monitoring system. The goal was to provide a low-cost, high functionality monitoring system for 3 facilities between 1 and 3 MW each.</p>
 
-<p>As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.</p>
+<p>We utilized Red Lion Data Station Plus units at each facility to collect data from field equipment and send it via cellular modem to a centralized database. This data was then displayed using trend controls on the site which allowed users to select date ranges, filter on equipment types and specific pieces of equipment.</p>
 
-<p>After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.</p>
+<p>If someone accessed the site without login credentials they were presented with a graph of power production limited to 30 days prior and older. If they accessed the site and were one of the customers or the owners of the facility where the plant was located they could see current overall production data and weather station information.</p>
 
-<p>With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.</p>
+<p>If the user was part of the solar company or their maintenance team they had access to all current production data for all equipment and weather station information. They could also manage what alarms sent notifications, who received billing information and administer users of the system. They also had access to a trend allowing them to add any datapoints from the site for completely customized data analysis.</p>
 
     </div>
 
@@ -169,11 +166,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/potato-PLC5-conversion" title="PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility">&larr; Previous</a></li>
+        <li class="prev"><a href="/wonderware-to-factorytalk-historian-conversion" title="Conversion from Wonderware Historian to FactoryTalk Historian">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">Next &rarr;</a></li>
+        <li class="next"><a href="/casino-gaming-conveyor-upgrade" title="Casino Gaming Manufacturing Facility Conveyor System Upgrades">Next &rarr;</a></li>
       
     </ul>
     <hr>

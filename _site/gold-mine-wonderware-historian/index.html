@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Multiple solar sites producing 109MW</title>
-    <meta name="description" content="Multiple solar sites totaling 109MW of power output.">
+    <title>Wonderware Historian Implementation for Environmental Impact Reporting</title>
+    <meta name="description" content="Implemented Wonderware Historian to collect process and emissions data to automatically generate reports for state environmental impact reporting requirements.">
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,48 +97,36 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Multiple solar sites producing 109MW </h1>
+  <h1>Wonderware Historian Implementation for Environmental Impact Reporting </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>03 August 2014</span>
+      <span>04 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.</p>
+<p>A small mine in Nevada required automatic pollution reporting and data collection to meet EPA regulations.</p>
 
 <h3>Benefits</h3>
 <ul>
-	<li>Reduced development time for future plants</li>
-	<li>Standardized graphics, data structures and network topologies reduced maintenance and training requirements for future plants</li>
-	<li>Changes to the system at newer facilities could easily be pushed out to all existing facilities</li>
-	<li>Systems could be operated and maintained remotely</li>
-	<li>Automated reporting for power production, billing and plant performance including alarms</li>
+	<li>Automated daily reporting of pollutant use and discharge directly to the State Department of Environmental Protection</li>
+	<li>Reporting functionality allowing regulators or mine personnel to review reports from any day after the system was implemented</li>
+	<li>Process data now stored in a Historian allowing for better data analysis and tracking</li>
 </ul>
 
 <h3>Technology</h3>
 <ul>
-	<li>Wonderware System Platform</li>
-	<li>Wonderware InTouch</li>
 	<li>Wonderware Historian</li>
-	<li>OSI PI Historian</li>
+	<li>Wonderware Historian Client</li>
 	<li>SQL Server</li>
-	<li>N-Tron networking equipment</li>
-	<li>Moxa Modbus communication equipment</li>
-	<li>Cisco ASA Firewalls</li>
-	<li>Juniper Firewalls</li>
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. </p>
+<p>A small gold mine outside of Elko Nevada was required by the State Department of Environmental Protection to submit daily reports detailing pollutant use and discharge along with some process data to verify the readings.</p>
 
-<p>As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.</p>
-
-<p>After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.</p>
-
-<p>With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.</p>
+<p>We installed and configured Wonderware Historian to collect and store process data along with Wonderware Historian Client to populate an Excel report at the end of each day. When the report was created we ran a SQL Server stored procedure to print the Excel report to PDF and upload it to the Department of Environmental Protection’s FTP server.</p>
 
     </div>
 
@@ -158,7 +146,7 @@
      
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
-    	<li><a href="/tags.html#Solar-ref">Solar <span>(2)</span></a></li>
+    	<li><a href="/tags.html#Mining-ref">Mining <span>(5)</span></a></li>
     
   
 
@@ -169,11 +157,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/potato-PLC5-conversion" title="PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility">&larr; Previous</a></li>
+        <li class="prev"><a href="/solar-109MW" title="Multiple solar sites producing 109MW">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">Next &rarr;</a></li>
+        <li class="next"><a href="/wonderware-to-factorytalk-historian-conversion" title="Conversion from Wonderware Historian to FactoryTalk Historian">Next &rarr;</a></li>
       
     </ul>
     <hr>

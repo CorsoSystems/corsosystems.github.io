@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Multiple solar sites producing 109MW</title>
-    <meta name="description" content="Multiple solar sites totaling 109MW of power output.">
+    <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
+    <meta name="description" content="Converted an existing Wonderware Historian installation to a FactoryTalk Historian with no loss of data.">
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -97,48 +97,44 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Multiple solar sites producing 109MW </h1>
+  <h1>Conversion from Wonderware Historian to FactoryTalk Historian </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>03 August 2014</span>
+      <span>05 August 2014</span>
     </div>
     <div class="content">
       <h3>Summary</h3>
-<p>Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.</p>
-
-<h3>Benefits</h3>
-<ul>
-	<li>Reduced development time for future plants</li>
-	<li>Standardized graphics, data structures and network topologies reduced maintenance and training requirements for future plants</li>
-	<li>Changes to the system at newer facilities could easily be pushed out to all existing facilities</li>
-	<li>Systems could be operated and maintained remotely</li>
-	<li>Automated reporting for power production, billing and plant performance including alarms</li>
-</ul>
+<p>A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.</p>
 
 <h3>Technology</h3>
 <ul>
-	<li>Wonderware System Platform</li>
-	<li>Wonderware InTouch</li>
-	<li>Wonderware Historian</li>
-	<li>OSI PI Historian</li>
+	<li>Wonderware Historian/InSQL</li>
+	<li>Incuity/VantagePoint</li>
+	<li>FactoryTalk Historian</li>
 	<li>SQL Server</li>
-	<li>N-Tron networking equipment</li>
-	<li>Moxa Modbus communication equipment</li>
-	<li>Cisco ASA Firewalls</li>
-	<li>Juniper Firewalls</li>
+	<li>Allen Bradley ControlLogix PLCs</li>
+	<li>Allen Bradley CompactLogix PLCs</li>
+</ul>
+
+<h3>Benefits</h3>
+<ul>
+	<li>All facilities standardized on the latest versions of VantagePoint</li>
+	<li>All facilities standardized on the lastest versions of FactoryTalk Historian</li>
+	<li>Upgraded to a new FactoryTalk Historian installation with no loss of data</li>
+	<li>All facilities were configured for automatic backups of data and configurations</li>
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. </p>
+<p>Our staff was familiar with the company’s existing systems having implemented them originally. We worked on new server hardware at each facility and installed all of the software components. From there we exported all of the Incuity components and imported them into VantagePoint, configured communications between FactoryTalk Historian and various PLCs and configured communications between VantagePoint and FactoryTalk Historian. </p>
 
-<p>As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.</p>
+<p>Next we went through the existing Wonderware InSQL/Historian configuration and set up all of the tags to be imported into FactoryTalk Historian. Once imported we verified data was coming across correctly from the process.</p>
 
-<p>After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.</p>
+<p>Finally we exported data from the existing Wonderware InSQL/Historian server and developed scripts to automatically import the data into FactoryTalk Historian.</p>
 
-<p>With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.</p>
+<p>The client was then able to use the new VantagePoint and FactoryTalk Historian system to view new data and all data that had been collected on the old system with a seamless transition and was able to decommission and remove the old server at each facility.</p>
 
     </div>
 
@@ -158,7 +154,7 @@
      
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
-    	<li><a href="/tags.html#Solar-ref">Solar <span>(2)</span></a></li>
+    	<li><a href="/tags.html#Mining-ref">Mining <span>(5)</span></a></li>
     
   
 
@@ -169,11 +165,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/potato-PLC5-conversion" title="PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility">&larr; Previous</a></li>
+        <li class="prev"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/gold-mine-wonderware-historian" title="Wonderware Historian Implementation for Environmental Impact Reporting">Next &rarr;</a></li>
+        <li class="next"><a href="/solar-facility-and-monitoring-website" title="Solar Facility Commissioning with Custom Data Monitoring Website">Next &rarr;</a></li>
       
     </ul>
     <hr>
