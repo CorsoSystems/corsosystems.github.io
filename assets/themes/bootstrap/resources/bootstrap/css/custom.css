@@ -1,0 +1,49 @@
+/* Custom CSS */
+
+
+#contact {
+	text-align: center;
+}
+
+#fb {
+	margin-right: 0px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+}
+
+#twitter {
+	margin-left: 0px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.col-centered {
+	display:inline-block;
+	float:none;
+	/*reset the text-align */
+	margin-right: -4px;
+}
+
+#jumbo {
+
+	text-align: center;
+}
+
+.navbar .nav > li > a {
+ 
+    	color:  #ddd;
+}
+
+.navbar-default .navbar-brand {
+    color: #ddd;
+}
+
+.container {
+	text-align: center;
+}
