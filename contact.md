@@ -8,7 +8,7 @@ tagline:
 <body>
 
 
-<img src="img/chat.svg" height="100px" width="100px">
+<img class="text-center" src="img/chat.svg" height="100px" width="100px">
 
 <!--Javascript-->
 
