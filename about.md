@@ -26,7 +26,7 @@ tagline:
 
 	</div>
 	<div class="col-md-4">
-	<img src="img/skyline.jpg" width="350px">
+	<img src="img/skyline.JPG" width="350px">
 	</div>
 	<div class="col-md-4">
 
