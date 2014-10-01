@@ -3,8 +3,10 @@ http://corsosystems.github.io/about.html
 http://corsosystems.github.io/archive.html
 http://corsosystems.github.io/atom.xml
 http://corsosystems.github.io/categories.html
+http://corsosystems.github.io/contact.html
 http://corsosystems.github.io/index.html
 http://corsosystems.github.io/pages.html
+http://corsosystems.github.io/platforms.html
 http://corsosystems.github.io/rss.xml
 http://corsosystems.github.io/sitemap.txt
 http://corsosystems.github.io/tags.html

@@ -4,7 +4,7 @@
  <title>Jekyll Bootstrap-3</title>
  <link href="http://corsosystems.github.io/" rel="self"/>
  <link href="http://corsosystems.github.io"/>
- <updated>2014-09-09T00:14:37-04:00</updated>
+ <updated>2014-10-01T15:59:43-05:00</updated>
  <id>http://corsosystems.github.io</id>
  <author>
    <name>Corso Systems</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Cement Manufacturing facility</title>
    <link href="http://corsosystems.github.io/factorytalk-historian-and-vantagepoint-cement-company"/>
-   <updated>2014-08-13T00:00:00-04:00</updated>
+   <updated>2014-08-13T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/factorytalk-vantagepoint-implementation-cement-company</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A large cement manufacturing company wanted to historize process data from one of its facilities and view the data using modern trending and reporting tools.&lt;/p&gt;
@@ -48,7 +48,7 @@
  <entry>
    <title>Engineering Services Needs Assessment System Implementaiton</title>
    <link href="http://corsosystems.github.io/needs-assessment-system"/>
-   <updated>2014-08-12T00:00:00-04:00</updated>
+   <updated>2014-08-12T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/needs-assessment-database</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;An engineering firm required a system to manage needs assessment data for small rural water treatment facilities.&lt;/p&gt;
@@ -78,7 +78,7 @@
  <entry>
    <title>FactoryTalk Historian and FactoryTalk VantagePoint implementation for a Leading Diatomaceous Earth Processing Company</title>
    <link href="http://corsosystems.github.io/factorytalk-historian-and-vantagepoint"/>
-   <updated>2014-08-11T00:00:00-04:00</updated>
+   <updated>2014-08-11T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/factorytalk-vantagepoint-implementation</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A large diatomaceous earth process company wanted to historize process data from one of its older facilities and view the data using modern trending and reporting tools.&lt;/p&gt;
@@ -114,7 +114,7 @@
  <entry>
    <title>Process Change Management System for a Leading Diatomaceous Earth Processing Company</title>
    <link href="http://corsosystems.github.io/process-change-management-system"/>
-   <updated>2014-08-10T00:00:00-04:00</updated>
+   <updated>2014-08-10T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/process-change-management-system</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;Our staff worked with a leading diatomaceous earth processing facility to implement a centralized, web-based Process Change Management System. &lt;/p&gt;
@@ -152,7 +152,7 @@
  <entry>
    <title>Lab Information Management System for a Leading Diatomaceous Earth Processing Company</title>
    <link href="http://corsosystems.github.io/lab-information-management-system"/>
-   <updated>2014-08-09T00:00:00-04:00</updated>
+   <updated>2014-08-09T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/lab-information-management-system</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A large diatomaceous earth processing company needed a web-based lab information management system to track quality control tests and trend the data alongside historical process information.&lt;/p&gt;
@@ -186,7 +186,7 @@
  <entry>
    <title>Casino Gaming Manufacturing Facility HMI System Upgrades</title>
    <link href="http://corsosystems.github.io/casino-gaming-powerbuilder-upgrade"/>
-   <updated>2014-08-08T00:00:00-04:00</updated>
+   <updated>2014-08-08T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/slot-powerbuilder-upgrade</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A large casino gaming manufacturing company used Sybase PowerBuilder on a stand-alone operator workstation to track where certain games were in the manufacturing process as well as to re-introduct re-worked games into the system for further processing. Our staff reverse-engineered the PowerBuilder application and re-implemented its functionality using FactoryTalk View SE.&lt;/p&gt;
@@ -224,7 +224,7 @@
  <entry>
    <title>Casino Gaming Manufacturing Facility Conveyor System Upgrades</title>
    <link href="http://corsosystems.github.io/casino-gaming-conveyor-upgrade"/>
-   <updated>2014-08-07T00:00:00-04:00</updated>
+   <updated>2014-08-07T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/slot-machine-conveyor-upgrades</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;An in-house integrator at a large casino gaming machine manufacturer had implemented a conveyor control system prior to retiring from the company. After his departure and near constant supervision of the system, productivity dropped due to in-process machines being sent to incorrect locations, a holding and re-work area not functioning correctly and various other issues. Our staff was brought in to bring the system up to industry standards and bring productivity to desired levels.&lt;/p&gt;
@@ -261,7 +261,7 @@
  <entry>
    <title>Solar Facility Commissioning with Custom Data Monitoring Website</title>
    <link href="http://corsosystems.github.io/solar-facility-and-monitoring-website"/>
-   <updated>2014-08-06T00:00:00-04:00</updated>
+   <updated>2014-08-06T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/solar-monitoring-website</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;Our staff worked with a solar power provider to develop and implement a web-based monitoring system for use at 3 of their new solar power plants.&lt;/p&gt;
@@ -299,7 +299,7 @@
  <entry>
    <title>Conversion from Wonderware Historian to FactoryTalk Historian</title>
    <link href="http://corsosystems.github.io/wonderware-to-factorytalk-historian-conversion"/>
-   <updated>2014-08-05T00:00:00-04:00</updated>
+   <updated>2014-08-05T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/wonderware-to-fthistorian-conversion</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A number of years ago a leading diatomaceous earth processing company worked with our staff to install Wonderware InSQL (now Historian) along with Incuity (now VantagePoint) at a number of it’s facilities. As other facilities began adopting these systems they used VantagePoint after Rockwell Automation purchased Incuity Software and FactoryTalk Historian as it was integrated and licensed to work with VantagePoint out of the box. This prompted an ugrade of the systems at all of their facilities to reduce support costs and maintain corporate standards. This upgrade included importing existing data from Wonderware InSQL/Historian to FactoryTalk Historian.&lt;/p&gt;
@@ -336,7 +336,7 @@
  <entry>
    <title>Wonderware Historian Implementation for Environmental Impact Reporting</title>
    <link href="http://corsosystems.github.io/gold-mine-wonderware-historian"/>
-   <updated>2014-08-04T00:00:00-04:00</updated>
+   <updated>2014-08-04T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/gold-mine-ww-historian</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A small mine in Nevada required automatic pollution reporting and data collection to meet EPA regulations.&lt;/p&gt;
@@ -365,7 +365,7 @@
  <entry>
    <title>Multiple solar sites producing 109MW</title>
    <link href="http://corsosystems.github.io/solar-109MW"/>
-   <updated>2014-08-03T00:00:00-04:00</updated>
+   <updated>2014-08-03T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/solar-109MW</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.&lt;/p&gt;
@@ -406,7 +406,7 @@
  <entry>
    <title>PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility</title>
    <link href="http://corsosystems.github.io/potato-PLC5-conversion"/>
-   <updated>2014-08-03T00:00:00-04:00</updated>
+   <updated>2014-08-03T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/PLC5-To-ControlLogix-Conversion</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;A large potato processing facility in central Idaho replaced Allen Bradley PLC5 processors with ControlLogix and CompactLogix processors and wanted to ensure the new logic conformed to corporate programming standards.&lt;/p&gt;
@@ -441,7 +441,7 @@
  <entry>
    <title>Energy Bar Conveyor Speed Sync</title>
    <link href="http://corsosystems.github.io/energy-bar-conveyor-sync"/>
-   <updated>2014-08-02T00:00:00-04:00</updated>
+   <updated>2014-08-02T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/energy-bar-conveyor-sync</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;An energy bar manufacturing facility had a number of standalone pieces of equipment on which they wanted the ability to set a global, synchronized speed.&lt;/p&gt;
@@ -474,7 +474,7 @@
  <entry>
    <title>Energy Bar Mixer Replacement</title>
    <link href="http://corsosystems.github.io/energy-bar-mixer"/>
-   <updated>2014-08-01T00:00:00-04:00</updated>
+   <updated>2014-08-01T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/energy-bar-mixer</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 &lt;p&gt;An energy bar manufacturing facility’s raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface. We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.&lt;/p&gt;
