@@ -32,7 +32,7 @@ tagline:
 
 	<h3>Alex Marcy</h3>
 
-	<p style="text-align: left;">Alex has a Bachelor of Science in Chemical Engineering from University of Nevada, Reno. Before Corso Systems Alex worked for another system integration firm. Alex also enjoys playing guitar and practicing Jiu Jitsu.</p>
+	<p style="text-align: left;">Alex has a Bachelor of Science in Chemical Engineering from University of Nevada, Reno. Before Corso Systems Alex worked for another system integration firm. Alex also enjoys playing guitar and practicing Brazilian Jiu Jitsu.</p>
 
 	</div>	
 </div>
