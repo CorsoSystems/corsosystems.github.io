@@ -19,28 +19,36 @@
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
        <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet"> 
+      <link rel="icon" 
+            type="image/png" 
+            href="img/favicon.png" sizes="32x32">
 
   </head> 
 
-  <body> 
+  <body style="padding-top:65px;"> 
  
     <div class="container">
       
-<div class="page-header">
-  <h1>Energy Bar Mixer Replacement </h1>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h2>Energy Bar Mixer Replacement </h2>
+  </div>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>01 August 2014</span>
+      <!--<span>22 September 2014</span>-->
     </div>
+    <hr>
     <div class="content">
-      <h3>Summary</h3>
-<p>An energy bar manufacturing facility’s raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface. We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.</p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Summary</h3>
+<p class="left-align">An energy bar manufacturing facility's raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface. We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.</p>
 
 <h3>Benefits</h3>
-<ul>
+<ul class="left-align">
 	<li>Controls brought up to modern standards</li>
 	<li>Safety controls re-enabled as part of upgrade</li>
 	<li>Recipe management capabilities implemented as part of the upgrade</li>
@@ -49,20 +57,22 @@
 </ul>
 
 <h3>Technology</h3>
-<ul>
+<ul class="left-align">
 	<li>Allen Bradley Micrologix 1100</li>
 	<li>Allen Bradley Panelview Plus</li>
 </ul>
 
 <h3>Solution</h3>
-<p>We met with the client to discuss their existing system and how both the PLC and operator interface were failing due to age and general wear and tear. The mixer had been installed when the plant was first opened in the early 90’s and no software was available for the Cutler Hammer PLC or operator interface 20 years after installation.</p>
+<p class="left-align">We met with the client to discuss their existing system and how both the PLC and operator interface were failing due to age and general wear and tear. The mixer had been installed when the plant was first opened in the early 90's and no software was available for the Cutler Hammer PLC or operator interface 20 years after installation.</p>
 
-<p>We worked with the plant operators to understand and develop a control philosophy for the mixer. One major issue with the existing hardware was that some of the inputs to the PLC from safety devices had failed. These issues were resolved with the upgraded PLC. </p>
+<p class="left-align">We worked with the plant operators to understand and develop a control philosophy for the mixer. One major issue with the existing hardware was that some of the inputs to the PLC from safety devices had failed. These issues were resolved with the upgraded PLC. </p>
 
-<p>The operators also requested recipe management functionality, allowing them to easily configure various mixing steps depending on the product being produced. We implemented a screen in the HMI allowing them to configure a handful of steps with various mixing speeds and times which allowed them to reduce a large amount of over and under-mixing caused by manually timing steps using the old system.</p>
+<p class="left-align">The operators also requested recipe management functionality, allowing them to easily configure various mixing steps depending on the product being produced. We implemented a screen in the HMI allowing them to configure a handful of steps with various mixing speeds and times which allowed them to reduce a large amount of over and under-mixing caused by manually timing steps using the old system.</p>
 
-<p>The new system was commissioned, operators were trained and the process was back up and running by lunchtime. The client now has updated copies of all documentation putting them in a better position for the future.</p>
+<p class="left-align">The new system was commissioned, operators were trained and the process was back up and running by lunchtime. The client now has updated copies of all documentation putting them in a better position for the future.</p>
 
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -71,7 +81,7 @@
 
     
       <span>View similar posts:</span>
-      <ul class="tag_box inline">
+      <ul class="tag_box inline list-unstyled">
         <!--<li><i class="glyphicon-tags"></i></li>-->
         
         
@@ -82,6 +92,14 @@
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
     	<li><a href="/tags.html#Food and Beverage-ref">Food and Beverage <span>(3)</span></a></li>
+     
+    	<li><a href="/tags.html#Technology Migration-ref">Technology Migration <span>(4)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Control-ref">Process Control <span>(3)</span></a></li>
+     
+    	<li><a href="/tags.html#PLC-ref">PLC <span>(7)</span></a></li>
+     
+    	<li><a href="/tags.html#HMI-ref">HMI <span>(5)</span></a></li>
     
   
 
@@ -92,7 +110,7 @@
     
     <ul class="pagination">
       
-        <li class="prev disabled"><a>&larr; Previous</a></li>
+        <li class="prev"><a href="/process-change-management-system" title="Process Change Management System for a Leading Diatomaceous Earth Processing Company">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
@@ -100,7 +118,7 @@
       
     </ul>
     <hr>
-    
+    <!--
 
 
   <div id="disqus_thread"></div>
@@ -120,7 +138,7 @@
 
 
 
-
+-->
   </div>
 </div>
 
@@ -144,7 +162,7 @@
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="icon" 
             type="image/png" 
-            href="img/favicon.png" sizes="32x32">
+            href="/img/favicon.png" sizes="32x32">
 </head>
 
 <!--Navbar-->
@@ -152,7 +170,7 @@
 <div class="navbar navbar-custom navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
+            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="/img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
         </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
@@ -188,7 +206,7 @@
     <div class="container">
     <div class="col-md-2">
         <div style="color:#ffffff;">
-          <img src="img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+          <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
          <br/>
           <p style="float:left;">&copy; 2014 Corso Systems</p>
         </div>       
@@ -218,9 +236,9 @@
     </div>
 <div style="float:right;">
         <ul style="list-style:none;">
-        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="img/facebook.svg" width="70px"/></a></li>
-        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="img/twitter.svg" width="70px"/></a></li>
-        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="img/linkedin.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
     </ul>
 </div>
 </div>

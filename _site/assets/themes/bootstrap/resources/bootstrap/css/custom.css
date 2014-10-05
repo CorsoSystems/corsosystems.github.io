@@ -101,3 +101,7 @@ background: url("/Portals/_default/Skins/DMC2012/footer_images/facebook-icon.svg
 
     color:#333333;
 }
+
+.left-align{
+    text-align: left;
+}

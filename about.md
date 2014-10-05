@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 
+title: About Us
 tagline: 
 ---
 {% include JB/setup %}
 
-<h1>Our Story</h1>
+<h2>Our Story</h2>
 
 <div class="row">
 <div class="col-md-6 col-md-offset-3">

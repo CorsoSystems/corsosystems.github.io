@@ -19,35 +19,43 @@
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
        <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet"> 
+      <link rel="icon" 
+            type="image/png" 
+            href="img/favicon.png" sizes="32x32">
 
   </head> 
 
-  <body> 
+  <body style="padding-top:65px;"> 
  
     <div class="container">
       
-<div class="page-header">
-  <h1>Lab Information Management System for a Leading Diatomaceous Earth Processing Company </h1>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h2>Lab Information Management System for a Leading Diatomaceous Earth Processing Company </h2>
+  </div>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>09 August 2014</span>
+      <!--<span>03 October 2014</span>-->
     </div>
+    <hr>
     <div class="content">
-      <h3>Summary</h3>
-<p>A large diatomaceous earth processing company needed a web-based lab information management system to track quality control tests and trend the data alongside historical process information.</p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Summary</h3>
+<p class="left-align">A large diatomaceous earth processing company needed a web-based lab information management system to track quality control tests and trend the data alongside historical process information.</p>
 
 <h3>Benefits</h3>
-<ul>
+<ul class="left-align">
 	<li>Centralized database of quality control data</li>
 	<li>The ability to view quality control data alongside process data in FactoryTalk VantagePoint</li>
 	<li>Automated reporting of quality control data including highlighting out-of-specification values for easy data analysis</li>
 </ul>
 
 <h3>Technology</h3>
-<ul>
+<ul class="left-align">
 	<li>ASP.NET</li>
 	<li>FactoryTalk Historian</li>
 	<li>FactoryTalk VantagePoint</li>
@@ -55,14 +63,16 @@
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff worked with a large diatomaceous earth processing facility to implement a lab information management system to track quality control test data.</p>
+<p class="left-align">Our staff worked with a large diatomaceous earth processing facility to implement a lab information management system to track quality control test data.</p>
 
-<p>We used the client’s existing paper and Excel based tools to develop a database schema for the data including lot numbers, product codes and sample locations in the process. </p>
+<p class="left-align">We used the client's existing paper and Excel based tools to develop a database schema for the data including lot numbers, product codes and sample locations in the process. </p>
 
-<p>With the database in place we developed the web-based front end to enter new data and access existing records. In addition to data entry forms the interface included automated reporting functionality allowing users to select a date-range and/or specific process areas to view quality data. When viewing data the entries are compared to product specification data for each product type and flagged as yellow if it is outside of ideal limits yet still acceptable and red if the data is out of specification.</p>
+<p class="left-align">With the database in place we developed the web-based front end to enter new data and access existing records. In addition to data entry forms the interface included automated reporting functionality allowing users to select a date-range and/or specific process areas to view quality data. When viewing data the entries are compared to product specification data for each product type and flagged as yellow if it is outside of ideal limits yet still acceptable and red if the data is out of specification.</p>
 
-<p>This system was such a success at the first facility that it was subsequently rolled out the client’s other facilities.</p>
+<p class="left-align">This system was such a success at the first facility that it was subsequently rolled out the client's other facilities.</p>
 
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -71,7 +81,7 @@
 
     
       <span>View similar posts:</span>
-      <ul class="tag_box inline">
+      <ul class="tag_box inline list-unstyled">
         <!--<li><i class="glyphicon-tags"></i></li>-->
         
         
@@ -82,6 +92,14 @@
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
     	<li><a href="/tags.html#Mining-ref">Mining <span>(5)</span></a></li>
+     
+    	<li><a href="/tags.html#Web-based Solutions-ref">Web-based Solutions <span>(3)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Analytics-ref">Process Analytics <span>(9)</span></a></li>
+     
+    	<li><a href="/tags.html#Database Management-ref">Database Management <span>(11)</span></a></li>
+     
+    	<li><a href="/tags.html#Standardization-ref">Standardization <span>(3)</span></a></li>
     
   
 
@@ -96,11 +114,11 @@
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/process-change-management-system" title="Process Change Management System for a Leading Diatomaceous Earth Processing Company">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
     </ul>
     <hr>
-    
+    <!--
 
 
   <div id="disqus_thread"></div>
@@ -120,7 +138,7 @@
 
 
 
-
+-->
   </div>
 </div>
 
@@ -144,7 +162,7 @@
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="icon" 
             type="image/png" 
-            href="img/favicon.png" sizes="32x32">
+            href="/img/favicon.png" sizes="32x32">
 </head>
 
 <!--Navbar-->
@@ -152,7 +170,7 @@
 <div class="navbar navbar-custom navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
+            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="/img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
         </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
@@ -188,7 +206,7 @@
     <div class="container">
     <div class="col-md-2">
         <div style="color:#ffffff;">
-          <img src="img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+          <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
          <br/>
           <p style="float:left;">&copy; 2014 Corso Systems</p>
         </div>       
@@ -218,9 +236,9 @@
     </div>
 <div style="float:right;">
         <ul style="list-style:none;">
-        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="img/facebook.svg" width="70px"/></a></li>
-        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="img/twitter.svg" width="70px"/></a></li>
-        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="img/linkedin.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
     </ul>
 </div>
 </div>

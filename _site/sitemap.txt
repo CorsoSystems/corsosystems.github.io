@@ -10,18 +10,38 @@ http://corsosystems.github.io/platforms.html
 http://corsosystems.github.io/rss.xml
 http://corsosystems.github.io/sitemap.txt
 http://corsosystems.github.io/tags.html
+http://corsosystems.github.io/tag/Case Study/index.html
+http://corsosystems.github.io/tag/Aggregates/index.html
+http://corsosystems.github.io/tag/Database Management/index.html
+http://corsosystems.github.io/tag/Process Historian/index.html
+http://corsosystems.github.io/tag/Process Analytics/index.html
+http://corsosystems.github.io/tag/PLC/index.html
+http://corsosystems.github.io/tag/Web-Based Solutions/index.html
+http://corsosystems.github.io/tag/Mining/index.html
+http://corsosystems.github.io/tag/Standardization/index.html
+http://corsosystems.github.io/tag/Web-based Solutions/index.html
+http://corsosystems.github.io/tag/Food and Beverage/index.html
+http://corsosystems.github.io/tag/Technology Migration/index.html
+http://corsosystems.github.io/tag/Process Control/index.html
+http://corsosystems.github.io/tag/HMI/index.html
+http://corsosystems.github.io/tag/Process Optimization/index.html
+http://corsosystems.github.io/tag/Solar/index.html
+http://corsosystems.github.io/tag/Infrastructure/index.html
+http://corsosystems.github.io/tag/Remote Support/index.html
+http://corsosystems.github.io/tag/Discrete Manufacturing/index.html
+http://corsosystems.github.io/tag/ERP Integration/index.html
 
-http://corsosystems.github.io/factorytalk-historian-and-vantagepoint-cement-company
-http://corsosystems.github.io/needs-assessment-system
-http://corsosystems.github.io/factorytalk-historian-and-vantagepoint
-http://corsosystems.github.io/process-change-management-system
 http://corsosystems.github.io/lab-information-management-system
 http://corsosystems.github.io/casino-gaming-powerbuilder-upgrade
 http://corsosystems.github.io/casino-gaming-conveyor-upgrade
-http://corsosystems.github.io/solar-facility-and-monitoring-website
+http://corsosystems.github.io/solar-facility-monitoring-website
 http://corsosystems.github.io/wonderware-to-factorytalk-historian-conversion
 http://corsosystems.github.io/gold-mine-wonderware-historian
 http://corsosystems.github.io/solar-109MW
-http://corsosystems.github.io/potato-PLC5-conversion
+http://corsosystems.github.io/potato-processing-facility-PLC5-conversion
 http://corsosystems.github.io/energy-bar-conveyor-sync
 http://corsosystems.github.io/energy-bar-mixer
+http://corsosystems.github.io/process-change-management-system
+http://corsosystems.github.io/factorytalk-historian-and-vantagepoint
+http://corsosystems.github.io/needs-assessment-system
+http://corsosystems.github.io/factorytalk-historian-and-vantagepoint-cement-company

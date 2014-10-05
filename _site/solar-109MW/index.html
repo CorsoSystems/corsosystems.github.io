@@ -19,28 +19,36 @@
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
        <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet"> 
+      <link rel="icon" 
+            type="image/png" 
+            href="img/favicon.png" sizes="32x32">
 
   </head> 
 
-  <body> 
+  <body style="padding-top:65px;"> 
  
     <div class="container">
       
-<div class="page-header">
-  <h1>Multiple solar sites producing 109MW </h1>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h2>Multiple solar sites producing 109MW </h2>
+  </div>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>03 August 2014</span>
+      <!--<span>25 September 2014</span>-->
     </div>
+    <hr>
     <div class="content">
-      <h3>Summary</h3>
-<p>Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.</p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Summary</h3>
+<p class="left-align">Our staff worked with a leading solar power provider to develop and implement a standardized SCADA system for use at new solar power plants. We commissioned 16 plants producing 109MW of solar power using this system.</p>
 
 <h3>Benefits</h3>
-<ul>
+<ul class="left-align">
 	<li>Reduced development time for future plants</li>
 	<li>Standardized graphics, data structures and network topologies reduced maintenance and training requirements for future plants</li>
 	<li>Changes to the system at newer facilities could easily be pushed out to all existing facilities</li>
@@ -49,7 +57,7 @@
 </ul>
 
 <h3>Technology</h3>
-<ul>
+<ul class="left-align">
 	<li>Wonderware System Platform</li>
 	<li>Wonderware InTouch</li>
 	<li>Wonderware Historian</li>
@@ -62,14 +70,16 @@
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. </p>
+<p class="left-align">Our staff met with the SCADA operations team for a large solar power provider to discuss a standardized system built using Wonderware System Platform. The goal was to build objects for the various pieces of equipment at a solar plant, inverters, breakers, power meters, etc., to enable rapid deployment of SCADA systems for new facilities. </p>
 
-<p>As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.</p>
+<p class="left-align">As part of developing the system we developed a standardized naming convention for the facilities and all of the datapoints to allow a script to populate a centralized OSI PI Historian with data from each facility.</p>
 
-<p>After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.</p>
+<p class="left-align">After completion of the initial development future systems took less time as the SCADA system was built using existing objects and commissioning was basically complete after I/O and communication verifications.</p>
 
-<p>With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.</p>
+<p class="left-align">With remote access to each facility we also reduced support time and costs by allowing our staff to login to each system to make any neccessary modifications, including updating older facilities with any objects developed for newer facilities.</p>
 
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -78,7 +88,7 @@
 
     
       <span>View similar posts:</span>
-      <ul class="tag_box inline">
+      <ul class="tag_box inline list-unstyled">
         <!--<li><i class="glyphicon-tags"></i></li>-->
         
         
@@ -89,6 +99,20 @@
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
     	<li><a href="/tags.html#Solar-ref">Solar <span>(2)</span></a></li>
+     
+    	<li><a href="/tags.html#Standardization-ref">Standardization <span>(3)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Analytics-ref">Process Analytics <span>(9)</span></a></li>
+     
+    	<li><a href="/tags.html#Database Management-ref">Database Management <span>(11)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Historian-ref">Process Historian <span>(4)</span></a></li>
+     
+    	<li><a href="/tags.html#Infrastructure-ref">Infrastructure <span>(1)</span></a></li>
+     
+    	<li><a href="/tags.html#Remote Support-ref">Remote Support <span>(1)</span></a></li>
+     
+    	<li><a href="/tags.html#HMI-ref">HMI <span>(5)</span></a></li>
     
   
 
@@ -99,7 +123,7 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/potato-PLC5-conversion" title="PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility">&larr; Previous</a></li>
+        <li class="prev"><a href="/potato-processing-facility-PLC5-conversion" title="PLC5 to ControlLogix Conversion for Large Frozen Potato Product Manufacturing Facility">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
@@ -107,7 +131,7 @@
       
     </ul>
     <hr>
-    
+    <!--
 
 
   <div id="disqus_thread"></div>
@@ -127,7 +151,7 @@
 
 
 
-
+-->
   </div>
 </div>
 
@@ -151,7 +175,7 @@
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="icon" 
             type="image/png" 
-            href="img/favicon.png" sizes="32x32">
+            href="/img/favicon.png" sizes="32x32">
 </head>
 
 <!--Navbar-->
@@ -159,7 +183,7 @@
 <div class="navbar navbar-custom navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
+            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="/img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
         </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
@@ -195,7 +219,7 @@
     <div class="container">
     <div class="col-md-2">
         <div style="color:#ffffff;">
-          <img src="img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+          <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
          <br/>
           <p style="float:left;">&copy; 2014 Corso Systems</p>
         </div>       
@@ -225,9 +249,9 @@
     </div>
 <div style="float:right;">
         <ul style="list-style:none;">
-        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="img/facebook.svg" width="70px"/></a></li>
-        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="img/twitter.svg" width="70px"/></a></li>
-        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="img/linkedin.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
     </ul>
 </div>
 </div>

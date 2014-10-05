@@ -19,28 +19,36 @@
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
        <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet"> 
+      <link rel="icon" 
+            type="image/png" 
+            href="img/favicon.png" sizes="32x32">
 
   </head> 
 
-  <body> 
+  <body style="padding-top:65px;"> 
  
     <div class="container">
       
-<div class="page-header">
-  <h1>Casino Gaming Manufacturing Facility Conveyor System Upgrades </h1>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h2>Casino Gaming Manufacturing Facility Conveyor System Upgrades </h2>
+  </div>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>07 August 2014</span>
+      <!--<span>01 October 2014</span>-->
     </div>
+    <hr>
     <div class="content">
-      <h3>Summary</h3>
-<p>An in-house integrator at a large casino gaming machine manufacturer had implemented a conveyor control system prior to retiring from the company. After his departure and near constant supervision of the system, productivity dropped due to in-process machines being sent to incorrect locations, a holding and re-work area not functioning correctly and various other issues. Our staff was brought in to bring the system up to industry standards and bring productivity to desired levels.</p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Summary</h3>
+<p class="left-align">An in-house integrator at a large casino gaming machine manufacturer had implemented a conveyor control system prior to retiring from the company. After his departure and near constant supervision of the system, productivity dropped due to in-process machines being sent to incorrect locations, a holding and re-work area not functioning correctly and various other issues. Our staff was brought in to bring the system up to industry standards and bring productivity to desired levels.</p>
 
 <h3>Benefits</h3>
-<ul>
+<ul class="left-align">
 	<li>After upgrades the system met industry standards for logic and safety</li>
 	<li>The control system was fully integrated into the company's ERP system enabling more precise and traceable scheduling and inventory management</li>
 	<li>The number of machines being sent to incorrect locations was reduced from 50+ per shift to less than one per day on average</li>
@@ -49,7 +57,7 @@
 </ul>
 
 <h3>Technology</h3>
-<ul>
+<ul class="left-align">
 	<li>FactoryTalk View SE</li>
 	<li>FactoryTalk Transaction Manager</li>
 	<li>Allen Bradley CompactLogix PLCs</li>
@@ -60,12 +68,14 @@
 </ul>
 
 <h3>Solution</h3>
-<p>Our staff worked with the in-house integrator prior to his departure to understand his design methodology, current issues with the system and future plans for further development. We familiarized ourselves with the existing code base and met with the system’s stakeholders to formulate a plan moving forward.</p>
+<p class="left-align">Our staff worked with the in-house integrator prior to his departure to understand his design methodology, current issues with the system and future plans for further development. We familiarized ourselves with the existing code base and met with the system's stakeholders to formulate a plan moving forward.</p>
 
-<p>Over the course of a few evenings when the line was down we began resolving issues with the Transaction Manager configuration passing incorrect data from the PLC to SQL Server. This exposed several race conditions in the logic preventing some machines from being sent to technician workstations and instead being sent to the end of the line as if they were complete machines. We resolved the race conditions and implemented similar changes to a machine holding/re-work re-entry area at the end of the line. During continued operation of the system we noticed some pallets consistently being sent to incorrect locations on the line and further research indicated the RFID tags on the pallets were incorrectly installed. Resolving this issue along with the logic changes reduced runaway machines from 50+ per shift to less than one a day on average.</p>
+<p class="left-align">Over the course of a few evenings when the line was down we began resolving issues with the Transaction Manager configuration passing incorrect data from the PLC to SQL Server. This exposed several race conditions in the logic preventing some machines from being sent to technician workstations and instead being sent to the end of the line as if they were complete machines. We resolved the race conditions and implemented similar changes to a machine holding/re-work re-entry area at the end of the line. During continued operation of the system we noticed some pallets consistently being sent to incorrect locations on the line and further research indicated the RFID tags on the pallets were incorrectly installed. Resolving this issue along with the logic changes reduced runaway machines from 50+ per shift to less than one a day on average.</p>
 
-<p>Once all of the logic issues on the line were resolved we completed integration with the company’s SAP ERP system to integrate scheduling and inventory data into the control system to better utilize the technicians on the line. </p>
+<p class="left-align">Once all of the logic issues on the line were resolved we completed integration with the company's SAP ERP system to integrate scheduling and inventory data into the control system to better utilize the technicians on the line. </p>
 
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -74,7 +84,7 @@
 
     
       <span>View similar posts:</span>
-      <ul class="tag_box inline">
+      <ul class="tag_box inline list-unstyled">
         <!--<li><i class="glyphicon-tags"></i></li>-->
         
         
@@ -85,6 +95,18 @@
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
     	<li><a href="/tags.html#Discrete Manufacturing-ref">Discrete Manufacturing <span>(2)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Optimization-ref">Process Optimization <span>(2)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Analytics-ref">Process Analytics <span>(9)</span></a></li>
+     
+    	<li><a href="/tags.html#ERP Integration-ref">ERP Integration <span>(2)</span></a></li>
+     
+    	<li><a href="/tags.html#Database Management-ref">Database Management <span>(11)</span></a></li>
+     
+    	<li><a href="/tags.html#PLC-ref">PLC <span>(7)</span></a></li>
+     
+    	<li><a href="/tags.html#HMI-ref">HMI <span>(5)</span></a></li>
     
   
 
@@ -95,7 +117,7 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/solar-facility-and-monitoring-website" title="Solar Facility Commissioning with Custom Data Monitoring Website">&larr; Previous</a></li>
+        <li class="prev"><a href="/solar-facility-monitoring-website" title="Solar Facility Commissioning with Custom Data Monitoring Website">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
@@ -103,7 +125,7 @@
       
     </ul>
     <hr>
-    
+    <!--
 
 
   <div id="disqus_thread"></div>
@@ -123,7 +145,7 @@
 
 
 
-
+-->
   </div>
 </div>
 
@@ -147,7 +169,7 @@
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="icon" 
             type="image/png" 
-            href="img/favicon.png" sizes="32x32">
+            href="/img/favicon.png" sizes="32x32">
 </head>
 
 <!--Navbar-->
@@ -155,7 +177,7 @@
 <div class="navbar navbar-custom navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
+            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="/img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
         </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
@@ -191,7 +213,7 @@
     <div class="container">
     <div class="col-md-2">
         <div style="color:#ffffff;">
-          <img src="img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+          <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
          <br/>
           <p style="float:left;">&copy; 2014 Corso Systems</p>
         </div>       
@@ -221,9 +243,9 @@
     </div>
 <div style="float:right;">
         <ul style="list-style:none;">
-        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="img/facebook.svg" width="70px"/></a></li>
-        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="img/twitter.svg" width="70px"/></a></li>
-        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="img/linkedin.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
     </ul>
 </div>
 </div>
