@@ -19,28 +19,36 @@
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
        <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet"> 
+      <link rel="icon" 
+            type="image/png" 
+            href="img/favicon.png" sizes="32x32">
 
   </head> 
 
-  <body> 
+  <body style="padding-top:65px;"> 
  
     <div class="container">
       
-<div class="page-header">
-  <h1>Casino Gaming Manufacturing Facility HMI System Upgrades </h1>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h2>Casino Gaming Manufacturing Facility HMI System Upgrades </h2>
+  </div>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>08 August 2014</span>
+      <!--<span>02 October 2014</span>-->
     </div>
+    <hr>
     <div class="content">
-      <h3>Summary</h3>
-<p>A large casino gaming manufacturing company used Sybase PowerBuilder on a stand-alone operator workstation to track where certain games were in the manufacturing process as well as to re-introduct re-worked games into the system for further processing. Our staff reverse-engineered the PowerBuilder application and re-implemented its functionality using FactoryTalk View SE.</p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Summary</h3>
+<p class="left-align">A large casino gaming manufacturing company used Sybase PowerBuilder on a stand-alone operator workstation to track where certain games were in the manufacturing process as well as to re-introduct re-worked games into the system for further processing. Our staff reverse-engineered the PowerBuilder application and re-implemented its functionality using FactoryTalk View SE.</p>
 
 <h3>Benefits</h3>
-<ul>
+<ul class="left-align">
 	<li>After upgrades the system met industry standards</li>
 	<li>The system was fully integrated into the company's ERP system enabling more precise and traceable scheduling and inventory management</li>
 	<li>Configuration issues requiring frequent re-starts of the PowerBuilder application were eliminated</li>
@@ -48,7 +56,7 @@
 </ul>
 
 <h3>Technology</h3>
-<ul>
+<ul class="left-align">
 	<li>Sybase PowerBuilder</li>
 	<li>FactoryTalk View SE</li>
 	<li>FactoryTalk Transaction Manager</li>
@@ -61,12 +69,14 @@
 </ul>
 
 <h3>Solution</h3>
-<p>As part of a larger control system upgrade we worked with the system’s stakeholders to understand their shortcomings with the existing system. One of their issues was not being able to see status of the entire line from this particular workstation. This workstation was frequently used by supervisors to track down specific machines required for re-work, signal them to be removed from the line and re-instat them once re-work was complete. They also wanted to use the workstation to handle on-the-fly scheduling changes requested by the purchasing department.</p>
+<p class="left-align">As part of a larger control system upgrade we worked with the system's stakeholders to understand their shortcomings with the existing system. One of their issues was not being able to see status of the entire line from this particular workstation. This workstation was frequently used by supervisors to track down specific machines required for re-work, signal them to be removed from the line and re-instat them once re-work was complete. They also wanted to use the workstation to handle on-the-fly scheduling changes requested by the purchasing department.</p>
 
-<p>We reviewed and reverse engineered the existing codebase and screen layouts from PowerBuilder and re-implemented them as closely as possible in FactoryTalk View SE. From there we implemented new screens incorporating tabular data from the company’s SAP ERP system and used scripting to allow the user to select machines in the list and re-direct them to various locations in the line based on the machine’s serial number and the pallet it was tied to in the system.</p>
+<p class="left-align">We reviewed and reverse engineered the existing codebase and screen layouts from PowerBuilder and re-implemented them as closely as possible in FactoryTalk View SE. From there we implemented new screens incorporating tabular data from the company's SAP ERP system and used scripting to allow the user to select machines in the list and re-direct them to various locations in the line based on the machine's serial number and the pallet it was tied to in the system.</p>
 
-<p>We also incorporated a bar code scanner to scan the serial number barcode on each machine to allow machines to be re-introduced to the line from re-work by automatically pulling up their records once they were scanned.</p>
+<p class="left-align">We also incorporated a bar code scanner to scan the serial number barcode on each machine to allow machines to be re-introduced to the line from re-work by automatically pulling up their records once they were scanned.</p>
 
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -75,7 +85,7 @@
 
     
       <span>View similar posts:</span>
-      <ul class="tag_box inline">
+      <ul class="tag_box inline list-unstyled">
         <!--<li><i class="glyphicon-tags"></i></li>-->
         
         
@@ -86,6 +96,18 @@
     	<li><a href="/tags.html#Case Study-ref">Case Study <span>(14)</span></a></li>
      
     	<li><a href="/tags.html#Discrete Manufacturing-ref">Discrete Manufacturing <span>(2)</span></a></li>
+     
+    	<li><a href="/tags.html#Technology Migration-ref">Technology Migration <span>(4)</span></a></li>
+     
+    	<li><a href="/tags.html#ERP Integration-ref">ERP Integration <span>(2)</span></a></li>
+     
+    	<li><a href="/tags.html#Process Analytics-ref">Process Analytics <span>(9)</span></a></li>
+     
+    	<li><a href="/tags.html#Database Management-ref">Database Management <span>(11)</span></a></li>
+     
+    	<li><a href="/tags.html#PLC-ref">PLC <span>(7)</span></a></li>
+     
+    	<li><a href="/tags.html#HMI-ref">HMI <span>(5)</span></a></li>
     
   
 
@@ -104,7 +126,7 @@
       
     </ul>
     <hr>
-    
+    <!--
 
 
   <div id="disqus_thread"></div>
@@ -124,7 +146,7 @@
 
 
 
-
+-->
   </div>
 </div>
 
@@ -148,7 +170,7 @@
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="icon" 
             type="image/png" 
-            href="img/favicon.png" sizes="32x32">
+            href="/img/favicon.png" sizes="32x32">
 </head>
 
 <!--Navbar-->
@@ -156,7 +178,7 @@
 <div class="navbar navbar-custom navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
+            <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="/img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
         </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
@@ -192,7 +214,7 @@
     <div class="container">
     <div class="col-md-2">
         <div style="color:#ffffff;">
-          <img src="img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+          <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
          <br/>
           <p style="float:left;">&copy; 2014 Corso Systems</p>
         </div>       
@@ -222,9 +244,9 @@
     </div>
 <div style="float:right;">
         <ul style="list-style:none;">
-        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="img/facebook.svg" width="70px"/></a></li>
-        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="img/twitter.svg" width="70px"/></a></li>
-        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="img/linkedin.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+        <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+        <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
     </ul>
 </div>
 </div>

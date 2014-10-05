@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Contact Us
 tagline: 
 ---
 {% include JB/setup %}

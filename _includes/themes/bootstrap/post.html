@@ -1,14 +1,21 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
+  </div>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+      <!--<span>{{ page.date | date_to_long_string }}</span>-->
     </div>
+    <hr>
     <div class="content">
-      {{ content }}
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          {{ content }}
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -23,7 +30,7 @@
 
     {% unless page.tags == empty %}
       <span>View similar posts:</span>
-      <ul class="tag_box inline">
+      <ul class="tag_box inline list-unstyled">
         <!--<li><i class="glyphicon-tags"></i></li>-->
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
@@ -44,6 +51,6 @@
       {% endif %}
     </ul>
     <hr>
-    {% include JB/comments %}
+    <!--{% include JB/comments %}-->
   </div>
 </div>
