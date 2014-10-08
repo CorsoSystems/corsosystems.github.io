@@ -3,7 +3,7 @@ layout: page
 title: Search Results
 header: Search Results
 group: navigation
-permalink: /search/
+
 ---
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="{{ASSET_PATH}}/resources/bootstrap/js/search.min.js" type="text/javascript" charset="utf-8"></script>
