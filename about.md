@@ -5,6 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
+
 <h2>Our Story</h2>
 
 <div class="row">
