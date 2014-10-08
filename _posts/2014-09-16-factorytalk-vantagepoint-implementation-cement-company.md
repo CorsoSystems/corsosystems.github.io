@@ -23,6 +23,7 @@ technology: "<li>FactoryTalk Historian</li><li>FactoryTalk VantagePoint</li><li>
 <p class="left-align"></p>
 <div class="row">
 	<hr>
+	energy
 	<div class="col-md-8" style="text-align:left;">
 	<h4>Benefits</h4>
 
