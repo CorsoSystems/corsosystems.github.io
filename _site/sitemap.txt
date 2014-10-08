@@ -9,7 +9,7 @@ http://corsosystems.github.io/index.html
 http://corsosystems.github.io/pages.html
 http://corsosystems.github.io/platforms.html
 http://corsosystems.github.io/rss.xml
-http://corsosystems.github.io/search/
+http://corsosystems.github.io/search.html
 http://corsosystems.github.io/sitemap.txt
 http://corsosystems.github.io/tags.html
 http://corsosystems.github.io/tag/Aggregates/index.html

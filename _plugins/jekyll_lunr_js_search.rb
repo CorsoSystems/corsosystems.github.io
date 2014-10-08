@@ -42,7 +42,7 @@ json = JSON.generate({:entries => index})
 # Create destination directory if it doesn't exist yet. Otherwise, we cannot write our file there.
 Dir::mkdir(site.dest) unless File.directory?(site.dest)
 # File I/O: create search.json file and write out pretty-printed JSON
-filename = 'search.json'
+filename = 'search.txt'
 File.open(File.join(site.dest, filename), "w") do |file|
 file.write(json)
 end
