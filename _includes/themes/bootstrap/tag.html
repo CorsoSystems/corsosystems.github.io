@@ -1,9 +1,16 @@
-<div >
-  <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
-</div>
+
 
 <div class="row">
   <div class="col-xs-12">
       {{ content }}
   </div>
 </div>
+
+<script>
+$('.pill').click(function(){
+  var self = this;
+  $('.pill').removeClass("active");
+  $(this).addClass("active");
+});
+
+</script>

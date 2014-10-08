@@ -105,3 +105,7 @@ background: url("/Portals/_default/Skins/DMC2012/footer_images/facebook-icon.svg
 .left-align{
     text-align: left;
 }
+
+.top-offset{
+    padding-top:65px;
+}

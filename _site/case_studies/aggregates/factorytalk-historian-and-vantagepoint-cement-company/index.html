@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Cement Manufacturing Process Analytics Implementation</title>
+    <meta name="description" content="Implemented FactoryTalk VantagePoint and FactoryTalk Historian to store and analyze process data at an R&D facility for a cement manufacturing company.">
+    <meta name="author" content="Corso Systems">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap/resources/bootstrap/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+    
+    <link href="/assets/themes/bootstrap/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="/assets/themes/bootstrap/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+       <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet"> 
+      <link rel="icon" 
+            type="image/png" 
+            href="img/favicon.png" sizes="32x32">
+
+  </head> 
+
+  <body> 
+    <nav class="navbar navbar-default navbar-static-top navbar-inverse navbar-custom" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.corsosystems.com/"><img src="/img/logowhitesmall.png" style="margin-top: -5px; float: none;"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li><a href="http://www.corsosystems.com/about">About</a>
+                </li>
+                <li><a href="http://www.corsosystems.com/platforms">Platforms</a>
+                <li><a href="http://www.corsosystems.com/case_studies">Case Studies</a>
+                <li><a href="http://www.corsosystems.com/contact">Contact</a>
+                </li>
+                <!--<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a> 
+                    <ul class="dropdown-menu">
+                        <li><a href="#"></a>
+                        </li>
+                        <li><a href="#"></a>
+                        </li>
+                        <li><a href="#"></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"></a>
+                        </li>
+                    </ul>
+                </li>-->
+            </ul>
+          <div class="navbar-form navbar-right" role="search">
+            <div id="search" class="form-group">
+                               <form action="/search" method="get">
+                                 <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off" class="form-control">
+                                 <button type="submit" class="btn btn-default">Search</button>
+                               </form>
+                             </div>
+          </div>
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+
+    <div class="container">
+      
+
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <!--<span>16 September 2014</span>-->
+    </div>
+    
+    <div class="content">
+      <div class="row" style="text-align:left;">
+      <ol class="list-unstyled">
+        
+          
+          <li style="display:inline;"><a href="/index.html">Corso Systems</a>
+            
+        
+          
+        
+          
+        
+        <li class="divider" style="display:inline;">/</li>
+        
+        <li style="display:inline;"><a href="http://www.corsosystems.com/case_studies.html">Case Studies</a> / </li>
+          
+        
+        
+          <li style="display:inline;"><a href="http://www.corsosystems.com/case_studies.html#Aggregates-ref">Aggregates</a> / </li>
+        
+        
+        
+        
+        
+          <li class="active" style="display:inline;">Cement Manufacturing Process Analytics Implementation</li>
+        </ol>
+      </div>
+        <div class="row">
+          <div style="text-align:left;">
+            <h2>Cement Manufacturing Process Analytics Implementation </h2>
+          </div>
+        </div>
+        <hr>
+      <div class="row">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/img/folder.svg" style="display:block;margin:auto;" width="100%"/>
+          </div>
+
+          <div class="col-md-4" style="text-align:left;">
+            <div class="row">
+                  <div class="col-md-7" style="text-align:left;color:#333333;">
+                    <h4>Project Summary</h4>
+                  </div>
+                </div>
+            <p>A cement manufacturing facility worked with us to implement a process historian and data visualization tools for its R&D plant.</p><p>We completed the work on-site, working directly with the facility personnel to specify the data to be stored in the process historian.</p>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-6" style="text-align:left;color:#333333;">
+                <h4>Project Details</h4>
+              </div>
+            </div>
+            <hr>
+            <div class="row" style="text-align:left;color:#333333;">
+              <div class="col-md-5"><b>Industry</b></div>
+              <div class="col-md-5 col-md-offset-1"><b>Location</b></div>
+            </div>
+            <div class="row" style="text-align:left;">
+              <div class="col-md-5">Aggregrates</div>
+              <div class="col-md-5 col-md-offset-1">Gilroy, CA</div>
+            </div>
+            <hr>
+            <div class="row" style="text-align:left;color:#333333;">
+              <div class="col-md-10"><b>Services</b></div>
+            </div>
+            <div class="row" style="text-align:left;">
+              <div class="col-md-10">Process Historian, Process Analytics, Data Visualization</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <br/>
+          <br/>
+          <div class="col-md-3 col-md-offset-1" style="border:1px solid #ececec;background:#f7f7f7;color:#333333;text-align:left;">
+            <label style="margin-top:10px;">Focus</label>
+            <div style="border-top:1px solid #c3c3c3;margin-top:5px;margin-bottom:10px;"></div>
+            <ul style="text-align:left;">
+              <li>To improve usefulness of R&D testing processes</li><li>To collect process data in a centralized location</li><li>Make process data easily accessbile to plant personnel</li>
+            </ul>
+          </div>
+          <div class="col-md-3" style="border:1px solid #ececec;background:#f7f7f7;color:#333333;text-align:left; margin-left:40px;">
+              <label style="margin-top:10px;">Drive</label>
+              <div style="border-top:1px solid #c3c3c3;margin-top:5px;margin-bottom:10px;"></div>
+              <ul style="text-align:left;">
+                <li>Configure hardware and software</li><li>Establish expectations for data collection and analysis</li><li>Train staff on optimal use of the systems</li>
+              </ul>
+            </div>
+            <div class="col-md-3" style="border:1px solid #ececec;background:#f7f7f7;color:#333333;text-align:left;margin-left:40px;">
+              <label style="margin-top:10px;">Results</label>
+              <div style="border-top:1px solid #c3c3c3;margin-top:5px;margin-bottom:10px;"></div>
+              <ul style="text-align:left;">
+                <li>Decreased overhead for managing test data</li><li>Increased productivity of R&D process</li><li>Increased knowledge and awareness of R&D projects</li>
+              </ul>
+            </div>
+        </div>
+        <div class="row" style="text-align:left;">
+          <br/>
+          <br/>
+          <div class="col-md-8">
+        <h4>Solution</h4>
+        <hr>
+
+        <p>We met with the client to discuss their existing system and how both the PLC and operator interface were failing due to age and general wear and tear. The mixer had been installed when the plant was first opened in the early 90's and no software was available for the Cutler Hammer PLC or operator interface 20 years after installation.</p><p>We worked with the plant operators to understand and develop a control philosophy for the mixer. One major issue with the existing hardware was that some of the inputs to the PLC from safety devices had failed. These issues were resolved with the upgraded PLC. </p><p>The operators also requested recipe management functionality, allowing them to easily configure various mixing steps depending on the product being produced. We implemented a screen in the HMI allowing them to configure a handful of steps with various mixing speeds and times which allowed them to reduce a large amount of over and under-mixing caused by manually timing steps using the old system.</p><p>The new system was commissioned, operators were trained and the process was back up and running by lunchtime. The client now has updated copies of all documentation putting them in a better position for the future.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Technology</h4>
+          <hr>
+          <ul class="left-align list-unstyled">
+            <li>FactoryTalk Historian</li><li>FactoryTalk VantagePoint</li><li>Allen Bradley ControlLogix PLC</li><li>SQL Server</li>
+          </ul>
+          </div>
+        </div>
+
+        <p class="left-align"></p>
+        <div class="row">
+          <hr>
+          <div class="col-md-8" style="text-align:left;">
+          <h4>Benefits</h4>
+
+          <div class="list-group">
+            <p>
+                  <span class="glyphicon glyphicon-chevron-right"></span> Controls brought up to modern standards</p>
+              <p>
+                <span class="glyphicon glyphicon-chevron-right"></span> Safety controls re-enabled as part of upgrade</p>
+              <p>
+                  <span class="glyphicon glyphicon-chevron-right"></span> Recipe management capabilities implemented as part of the upgrade</p>
+              <p>
+              <span class="glyphicon glyphicon-chevron-right"></span> Stand-alone equipment now capable of being integrated into an overall process control system</p>
+            <p>
+              <span class="glyphicon glyphicon-chevron-right"></span> Customer has updated documentation and copies of all programs and logic</p>
+              </div>
+        </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+
+    <hr>
+
+    
+
+    
+      <span>View similar posts:</span>
+      <ul class="tag_box inline list-unstyled">
+        <!--<li><i class="glyphicon-tags"></i></li>-->
+        
+        
+
+
+  
+     
+    	<li class="pill"><a href="/case_studies.html#Aggregates-ref">Aggregates</a></li>
+     
+    	<li class="pill"><a href="/case_studies.html#Database Management-ref">Database Management</a></li>
+     
+    	<li class="pill"><a href="/case_studies.html#Process Historian-ref">Process Historian</a></li>
+     
+    	<li class="pill"><a href="/case_studies.html#Process Analytics-ref">Process Analytics</a></li>
+     
+    	<li class="pill"><a href="/case_studies.html#PLC-ref">PLC</a></li>
+    
+  
+
+
+
+
+      </ul>
+    
+    
+    <ul class="pagination">
+      
+        <li class="prev disabled"><a>&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/case_studies/food_and_beverage/energy-bar-mixer" title="Energy Bar Mixer Replacement">Next &rarr;</a></li>
+      
+    </ul>
+    <hr>
+    <!--
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'corsosystems'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+-->
+  </div>
+</div>
+
+
+
+
+
+
+
+    </div>
+    <!--Footer-->
+    <div class="row footer">
+        <div class="container">
+        <div class="col-md-2">
+            <div style="color:#ffffff;">
+              <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+             <br/>
+              <p style="float:left;">&copy; 2014 Corso Systems</p>
+            </div>       
+        </div>
+        
+    <div class="col-md-2 col-md-offset-3" style="list-style:none;border-right:1px solid #ffffff;padding-left:60px;">
+        <ul style="list-style:none;text-align:left;">
+                <li><a href="http://www.corsosystems.com/about" style="color:#ffffff;">About</a></li>
+                <li><a href="http://www.corsosystems.com/platforms" style="color:#ffffff;">Platforms</a></li>
+                <li><a href="http://www.corsosystems.com/contact" style="color:#ffffff;">Contact</a></li>
+
+            </ul>   
+            <br/>
+        </div>
+
+         
+
+       
+            <div class="col-md-5" style="">
+                <div style="float:left;border-right:1px solid #ffffff;padding-right:37px; padding-left:10px;">
+                <ul id="address" style="list-style:none; color:#ffffff;text-align:left;">
+            <li>Corso Systems</li>
+            <li>125 E 21st St #109</li>
+            <li>Chicago, IL 60616</li>
+            <li>775.750.0540<li>
+            </ul>
+        </div>
+    <div style="float:right;">
+            <ul style="list-style:none;">
+            <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+            <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+            <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
+        </ul>
+    </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    
+
+    <script src="/assets/themes/bootstrap/resources/jquery/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('#search-query').lunrSearch({
+          indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+          results:  '#search-results',          // jQuery selector for the search results container
+          entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+          template: '#search-results-template'  // jQuery selector for the Mustache.js template
+        });
+      });
+    </script>
+  </body>
+</html>
+
+
+<head>
+      <title>Corso Systems</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, inital-scale=1.0">
+      <link href="/assets/themes/bootstrap/resources/bootstrap/css/custom.css" rel="stylesheet">
+      <link href="/assets/themes/bootstrap/resources/bootstrap/css/about.css" rel="stylesheet">
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="icon" 
+            type="image/png" 
+            href="/img/favicon.png" sizes="32x32">
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<script src="/assets/themes/bootstrap/resources/bootstrap/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+<!--Navbar-->
+
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55365580-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

@@ -24,12 +24,36 @@ Usage:
   {% include custom/pages_list %}
 {% else %}
   {% for node in pages_list %}
+    {% capture title_size %}{{ node.case_study_title | size }}{% endcapture %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+      	   <div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
+                  <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
+                    <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>{{ node.case_study_title }}</b></a>                    
+                  </div>
+                  <br/>
+                  <div>
+                    <a href="{{ BASE_PATH }}{{node.url}}"><img src="{{node.image}}" style="display:block;margin:auto;" width="100%"/></a>
+                  </div>
+                  <div style="width:100%;padding-top:10px;">
+                    {{node.summary}} 
+                  </div>
+                </div>
       	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+
+      	<div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
+                          <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
+                            <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>{{ node.case_study_title }}</b></a>
+                          </div>
+                          <br/>
+                          <div>
+                            <a href="{{ BASE_PATH }}{{node.url}}"><img src="{{node.image}}" style="display:block;margin:auto;" width="100%"/></a>
+                          </div>
+                          <div style="width:100%;padding-top:10px;">
+                            {{node.summary}} 
+                          </div>
+                        </div>
       	{% endif %}
       {% endif %}
     {% endif %}
@@ -37,3 +61,17 @@ Usage:
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+<!--
+        <div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
+          <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
+            <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>node.case_study_title</b></a>
+          </div>
+          <br/>
+          <div style="background:#f7f7f7;">
+            <a href="{{ BASE_PATH }}{{node.url}}"><img src="{{node.image}}" style="display:block;margin:auto;" width="100%"/></a>
+          </div>
+          <div style="width:100%;padding-top:10px;">
+            {{node.summary}} 
+          </div>
+        </div>-->
+      

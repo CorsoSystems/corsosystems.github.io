@@ -1,20 +1,52 @@
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
-  </div>
-</div>
+
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
       <!--<span>{{ page.date | date_to_long_string }}</span>-->
     </div>
-    <hr>
+    
     <div class="content">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          {{ content }}
+      <div class="row" style="text-align:left;">
+      <ol class="list-unstyled">
+        {% for p in page.ancestors %}
+          {% if p.title %}
+          <li style="display:inline;"><a href="{{ p.url }}">{{ p.title }}</a>
+            {% endif %}
+        {% endfor %}
+        <li class="divider" style="display:inline;">/</li>
+        {% if page.url contains 'case_studies' %}
+        <li style="display:inline;"><a href="http://www.corsosystems.com/case_studies.html">Case Studies</a> / </li>
+          {% endif %}
+        {% if page.url contains 'food_and_beverage' %}
+          <li style="display:inline;"><a href="http://www.corsosystems.com/food_and_beverage.html">Food and Beverage</a> / </li>
+        {% endif %}
+        {% if page.url contains 'aggregates' %}
+          <li style="display:inline;"><a href="http://www.corsosystems.com/case_studies.html#Aggregates-ref">Aggregates</a> / </li>
+        {% endif %}
+        {% if page.url contains 'mining' %}
+          <li style="display:inline;"><a href="http://www.corsosystems.com/mining.html">Mining</a> / </li>
+        {% endif %}
+        {% if page.url contains 'solar' %}
+          <li style="display:inline;"><a href="http://www.corsosystems.com/solar.html">Solar</a> / </li>
+        {% endif %}
+        {% if page.url contains 'municipal' %}
+          <li style="display:inline;"><a href="http://www.corsosystems.com/municipal.html">Municipal</a> / </li>
+        {% endif %}
+        {% if page.url contains 'manufacturing' %}
+          <li style="display:inline;"><a href="http://www.corsosystems.com/manufacturing.html">Manufacturing</a> / </li>
+        {% endif %}
+          <li class="active" style="display:inline;">{{ page.title }}</li>
+        </ol>
+      </div>
+        <div class="row">
+          <div style="text-align:left;">
+            <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
+          </div>
         </div>
+        <hr>
+      <div class="row">
+        {{ content }}
       </div>
     </div>
 
@@ -54,3 +86,6 @@
     <!--{% include JB/comments %}-->
   </div>
 </div>
+
+
+
