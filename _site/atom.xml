@@ -4,7 +4,7 @@
  <title>Corso Systems</title>
  <link href="http://corsosystems.github.io/" rel="self"/>
  <link href="http://corsosystems.github.io"/>
- <updated>2014-10-08T17:29:55-05:00</updated>
+ <updated>2014-10-09T11:02:30-05:00</updated>
  <id>http://corsosystems.github.io</id>
  <author>
    <name>Corso Systems</name>
@@ -69,6 +69,36 @@
 &lt;/div&gt;
 
 &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Correctional Center Door, Intercom, and Camera Control Upgrades</title>
+   <link href="http://corsosystems.github.io/case_studies/corrections/correction-center-door-controls"/>
+   <updated>2014-08-14T00:00:00-05:00</updated>
+   <id>http://corsosystems.github.io/case_studies/corrections/correction-center-door-controls</id>
+   <content type="html">&lt;div class=&quot;row&quot;&gt;
+	&lt;hr /&gt;
+	&lt;div class=&quot;col-md-8&quot; style=&quot;text-align:left;&quot;&gt;
+	&lt;h4&gt;Benefits&lt;/h4&gt;
+
+	&lt;div class=&quot;list-group&quot;&gt;
+		&lt;p&gt;
+	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Guard stations consolidated from multiple large-format panels into a single workstation&lt;/p&gt;
+	    &lt;p&gt;
+	     	&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Reduced maintenance overhead&lt;/p&gt;
+	    &lt;p&gt;
+	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Additional functionality built into the system allowing for user-configurable door opening scenarios reducing errors&lt;/p&gt;
+	    &lt;p&gt;
+			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Automated tracking of door status, how often they are opened, lock failures, and officer tracking.&lt;/p&gt;
+		&lt;p&gt;
+			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Automated tracking of intercom statuc, how often calls come from inmates or guards and officer tracking&lt;/p&gt;
+			&lt;p&gt;
+				&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Camera views consolidated from multiple monitors into a single, large-format display&lt;/p&gt;
+	    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 </content>
  </entry>
  
