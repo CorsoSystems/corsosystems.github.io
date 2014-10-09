@@ -4,7 +4,7 @@ title: Case Studies
 header: Case Studies
 group: navigation
 exclude_from_search: true
-permalink: /case_studies/
+
 ---
 {% include JB/setup %}
 <script src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>

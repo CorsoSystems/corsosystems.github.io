@@ -4,7 +4,7 @@ http://corsosystems.github.io/sitemap.txt
 http://corsosystems.github.io/about.html
 http://corsosystems.github.io/archive.html
 http://corsosystems.github.io/atom.xml
-http://corsosystems.github.io/case_studies/
+http://corsosystems.github.io/case_studies.html
 http://corsosystems.github.io/categories.html
 http://corsosystems.github.io/contact.html
 http://corsosystems.github.io/index.html
