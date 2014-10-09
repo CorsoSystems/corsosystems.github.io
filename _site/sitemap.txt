@@ -14,15 +14,17 @@ http://corsosystems.github.io/rss.xml
 http://corsosystems.github.io/search.html
 http://corsosystems.github.io/sitemap.txt
 http://corsosystems.github.io/tags.html
+http://corsosystems.github.io/tag/Corrections/index.html
+http://corsosystems.github.io/tag/Technology Migration/index.html
+http://corsosystems.github.io/tag/PLC/index.html
+http://corsosystems.github.io/tag/HMI/index.html
 http://corsosystems.github.io/tag/Aggregates/index.html
 http://corsosystems.github.io/tag/Database Management/index.html
 http://corsosystems.github.io/tag/Process Historian/index.html
 http://corsosystems.github.io/tag/Process Analytics/index.html
-http://corsosystems.github.io/tag/PLC/index.html
 http://corsosystems.github.io/tag/Food and Beverage/index.html
-http://corsosystems.github.io/tag/Technology Migration/index.html
 http://corsosystems.github.io/tag/Process Control/index.html
-http://corsosystems.github.io/tag/HMI/index.html
 
 http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-mixer
 http://corsosystems.github.io/case_studies/aggregates/factorytalk-historian-and-vantagepoint-cement-company
+http://corsosystems.github.io/case_studies/corrections/correction-center-door-controls
