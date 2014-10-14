@@ -1,12 +1,12 @@
 ---
 layout: case_study
-title: "Energy Bar Mixer Replacement"
+title: "Energy Bar Packaging Facility Mixer Replacement"
 description: "Replacing aging process control hardware on an OEM mixer unit for an energy bar manufacturing facility."
 tags: ["Food and Beverage","Technology Migration", "Process Control", "PLC", "HMI"]
 permalink: /case_studies/food_and_beverage/energy-bar-mixer
-case_study_title: "Energy Bar Mixer Replacement"
+case_study_title: "Energy Bar Packaging Facility Mixer Replacement"
 summary: "An energy bar packaging facility worked with us to replace a faulty mixer control system and upgrade it to modern standards."
-image: "/img/folder.svg"
+image: "/img/mixer.png"
 detail_summary: "<p>An energy bar manufacturing facility's raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface.</p>
 		<p>We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.</p>
 		<p>The new system included recipe management functionality configurable by the operators during their shift.</p>"
@@ -27,30 +27,18 @@ technology: "<li>Allen Bradley Micrologix 1100</li>
             <li>Cutler Hammer HMI Panel</li>
             <li>RSLogix5000</li>
             <li>FactoryTalk View ME</li>"
+benefits: "<p>
+	        <span class=\"glyphicon glyphicon-chevron-right\"></span> Controls brought up to modern standards</p>
+	    <p>
+	     	<span class=\"glyphicon glyphicon-chevron-right\"></span> Safety controls re-enabled as part of upgrade</p>
+	    <p>
+	        <span class=\"glyphicon glyphicon-chevron-right\"></span> Recipe management capabilities implemented as part of the upgrade</p>
+	    <p>
+			<span class=\"glyphicon glyphicon-chevron-right\"></span> Stand-alone equipment now capable of being integrated into an overall process control system</p>
+		<p>
+			<span class=\"glyphicon glyphicon-chevron-right\"></span> Customer has updated documentation and copies of all programs and logic</p>"
 type: "Case Study"
 ---
-
-<p class="left-align"></p>
-<div class="row">
-	<hr>
-	<div class="col-md-8" style="text-align:left;">
-	<h4>Benefits</h4>
-
-	<div class="list-group">
-		<p>
-	        <span class="glyphicon glyphicon-chevron-right"></span> Controls brought up to modern standards</p>
-	    <p>
-	     	<span class="glyphicon glyphicon-chevron-right"></span> Safety controls re-enabled as part of upgrade</p>
-	    <p>
-	        <span class="glyphicon glyphicon-chevron-right"></span> Recipe management capabilities implemented as part of the upgrade</p>
-	    <p>
-			<span class="glyphicon glyphicon-chevron-right"></span> Stand-alone equipment now capable of being integrated into an overall process control system</p>
-		<p>
-			<span class="glyphicon glyphicon-chevron-right"></span> Customer has updated documentation and copies of all programs and logic</p>
-	    </div>
-</div>
-</div>
-
 
 
 

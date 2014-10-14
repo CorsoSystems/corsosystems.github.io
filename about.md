@@ -2,6 +2,8 @@
 layout: page
 title:
 tagline: 
+summary: ""
+
 ---
 {% include JB/setup %}
 
