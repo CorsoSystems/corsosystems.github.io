@@ -5,34 +5,41 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-10-09T11:10:28-05:00</lastBuildDate>
-        <pubDate>2014-10-09T11:10:28-05:00</pubDate>
+        <lastBuildDate>2014-10-14T15:33:44-05:00</lastBuildDate>
+        <pubDate>2014-10-14T15:33:44-05:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>Energy Bar Mixer Replacement</title>
-                <description>&lt;p class=&quot;left-align&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;hr /&gt;
-	&lt;div class=&quot;col-md-8&quot; style=&quot;text-align:left;&quot;&gt;
-	&lt;h4&gt;Benefits&lt;/h4&gt;
+                <title>Production Data Management System for a Diatomaceous Earth Processing Company</title>
+                <description>
+</description>
+                <link>http://corsosystems.github.io/case_studies/mining/production-data-management-system</link>
+                <guid>http://corsosystems.github.io/case_studies/mining/product-data-management-system</guid>
+                <pubDate>2014-10-03T00:00:00-05:00</pubDate>
+        </item>
 
-	&lt;div class=&quot;list-group&quot;&gt;
-		&lt;p&gt;
-	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Controls brought up to modern standards&lt;/p&gt;
-	    &lt;p&gt;
-	     	&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Safety controls re-enabled as part of upgrade&lt;/p&gt;
-	    &lt;p&gt;
-	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Recipe management capabilities implemented as part of the upgrade&lt;/p&gt;
-	    &lt;p&gt;
-			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Stand-alone equipment now capable of being integrated into an overall process control system&lt;/p&gt;
-		&lt;p&gt;
-			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Customer has updated documentation and copies of all programs and logic&lt;/p&gt;
-	    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+        <item>
+                <title>LIMS System for a Leading Diatomaceous Earth Processing Company</title>
+                <description>
+</description>
+                <link>http://corsosystems.github.io/case_studies/mining/lab-information-management-system</link>
+                <guid>http://corsosystems.github.io/case_studies/mining/lab-information-management-system</guid>
+                <pubDate>2014-10-03T00:00:00-05:00</pubDate>
+        </item>
 
+        <item>
+                <title>Energy Bar Packaging Facility Conveyor Speed Sync</title>
+                <description>
+</description>
+                <link>http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-conveyor-sync</link>
+                <guid>http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-conveyor-sync</guid>
+                <pubDate>2014-09-23T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Energy Bar Packaging Facility Mixer Replacement</title>
+                <description>
 </description>
                 <link>http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-mixer</link>
                 <guid>http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-mixer</guid>
@@ -40,64 +47,12 @@
         </item>
 
         <item>
-                <title>Cement Manufacturing Process Analytics Implementation</title>
-                <description>&lt;div class=&quot;row&quot;&gt;
-
-&lt;p class=&quot;left-align&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;hr /&gt;
-	energy
-	&lt;div class=&quot;col-md-8&quot; style=&quot;text-align:left;&quot;&gt;
-	&lt;h4&gt;Benefits&lt;/h4&gt;
-
-	&lt;div class=&quot;list-group&quot;&gt;
-		&lt;p&gt;
-	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Process data stored in a centralized database&lt;/p&gt;
-	    &lt;p&gt;
-	     	&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Data accessible from outside of the HMI application, including access to corporate staff upgrade&lt;/p&gt;
-	    &lt;p&gt;
-	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Automated reporting capability &lt;/p&gt;
-	    &lt;p&gt;
-			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Reduced overhead to collect data required for periodic reporting&lt;/p&gt;
-	    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
+                <title>Process Change Management System for a mining company</title>
+                <description>
 </description>
-                <link>http://corsosystems.github.io/case_studies/aggregates/factorytalk-historian-and-vantagepoint-cement-company</link>
-                <guid>http://corsosystems.github.io/case_studies/aggregates/factorytalk-vantagepoint-implementation-cement-company</guid>
-                <pubDate>2014-09-16T00:00:00-05:00</pubDate>
-        </item>
-
-        <item>
-                <title>Correctional Center Door, Intercom, and Camera Control Upgrades</title>
-                <description>&lt;div class=&quot;row&quot;&gt;
-	&lt;hr /&gt;
-	&lt;div class=&quot;col-md-8&quot; style=&quot;text-align:left;&quot;&gt;
-	&lt;h4&gt;Benefits&lt;/h4&gt;
-
-	&lt;div class=&quot;list-group&quot;&gt;
-		&lt;p&gt;
-	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Guard stations consolidated from multiple large-format panels into a single workstation&lt;/p&gt;
-	    &lt;p&gt;
-	     	&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Reduced maintenance overhead&lt;/p&gt;
-	    &lt;p&gt;
-	        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Additional functionality built into the system allowing for user-configurable door opening scenarios reducing errors&lt;/p&gt;
-	    &lt;p&gt;
-			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Automated tracking of door status, how often they are opened, lock failures, and officer tracking.&lt;/p&gt;
-		&lt;p&gt;
-			&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Automated tracking of intercom statuc, how often calls come from inmates or guards and officer tracking&lt;/p&gt;
-			&lt;p&gt;
-				&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt; Camera views consolidated from multiple monitors into a single, large-format display&lt;/p&gt;
-	    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-</description>
-                <link>http://corsosystems.github.io/case_studies/corrections/correction-center-door-controls</link>
-                <guid>http://corsosystems.github.io/case_studies/corrections/correction-center-door-controls</guid>
-                <pubDate>2014-08-14T00:00:00-05:00</pubDate>
+                <link>http://corsosystems.github.io/case_studies/mining/process-change-management-system</link>
+                <guid>http://corsosystems.github.io/case_studies/mining/process-change-management-system</guid>
+                <pubDate>2014-09-19T00:00:00-05:00</pubDate>
         </item>
 
 
