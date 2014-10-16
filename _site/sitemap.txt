@@ -28,7 +28,6 @@ http://corsosystems.github.io/tag/Process%20Optimization/index.html
 http://corsosystems.github.io/tag/Process%20Analytics/index.html
 
 http://corsosystems.github.io/case_studies/mining/production-data-management-system
-http://corsosystems.github.io/case_studies/mining/lab-information-management-system
 http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-conveyor-sync
 http://corsosystems.github.io/case_studies/food_and_beverage/energy-bar-mixer
 http://corsosystems.github.io/case_studies/mining/process-change-management-system
