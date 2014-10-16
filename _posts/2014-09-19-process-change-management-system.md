@@ -5,7 +5,7 @@ description: "Implemented a web-based management system to manage process change
 tags: ["Mining", "Standardization", "Web-based Solutions", "Database Management"]
 permalink: /case_studies/mining/process-change-management-system
 case_study_title: "Process Change Management System for a mining company"
-summary: "Our staff worked with a leading diatomaceous earth processing facility to implement a centralized, web-based Process Change Management System. "
+summary: "printrbot Our staff worked with a leading diatomaceous earth processing facility to implement a centralized, web-based Process Change Management System. "
 image: "/img/moc.png"
 detail_summary: "<p>A diatomaceous earch processing facility worked with us to develop a centralized process change management system.</p>
 		<p>We developed requirements based on their existing system basd on Excel spreadsheets. Many of the requirements were designed to provide a robust and automatic approvals process for proposed changes.</p>

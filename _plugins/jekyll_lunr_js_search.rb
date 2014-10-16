@@ -34,7 +34,14 @@ index << {
 :url => entry.url,
 :date => entry.date,
 :categories => entry.categories,
-:body => entry.body
+:body => entry.body,
+:summary => entry.summary, 
+:detail_summary => entry.detail_summary,
+:focus => entry.focus,
+:drive => entry.drive,
+:results => entry.results, 
+:technology => entry.technology,
+:benefits => entry.benefits
 }
 puts 'Indexed ' << "#{entry.title} (#{entry.url})"
 end
@@ -57,7 +64,7 @@ end
 def pages_to_index(site)
 items = []
 # deep copy pages
-site.pages.each {|page| items << page.dup }
+#site.pages.each {|page| items << page.dup }
 site.posts.each {|post| items << post.dup }
 # only process files that will be converted to .html and only non excluded files
 items.select! {|i| i.output_ext == '.html' && ! @excludes.any? {|s| (i.url =~ Regexp.new(s)) != nil } }
@@ -90,7 +97,7 @@ module LunrJsSearch
 class SearchEntry
 def self.create(page_or_post, renderer)
 return create_from_post(page_or_post, renderer) if page_or_post.is_a?(Jekyll::Post)
-return create_from_page(page_or_post, renderer) if page_or_post.is_a?(Jekyll::Page)
+#return create_from_page(page_or_post, renderer) if page_or_post.is_a?(Jekyll::Page)
 raise 'Not supported'
 end
 def self.create_from_page(page, renderer)
@@ -101,19 +108,19 @@ categories = []
 SearchEntry.new(title, url, date, categories, body)
 end
 def self.create_from_post(post, renderer)
-title, url = extract_title_and_url(post)
+title, url, summary, detail_summary, focus, drive, results, technology, benefits = extract_title_and_url(post)
 body = renderer.render(post)
 date = post.date
 categories = post.categories
-SearchEntry.new(title, url, date, categories, body)
+SearchEntry.new(title, url, date, categories, body, summary, detail_summary, focus, drive, results, technology, benefits)
 end
 def self.extract_title_and_url(item)
 data = item.to_liquid
-[ data['title'], data['url'] ]
+[ data['title'], data['url'], data['summary'], data['detail_summary'], data['focus'], data['drive'], data['results'],data['technology'], data['benefits'] ]
 end
-attr_reader :title, :url, :date, :categories, :body
-def initialize(title, url, date, categories, body)
-@title, @url, @date, @categories, @body = title, url, date, categories, body
+attr_reader :title, :url, :date, :categories, :body, :summary,:detail_summary, :focus, :drive, :results, :technology, :benefits
+def initialize(title, url, date, categories, body, summary,detail_summary, focus, drive, results, technology, benefits)
+@title, @url, @date, @categories, @body, @summary,@detail_summary, @focus, @drive, @results, @technology, @benefits = title, url, date, categories, body, summary,detail_summary, focus, drive, results, technology, benefits
 end
 def strip_index_suffix_from_url!
 @url.gsub!(/index\.html$/, '')

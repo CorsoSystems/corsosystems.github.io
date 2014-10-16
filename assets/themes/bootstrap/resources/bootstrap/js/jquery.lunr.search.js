@@ -49,6 +49,13 @@
       return lunr(function() {
         this.field('title', { boost: 10 });
         this.field('body');
+        this.field('summary');
+        this.field('detail_summary');
+        this.field('focus');
+        this.field('drive');
+        this.field('results');
+        this.field('technology');
+        this.field('benefits');
         this.ref('id');      
       });
     };
