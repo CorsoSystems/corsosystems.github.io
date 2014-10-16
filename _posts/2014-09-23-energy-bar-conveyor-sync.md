@@ -7,9 +7,9 @@ permalink: /case_studies/food_and_beverage/energy-bar-conveyor-sync
 case_study_title: "Energy Bar Packaging Facility Conveyor Speed Sync"
 summary: "An energy bar packaging facility worked with us to replace a faulty mixer control system and upgrade it to modern standards."
 image: "/img/conveyor.png"
-detail_summary: "<p>An energy bar manufacturing facility's raw ingredient mixer had a faulty Cutler Hammer PLC and operator interface.</p>
-		<p>We reverse-engineered the control logic and upgraded the Cutler Hammer equipment with an Allen Bradley Micrologix PLC and Panelview Plus operator interface.</p>
-		<p>The new system included recipe management functionality configurable by the operators during their shift.</p>"
+detail_summary: "<p>An energy bar manufacturing facility's processing line used eight standalone piece of equipment with conveyor belts.</p>
+		<p>The speed of the conveyors needed to be synced across all of the machines for optimal operation.</p>
+		<p>Previously the speeds were synced by adjusting potentiometers on each piece of equipment leading to speed variations throughout the line.</p><p>We worked with the staff to implement a PLC based system with an operator interface to set the speeds for the line and select which speed should be used at any given time.</p>"
 industry: "Food & Beverage"
 location: "Carson City, NV"
 services: "PLC & HMI Programming, Technology Migration"
