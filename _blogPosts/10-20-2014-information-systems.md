@@ -8,7 +8,7 @@ permalink: /blog/intro-to-process-data-systems.html
 image: "/img/bottlingline.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
-blurb: ""
+blurb: "<p>Learn how process data systems can enable you to track your brewing operation more effectively.</p>"
 date: "10-20-2014"
 ---
 
