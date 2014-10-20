@@ -6,7 +6,7 @@
           <div class="col-md-10 col-md-offset-1" style="background:#ffffff;border-radius:5px;">
           <div class="col-md-7" style="padding:0px;border-right:1px solid #cccccc;">
           <div style="text-align:left;background:#ffffff;color:#f43e00;padding:1px 10px 8px 10px;">
-            <h2>{{ page.title }}</h2>
+            <h2>{{ page.page_title }}</h2>
           </div>
           <div style="border:1px solid #ececec;width:100%;float:right;"></div>
           <div class="row" style="text-align:left;padding-left:25px;">
@@ -24,13 +24,13 @@
         </div>
         <div class="col-md-5" style="background:#ffffff;text-align:left;">
           <h4 style="color:#f43e00;">Recent Posts:</h4>
-          {% for post in site.blogPosts limit:3 %}
+          {% for post in site.blogPosts reversed limit:3 %}
           <div class="row" style="text-align:left;">
           <div class="col-md-5">
             <a href="{{post.permalink}}"><img src="{{post.image}}" style="width:100%;"/></a>
           </div>
           <div class="col-md-7" style="text-align:left;">
-            <h5><a href="{{post.permalink}}">{{post.title}}</a></h5>
+            <h5><a href="{{post.permalink}}">{{post.page_title}}</a></h5>
             
             <h6>{{post.date}}</h6>
           </div>

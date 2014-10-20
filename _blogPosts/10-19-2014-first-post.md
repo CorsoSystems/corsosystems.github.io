@@ -1,6 +1,7 @@
 ---
 layout: blog_post
 title: "Welcome to our blog"
+page_title: "Welcome to our blog"
 description: "Blog Template"
 tags: ["Educate"]
 permalink: /blog/first-post.html
