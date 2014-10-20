@@ -21,9 +21,10 @@ date: "10-20-2014"
 <p>Once you have run a complete batch through quality control you might generate some more data on color, taste, clarity, and so on. The recipe and all of the data you collect during the brewing process can easily be entered into a system making this data more valuable than a sheet of paper in a filing cabinet.</p>
 
 <p>Instead of a drawer as the final home for your data, imagine you open a web-browser, log in to a site and input the data into a database. For each step of the brewing process you can pull up a report comparing this batch to any or all of your previous batches and get a detailed view of how it compares. You can even have a good idea of what your final product will look like based on all of your experience with the data to back up your gut.</p>
-
+<br/>
 <img src="/img/datasystemscreen.png" width="350px"/>
-
+<br/>
+<br/>
 <p>The real value of the system comes when you make subsequent batches and generate more data. If you make a particularly great tasting batch, can you easily identify what was different about the process compared to a normal batch? Were there any differences in your ingredients? Would you like to be able to repeat your results and have the ability to spot trends in your final products? When a major distributor picks up your product and you need to increase production how easily can you ramp up production to meet demand?</p>
 
 <p>These questions are all things a large brewer like Anheuser-Busch has answered. They track a lot of data for every batch. If something ends up tasting off in the end product they can compare the batch to every other batch in their database and diagnose likely causes. They track the effect of various ingredients on the final product, finding ways to brew consistent tasting products at any of their facilities. Granted their brewing process is heavily automated which simplifies data collection, the concepts of using a centralized data collection system to brew smarter can be implemented in any size brewery.</p>
