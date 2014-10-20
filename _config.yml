@@ -1,4 +1,8 @@
-# This is the default format.
+
+collections:
+  blogPosts:
+    output: true
+    # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
@@ -123,6 +127,9 @@ JB :
   sharing :
     provider : false
 
+  gems:
+    - jekyll-sitemap
+
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
   #
@@ -133,4 +140,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+

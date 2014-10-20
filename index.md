@@ -6,7 +6,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-<img src="img/logo.png" width="100px">
+
 
 <div class="row">
   <div class="col-md-2"><p> </p></div>

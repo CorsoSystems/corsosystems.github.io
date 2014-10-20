@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-10-16T16:40:42-05:00</lastBuildDate>
-        <pubDate>2014-10-16T16:40:42-05:00</pubDate>
+        <lastBuildDate>2014-10-20T10:56:29-05:00</lastBuildDate>
+        <pubDate>2014-10-20T10:56:29-05:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -44,6 +44,21 @@
                 <link>http://corsosystems.github.io/case_studies/mining/process-change-management-system</link>
                 <guid>http://corsosystems.github.io/case_studies/mining/process-change-management-system</guid>
                 <pubDate>2014-09-19T00:00:00-05:00</pubDate>
+        </item>
+
+
+
+        <item>
+                <title>Welcome to our blog</title>
+                <description>&lt;p&gt;&lt;img src=&quot;/img/logocolor.svg&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to the Corso Systems Blog. We will be posting content to educate, empower and entertain you. This includes things we think are interesting, answers to questions we have been asked, and our thoughts about technology.&lt;/p&gt;
+&lt;p&gt;We will also be posting educational content including detailed how-to guides you can use to implement powerful tools into your workflow.&lt;/p&gt;
+&lt;p&gt;If you ever have any questions, would like more information on something you read here or elsewhere, want us to write about something relevant to your interests, or simply want to say hello please don&#39;t hesistate to reach out to us.&lt;/p&gt;
+</description>
+                <link>http://corsosystems.github.io/blog/first-post.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>1969-12-31T18:00:10-06:00</pubDate>
         </item>
 
 
