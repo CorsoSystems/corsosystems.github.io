@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-10-20T14:13:23-05:00</lastBuildDate>
-        <pubDate>2014-10-20T14:13:23-05:00</pubDate>
+        <lastBuildDate>2014-10-20T14:21:45-05:00</lastBuildDate>
+        <pubDate>2014-10-20T14:21:45-05:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -80,14 +80,15 @@
 &lt;p&gt;These questions are all things a large brewer like Anheuser-Busch has answered. They track a lot of data for every batch. If something ends up tasting off in the end product they can compare the batch to every other batch in their database and diagnose likely causes. They track the effect of various ingredients on the final product, finding ways to brew consistent tasting products at any of their facilities. Granted their brewing process is heavily automated which simplifies data collection, the concepts of using a centralized data collection system to brew smarter can be implemented in any size brewery.&lt;/p&gt;
 
 &lt;p&gt;We have have had the opportunity to implement similar systems that make the lives of operators and artisans easier. Once people get their hands on this type of technology they get excited about what they can do next. Turning data into information makes it easy to increase productivity, consistency, and customer satisfaction. Intelligent information about a process truly expands the horizon of what is possible and gives people the tools to operate at their highest potential.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;For more information about how you can use a centralized data collection system at your facility enter your information below to receive our three part series on designing data systems.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;For more information about how you can use a centralized data collection system at your facility enter your information below to receive our three part series on designing data systems.&lt;/b&gt;&lt;/p&gt;
 
 &lt;!-- Begin MailChimp Signup Form --&gt;
 &lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/classic-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
 &lt;style type=&quot;text/css&quot;&gt;
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 &lt;/style&gt;
@@ -110,15 +111,14 @@
 	&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;mc-field-group input-group&quot;&gt;
-    &lt;input type=&quot;hidden&quot; value=&quot;1&quot; name=&quot;group[7065][1]&quot; id=&quot;mce-group[7065]-7065-0&quot; checked=&quot;checked&quot; /&gt;
-
+    &lt;input type=&quot;hidden&quot; checked=&quot;checked&quot; value=&quot;1&quot; name=&quot;group[7065][1]&quot; id=&quot;mce-group[7065]-7065-0&quot; /&gt;
 &lt;/div&gt;
 	&lt;div id=&quot;mce-responses&quot; class=&quot;clear&quot;&gt;
 		&lt;div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
 		&lt;div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
 	&lt;/div&gt;    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
     &lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_9c3aca2e795f5d04e5358a747_9e5fa8ddd1&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
-    &lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Submit&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/form&gt;
 &lt;/div&gt;

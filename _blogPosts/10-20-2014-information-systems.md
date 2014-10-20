@@ -29,13 +29,13 @@ date: "10-20-2014"
 <p>These questions are all things a large brewer like Anheuser-Busch has answered. They track a lot of data for every batch. If something ends up tasting off in the end product they can compare the batch to every other batch in their database and diagnose likely causes. They track the effect of various ingredients on the final product, finding ways to brew consistent tasting products at any of their facilities. Granted their brewing process is heavily automated which simplifies data collection, the concepts of using a centralized data collection system to brew smarter can be implemented in any size brewery.</p>
 
 <p>We have have had the opportunity to implement similar systems that make the lives of operators and artisans easier. Once people get their hands on this type of technology they get excited about what they can do next. Turning data into information makes it easy to increase productivity, consistency, and customer satisfaction. Intelligent information about a process truly expands the horizon of what is possible and gives people the tools to operate at their highest potential.</p>
-
-<p>For more information about how you can use a centralized data collection system at your facility enter your information below to receive our three part series on designing data systems.</p>
+<hr>
+<p><b>For more information about how you can use a centralized data collection system at your facility enter your information below to receive our three part series on designing data systems.</b></p>
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -57,15 +57,14 @@ date: "10-20-2014"
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 <div class="mc-field-group input-group">
-    <input type="hidden" value="1" name="group[7065][1]" id="mce-group[7065]-7065-0" checked="checked">
-
+    <input type="hidden" checked="checked" value="1" name="group[7065][1]" id="mce-group[7065]-7065-0">
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_9c3aca2e795f5d04e5358a747_9e5fa8ddd1" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
