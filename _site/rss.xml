@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-10-21T16:50:02-05:00</lastBuildDate>
-        <pubDate>2014-10-21T16:50:02-05:00</pubDate>
+        <lastBuildDate>2014-10-24T11:57:55-05:00</lastBuildDate>
+        <pubDate>2014-10-24T11:57:55-05:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -159,6 +159,56 @@
 &lt;p&gt;Project management software is found in every industry and can be applied to any project. Each industry uses these systems in their own unique way because of how flexible software can be. A good way to implement a project management system at your company is to use it on a small project to get your feet wet. Chances are you and your team will find things you love and other things that need to be tailored to your specific needs. If you decide these systems are beneficial to your team and process, it&#39;s important to find a tool that can grow with your company.&lt;/p&gt;
 </description>
                 <link>http://corsosystems.github.io/blog/project-management-basics.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>1969-12-31T18:00:10-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Bridging the Gap</title>
+                <description>&lt;p&gt;Many companies have a handful of systems they use to run their day-to-day operations. Production scheduling, process data from the plant floor, shipping and receiving management, staff scheduling, etc. Most of the time these systems are implemented at different points of a company&#39;s lifecycle and are not designed with the other systems in mind. With today&#39;s technology making it easy to integrate systems into a cohesive tool, see how you can get more value from your existing infrastructure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/digifactory.jpg&quot; width=&quot;430px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;A Mile in Your Shoes&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;When we go to a facility for the first time we put ourselves in your shoes as we seek to understand your culture, people, and processes. We tend to find a few common, interesting things:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Work orders are usually on a sheet of paper physically located at operator workstations&lt;/li&gt;
+	&lt;li&gt;Inefficient communication throughout the entire process - from customer orders to the production floor all the way through order fulfillment&lt;/li&gt;
+	&lt;li&gt;Machine maintenance being done too often or not often enough, causing too much planned or unplanned downtime&lt;/li&gt;
+	&lt;li&gt;Delays in the process not being communicated back to production scheduling causing an increase in lead times&lt;/li&gt;
+	&lt;li&gt;Quality control staff asking production staff for process data information costing time on both sides of the equation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many of these issues cause delays in order fulfillment and ultimately increase workload and stress on your staff. This not only can lead to mandatory overtime to meet production demand while still maintaining the delivery schedule, but also to not meeting customer expectations and possibly hurting relationships.&lt;/p&gt;
+
+&lt;p&gt;Enter the concept of the digital factory. By utilizing fully-integrated systems and mobile technology, production efficiency and employee effectiveness can operate at their highest potential. Let&#39;s take a look at a few ideas of how intelligent systems can streamline your operation:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Communication Across the Organization&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Notification:&lt;/b&gt; Communication can happen automatically, alerting staff on a periodic or real-time basis about changes in production, maintenance issues, process metrics and KPIs&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Documentation:&lt;/b&gt; Information on how to handle process upsets, workflow manuals or any other required documentation can be built directly into your systems no longer requiring operators to leave their station to ask a question&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Information:&lt;/b&gt; Process data can be made available from the shop to the top floor including QA/QC, shipping, sales, and management keeping everyone up-to-date at a level of granularity specific to their needs&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Organization:&lt;/b&gt; If you have more than one facility everyone in your entire company can keep up to date with all of your production facilities.&lt;br /&gt;You can also limit access to any portion of the system to specific employees, giving everyone access to the information they need to see, when they need to see it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Training and Best Practices&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Tutorials:&lt;/b&gt; Training materials can be easily accessible when they are immediately useful making it easy for operators to accomplish periodic tasks in a timely manner and make it easy to cross train other employees on any job function&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Internal Wiki:&lt;/b&gt; Best practices, detailed instructions and institutional knowledge can all be recorded making it easy to keep everyone up to speed on how things should be done at your company&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Worker Productivity&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Maintenance:&lt;/b&gt; Your work order system can be directly integrated into plant floor data to automatically generate work orders as they are needed per manufacturer&#39;s specifications reducing under or over-maintaining equipment.&lt;br /&gt;Maintenance personnel can update and manage work orders with automatic notification to operators and other personnel as maintenance work is completed&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Operations:&lt;/b&gt; Your operations staff can quickly see when process upsets will affect their workflow, as well as generate and monitor maintenance work-orders directly from their stations&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Metrics:&lt;/b&gt; In-app dashboards can show metrics for your facility keeping them front-of-mind for your staff. &lt;br /&gt;These metrics can include the KPIs you already use to track the health of your operation with the added benefit of brining up historical data to compare to previous production shifts at any time&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;p&gt;These are just a handful of the potentially unlimited number of ideas on how you can utilize a fully integrated, intelligent system at your organization. When you empower your people to do their job more effectively you will see improvement in the KPIs and metrics you use to monitor the health of your operation. This can result in happier customers, employees and improve your bottom line by better utilizing the data you already have available.&lt;/p&gt;
+</description>
+                <link>http://corsosystems.github.io/blog/bridging-the-gap.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>1969-12-31T18:00:10-06:00</pubDate>
         </item>
