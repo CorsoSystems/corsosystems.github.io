@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-10-26T15:36:00-05:00</lastBuildDate>
-        <pubDate>2014-10-26T15:36:00-05:00</pubDate>
+        <lastBuildDate>2014-10-26T17:21:41-05:00</lastBuildDate>
+        <pubDate>2014-10-26T17:21:41-05:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -218,6 +218,48 @@
 &lt;p&gt;These are just a handful of the potentially unlimited number of ideas on how you can utilize a fully integrated, intelligent system at your organization. When you empower your people to do their job more effectively you will see improvement in the KPIs and metrics you use to monitor the health of your operation. This can result in happier customers, employees and improve your bottom line by better utilizing the data you already have available.&lt;/p&gt;
 </description>
                 <link>http://corsosystems.github.io/blog/bridging-the-gap.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>1969-12-31T18:00:10-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Eye On the KPI</title>
+                <description>&lt;p&gt;Most companies have complex processes. Keeping everyone up to date on every aspect of operations can take a lot of time and lead to lots of confusion. Find out what many companies have found to be a better way to track performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/kpiintro.jpg&quot; width=&quot;430px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Keeping It Simple&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Do you ever procrastinate when you need to put together a report on how your company is doing on any given day? You may have to dig through a handful of reports, run some calculations in Excel and go interrupt some other people to get information on their department.&lt;/p&gt;
+&lt;p&gt;What if all of this work could be boiled down into an automatically generated report emailed out to everyone who needs the information? What if the report gave anyone who wanted to dig deeper the ability to get the information at the level of detail they want, on-demand?&lt;/p&gt;
+
+&lt;p&gt;This type of system is one of the benefits of the idea of the digital factory. As each department completes its tasks relevant information is entered into the intelligence database. You and your staff determine the important metrics to measure and calculations you use to distill those metrics into a handful of numbers known as Key Performance Indicators or KPIs.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;The Rubber Meets The Road&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;What is a KPI? A KPI is a way to simply convey complex information. One example in the manufacturing world is known as Overall Equipment Effectiveness or OEE. This is a calculation involving the uptime of a process, the quality of produced goods, and how quickly those goods were produced. These values are compared to their ideal amounts giving you a percentage value of the health of your operation.&lt;/p&gt;
+
+&lt;p&gt;Once you have this value you can determine if it meets your needs or if it needs to be improved. If it needs to be improved you drill down into the three component values and start asking questions. Is one of the metrics causing the number to drop quite a bit? Which one? If your line is accruing lots of unplanned downtime dig deeper and see how to fix it. If you are getting a larger than usual number of bad parts why? &lt;/p&gt;
+
+&lt;p&gt;This functionality can be built directly into your system, automatically generating OEE per day, shift, etc. The values in the report can be directly linked to raw data allowing you to ask and answer any questions you may have about the data in the report.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Looking Forward&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;We will dig deeper into how you can implement KPIs at your company in the next few posts. For now here is a list of a few common KPIs we have helped out customers design systems around:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;OEE - based on runtime, quality, process speed&lt;/li&gt;
+    &lt;li&gt;Average Production Per Shift - comparing shifts can lead to friendly competition&lt;/li&gt;
+	&lt;li&gt;Downtime - reducing downtime increases productivity&lt;/li&gt;
+	&lt;li&gt;Changeover Time - reducing changeover time increases process runtime&lt;/li&gt;
+	&lt;li&gt;Equipment/Process Alarms - tracking the number of alarms for various pieces of equipment can be an indicator of potential maintenance needs&lt;/li&gt;
+	&lt;li&gt;Reject Count - tracking reject counts per line or piece of equipment can give you indications of potential workflow or process changes you may want to implement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;We are always looking for ways to help our customers and others in any industry. If you would like to hear our opinions about anything in particular please feel free to reach out to us and let us know what you want us to include in future posts.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+                <link>http://corsosystems.github.io/blog/eye-on-the-kpi.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>1969-12-31T18:00:10-06:00</pubDate>
         </item>
