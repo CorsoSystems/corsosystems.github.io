@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-10-24T11:57:55-05:00</lastBuildDate>
-        <pubDate>2014-10-24T11:57:55-05:00</pubDate>
+        <lastBuildDate>2014-10-26T15:36:00-05:00</lastBuildDate>
+        <pubDate>2014-10-26T15:36:00-05:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -17,6 +17,15 @@
                 <link>http://corsosystems.github.io/case_studies/mining/production-data-management-system</link>
                 <guid>http://corsosystems.github.io/case_studies/mining/product-data-management-system</guid>
                 <pubDate>2014-10-03T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Wonderware Historian to FactoryTalk Historian Migration</title>
+                <description>
+</description>
+                <link>http://corsosystems.github.io/case_studies/mining/wonderware-to-factorytalk-historian-migration</link>
+                <guid>http://corsosystems.github.io/case_studies/mining/wonderware-to-fthistorian-conversion</guid>
+                <pubDate>2014-09-29T00:00:00-05:00</pubDate>
         </item>
 
         <item>

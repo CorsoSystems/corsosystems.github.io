@@ -4,7 +4,7 @@
  <title>Corso Systems</title>
  <link href="http://corsosystems.github.io/" rel="self"/>
  <link href="http://corsosystems.github.io"/>
- <updated>2014-10-24T11:57:55-05:00</updated>
+ <updated>2014-10-26T15:36:00-05:00</updated>
  <id>http://corsosystems.github.io</id>
  <author>
    <name>Corso Systems</name>
@@ -17,6 +17,15 @@
    <link href="http://corsosystems.github.io/case_studies/mining/production-data-management-system"/>
    <updated>2014-10-03T00:00:00-05:00</updated>
    <id>http://corsosystems.github.io/case_studies/mining/product-data-management-system</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Wonderware Historian to FactoryTalk Historian Migration</title>
+   <link href="http://corsosystems.github.io/case_studies/mining/wonderware-to-factorytalk-historian-migration"/>
+   <updated>2014-09-29T00:00:00-05:00</updated>
+   <id>http://corsosystems.github.io/case_studies/mining/wonderware-to-fthistorian-conversion</id>
    <content type="html">
 </content>
  </entry>
