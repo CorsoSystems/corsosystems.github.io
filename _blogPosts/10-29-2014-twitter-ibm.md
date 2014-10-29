@@ -8,7 +8,7 @@ image: "/img/twitter-ibm.jpg"
 author: "Mike Cammarato"
 author-email: "mike@corsosystems.com"
 blurb: "<p>Twitter and IBM partner up to give businesses a better understanding of how their customers feel.</p>"
-date: "10-27-2014"
+date: "10-29-2014"
 ---
 
 <p>Twitter and IBM partner up to give businesses a better understanding of their customers.</p>
