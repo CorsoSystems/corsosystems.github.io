@@ -52,7 +52,15 @@
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>http://corsosystems.com/blog/twitter-ibm.html</loc>
+=======
+<loc>http://corsosystems.com/blog/factorytalk-metrics-overview.html</loc>
+</url>
+
+<url>
+<loc>http://corsosystems.com/blog/factorytalk-metrics-backend.html</loc>
+>>>>>>> metricsarticles
 </url>
 
  
