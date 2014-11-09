@@ -11,7 +11,8 @@ blurb: "<p>In today's world of fully automated processing it can be difficult to
 date: "11-08-2014"
 ---
 
-<p>In today's world of fully automated production it can be difficult to turn process data into useful information. One way of doing this is by using Rockwell Automation's FactoryTalk Metrics package. In this series we will cover the basics of what Metrics does and its benefits, details on implementation, and how to quickly realize the ROI on your investment.</p>
+<p>In today's world of fully automated production it can be difficult to turn process data into useful information. One way of doing this is by using Rockwell Automation's FactoryTalk Metrics package. In this series we will cover the basics of what Metrics does and its benefits, details on <a href="/blog/factorytalk-metrics-backend.html">implementation</a>, and how to quickly realize the <a href="/blog/factorytalk-metrics-data-analysis.html">ROI</a> on your investment.</p>
+
 
 <img src="/img/metricsLogo.png" width="280px"/>
 <br/>
@@ -27,7 +28,7 @@ date: "11-08-2014"
 <h5><b>Deciding to Do Things Differently</b></h5>
 <p>The decision to implement a performance monitoring system can seem daunting. The cost of buying the software, the time involved in configuring things, learning a new system and integrating it into your workflow. While there are some costs associated with the system both in terms of time and resources, these systems can have a direct impact on your bottom line. One simple is example of this is by using the tools to identify and reduce the top 3 reasons for downtime in your plant, thus automatically increasing productivity. Our customers have made similar gains by decreasing processing time by identifying bottlenecks and reducing re-work and scrap by identifying faulty equipment.</p>
 
-<p>In this series we will focus on FactoryTalk Metrics. We will answer some common questions about what FactoryTalk Metrics is, what it isn't, and discuss of the direct benefits our customers have found after using the tools. If you are looking at similar solutions from other companies, we will cover those after we discuss FactoryTalk Metrics. We have worked with similar tools from most of the major companies and will do a compare and contrast post after we have gone into some detail across the board.</p>
+<p>In this series we will focus on FactoryTalk Metrics. We will answer some common questions about what FactoryTalk Metrics is, what it isn't, and discuss of the direct benefits our customers have found after using the tools. If you are looking at similar solutions from other companies, we will cover those after we discuss FactoryTalk Metrics. We have worked with similar tools from most of the major companies and will do a compare and contrast post after we have gone into some detail across the board. </p>
 
 <p>To summarize, performance management systems give you the ability to ask questions about your operation whille at the same time giving you the information you need to answer those questions and prioritize improvements. The give you an honest assessment of your plant's health. While this may be difficult to stomach, if your plant needs some help wouldn't you want to know exactly what to fix to make it better?</p>
 
