@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-11-11T14:59:46-06:00</lastBuildDate>
-        <pubDate>2014-11-11T14:59:46-06:00</pubDate>
+        <lastBuildDate>2014-11-11T15:05:19-06:00</lastBuildDate>
+        <pubDate>2014-11-11T15:05:19-06:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -377,6 +377,152 @@
 
 </description>
                 <link>http://corsosystems.github.io/blog/twitter-ibm.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>1969-12-31T18:00:10-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>An Overview of FactoryTalk Metrics</title>
+                <description>&lt;p&gt;In today&#39;s world of fully automated production it can be difficult to turn process data into useful information. One way of doing this is by using Rockwell Automation&#39;s FactoryTalk Metrics package. In this series we will cover the basics of what Metrics does and its benefits, details on &lt;a href=&quot;/blog/factorytalk-metrics-backend.html&quot;&gt;implementation&lt;/a&gt;, and how to quickly realize the &lt;a href=&quot;/blog/factorytalk-metrics-data-analysis.html&quot;&gt;ROI&lt;/a&gt; on your investment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/metricsLogo.png&quot; width=&quot;280px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Turning Data into Information&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Many manufacturing companies cannot easily assess the health of their plants. This is rarely due to a lack of data. Process Historians collect real-time data and can be used to show trends over time, quality control data can be compared to those trends and even some KPIs can be calculated for the process as a whole. This system breaks down when raw data is the only resource available to provide the necessary insight to answer questions about operations.&lt;/p&gt;
+
+&lt;p&gt;Data fails to take into account micro-level details affecting macro-level performance. For example, with raw data alone it can be difficult to determine which machines are causing the most downtime, where bottlenecks are in the process and where quality losses are greatest. Determing the top 10 causes of downtime would require first collecting all of the data in one location, summing the downtime for all pieces of equipment, and ordering the list. If you are lucky you might be able to get all of this done before the phone rings with some other distractions.&lt;/p&gt;
+
+&lt;p&gt;How do people find ways to track their process, find the major issues, and get them resolved? One way is to use performance management systems such as FactoryTalk Metrics. These type of systems take the process data you are already collecting and provide the context necessary for the data to be useful as a decision making tool.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Deciding to Do Things Differently&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;The decision to implement a performance monitoring system can seem daunting. The cost of buying the software, the time involved in configuring things, learning a new system and integrating it into your workflow. While there are some costs associated with the system both in terms of time and resources, these systems can have a direct impact on your bottom line. One simple is example of this is by using the tools to identify and reduce the top 3 reasons for downtime in your plant, thus automatically increasing productivity. Our customers have made similar gains by decreasing processing time by identifying bottlenecks and reducing re-work and scrap by identifying faulty equipment.&lt;/p&gt;
+
+&lt;p&gt;In this series we will focus on FactoryTalk Metrics. We will answer some common questions about what FactoryTalk Metrics is, what it isn&#39;t, and discuss of the direct benefits our customers have found after using the tools. If you are looking at similar solutions from other companies, we will cover those after we discuss FactoryTalk Metrics. We have worked with similar tools from most of the major companies and will do a compare and contrast post after we have gone into some detail across the board. &lt;/p&gt;
+
+&lt;p&gt;To summarize, performance management systems give you the ability to ask questions about your operation whille at the same time giving you the information you need to answer those questions and prioritize improvements. The give you an honest assessment of your plant&#39;s health. While this may be difficult to stomach, if your plant needs some help wouldn&#39;t you want to know exactly what to fix to make it better?&lt;/p&gt;
+
+</description>
+                <link>http://corsosystems.github.io/blog/factorytalk-metrics-overview.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-08-11T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>FactoryTalk Metrics - The Backend</title>
+                <description>&lt;p&gt;Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. FactoryTalk Metrics operates the same way. Data from your process control system is brought into the Metrics using FactoryTalk Transaction Manager, stored in a SQL Server database and accessed in reports using Report Expert or along with real-time process data visualization using FactoryTalk VantagePoint.&lt;/p&gt;
+
+&lt;p&gt;In this post we will give you an overview of how FactoryTalk Metrics models your process and data is brought into the system. The next post  will discuss how to access the data using Report Expert and FactoryTalk VantagePoint in addition to integrating with other business systems you may be using.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Modeling Your Process&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;FactoryTalk Metrics allows you to logically model your entire process. This is done is by defining areas known as &quot;work cells&quot;. In a typical configuration a work cell would be mapped to a specific area of the process, for example, packaging or raw material feed. For each work cell you can track OEE and its components, downtime, throughput, and production cycle times in addition to various events from your process.&lt;/p&gt;
+
+&lt;p&gt;Work cells are comprised of various pieces of equipment. In a packaging work cell at a food and beverage facility you may have a former, a filler, a sealer, and a metal detector. You can track downtime, throughput, cycle time, and events for each piece of equipment in your work cell.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/plantModel.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;FactoryTalk Metrics also allows you to enter your production schedules, shifts and planned downtime. Utilizing your actual production schedules allows you to analyze data by shift, crew, and by date giving you the ability to further understand how your entire plant, including personnel, is doing.&lt;/p&gt;
+
+&lt;p&gt;By utilizing work cells and production scheduling to model your facility you can use FactoryTalk Metrics to get a detailed view of every piece of equipment in your entire facility during all of your scheduled production runs. You also have the ability to monitor how each piece of equipment contributes to your process losses. This removes operator error in tracking process upsets and gives you a true view of the health of your plant.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Tracking Your Process&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Work cells and equipment utilize events to trigger downtime start/end times, track throughput and changes in cycle times. This allows you to configure complex conditions for tracking downtime including when upstream or downstream issues cause production losses at any point in the process. Each event can utilize manually entered information, including reason codes.&lt;/p&gt;
+
+&lt;p&gt;The true power of events comes into play when you implement automatic reason code tracking. This feature allows you to easily determine when your process went down, what piece(s) of equpiment took it down, and the exact reason for the problem. This allows you to understand, on great detail, the cause of your most common production losses, allowing you to quickly and clearly prioritize maintenance and process changes to affect your bottom line.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/events.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All of the data tracked by FactoryTalk Metrics is accessible using the included &lt;a href=&quot;/blog/factorytalk-metrics-data-analysis.html&quot;&gt;analysis tools&lt;/a&gt; and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Communicating With Your Process&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;/img/transMgr.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The central nervous system of FactoryTalk Metrics is FactoryTalk Transaction Manager. The data from your PLCs can be stored directly into a SQL Server database using FactoryTalk Transaction Manager. This allows you to populate the FactoryTalk Metrics database, and also to get real-time process data directly into any of your other SQL Server based systems without having to go through a Process Historian. Granted you don&#39;t want to store all of your process data this way, still it is extremely useful to save some manual data entry into you ERP system for example.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;A Full-Service Performance Management Solution&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Implementing FactoryTalk Metrics gives you accurate, real-time tracking of your processes&#39; performance and the tools you need to analyze and improve operations. In addition to tracking OEE and its components, downtime, throughput, and cycle time, you can incorporate data from your PLCs directly into any of your other SQL Server based systems using FactoryTalk Transaction Manager.&lt;/p&gt;
+
+&lt;p&gt;FactoryTalk Metrics is an easy to configure and use tool capable of giving you the ability to understand and manage your process at an extremely detailed level.&lt;/p&gt;
+
+</description>
+                <link>http://corsosystems.github.io/blog/factorytalk-metrics-backend.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-10-11T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>FactoryTalk Metrics Data Analysis</title>
+                <description>&lt;p&gt;After implementing your process model in FactoryTalk Metrics you want a way to access your performance data. Report Expert provides a quick and simple way to access the most common data used to assess plant performance with pre-configured reports capable of tracking your entire process or filtering down to any level of detail to answer your most important questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/reportExample.png&quot; width=&quot;430px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Reports&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;One of the main benefits of FactoryTalk Metrics is how quickly you can view actionable data from the system. Using the Report Expert package, in a matter of minutes you can have access to 69 pre-configured reports filterable by just about any metric you can imagine. These reports allow you to drill down to the finest level of detail on any piece of equipment to understand the exact causes for production losses at any point in time.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/reportTree.png&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to the out-of-the-box reports you have full access to modify the existing reports or create your own from scratch. Custom reports can also be used to display information from other systems you may be using, giving you even greater access to information across your entire organization.&lt;/p&gt;
+
+&lt;p&gt;These reports can also easily be auto-generated and sent out to key-personnel in your organization. No longer will you need to spend hours going through process logs, tracking incomplete records on downtime, and trying to understand notes from an operator on hour 7 of a graveyard shift to put together an Excel spreadsheet to calculate overall losses. You can instead show up at the beginning of your shift with a clear view of exactly what your process did the previous day.&lt;/p&gt;
+
+&lt;p&gt;Sorting all of your events by reason codes will give you the insight into what needs to be fixed and the exact impact those efforts will have on production. With this information in hand you can easily go from putting out fires to focus on continuous improvement.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Trending&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;In addition to reports you can display all of the data from your FactoryTalk Metrics system in FactoryTalk VantagePoint with less time to configure than it takes to make your morning coffee. If you have a process historian you can put process and Metrics data on one trend allowing you to understand exactly what your process was doing prior to any events. The power in this scenario lies in the ability to begin to notice issues long before they happen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/vantagePointScreen.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One real-world example from one of our customers is at a powder processing facility. They noticed the pumps used to move powder from drying to processing were shutting down on a regular basis causing large amounts of downtime. The issue was as the powder was pushed through the pipes sometimes it would start to clog and if left unchecked for the rest of the shift would cause blockages and the pumps to trip on over-current.&lt;/p&gt;
+
+&lt;p&gt;After understanding the cause of the issue and tracking when the equipment went down alongside real-time data, the engineer noticed that between 2 and 3 hours prior to the fan tripping off the amperage had a slight spike with a correlating pressure drop at the pipe exit shortly thereafter. This information was implemented as an event with automatic notification for maintenance to clear the blockage at the next break. This nearly eliminated this issue as a cause for downtime immediately increasing the plant&#39;s average production.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Business System Integration&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;If you have any systems elsewhere in your business you can easily integrate FactoryTalk Metrics information into their workflows. Maybe process downtime directly affects product quality testing schedules. You can notify your quality technicians of process upsets on particular product runs allowing them to schedule their time more effectively. Another example might be when product quality directly affects when shipments will go out and the shipping department can be immediately notified of delays so they can manage customer expectations as soon as necessary to maintain customer agreements.&lt;/p&gt;
+
+&lt;p&gt;Integrating with your business systems is likely more complicated than implementing FactoryTalk Metrics in the first place, however you can work with your IT staff or outside developers to access this data directly from the database. We have leveraged this capability for many of our customers with great success. All of the data is available for you to use and there is excellent documentation on how everything is laid out making it easy to access the information to provide value to your entire organization.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;T-Minus Time to Success&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Implementing the reporting and analysis tools for FactoryTalk Metrics is a very quick process. Using the pre-built reports in Report Expert gives you access to the most common pieces of information used to impact your bottom line. If something is not immediately available in the stock reports you can easily build your own custom reports.&lt;/p&gt;
+
+&lt;p&gt;Possibly the most important question you can answer is why wouldn&#39;t you want to have access to all of the information about your process? If you could increase capacity, reduce costs, and enable continuous improvement using the equipment you already have along with better information would that better your bottom line?&lt;/p&gt;
+
+</description>
+                <link>http://corsosystems.github.io/blog/factorytalk-metrics-data-analysis.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-12-11T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Summarizing FactoryTalk Metrics</title>
+                <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/metricsLogoSummary.png&quot; width=&quot;430px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;As we discussed in the two previous posts (&lt;a href=&quot;/blog/factorytalk-metrics-overview.html&quot;&gt;part 1&lt;/a&gt;, &lt;a href=&quot;/blog/factorytalk-metrics-backend.html&quot;&gt;part 2,&lt;/a&gt; and &lt;a href=&quot;/blog/factorytalk-metrics-data-analysis.html&quot;&gt;part 3&lt;/a&gt;) FactoryTalk Metrics is a powerful, easy-to-use performance management system.&lt;/p&gt;
+
+&lt;p&gt;Like other performance management systems FactoryTalk Metrics turns your process&#39; data into information allowing you to increase production and quality, and reduct costs by using existing equipment and labor more effectively.&lt;/p&gt;
+
+&lt;p&gt;FactoryTalk Metrics takes the burden of tracking down your data and performing the calculations to summarize production losses, downtime, and OEE off of your shoulders, freeing you to tackle the tasks you need to focus on to succeed.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Quick to Implement&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;As part of the FactoryTalk family of products, Metrics is extremely easy to implement. Once the software is installed and you can communicate with your PLCs using the FactoryTalk administration console getting your data into the system is a quick process.&lt;/p&gt;
+
+&lt;p&gt;Leveraging your understanding of your production lines and schedules implementing work cells, equipment models, and events can be a one time procedure giving you full access to everything you need to realize the benefits or can be broken up into phases giving you the ability to scale the system as you become more familiar with its capabilities.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Easy to Maintain&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Once the system is up and running you should never have to look at the backend again, that is until you want to expand the system to more areas of your process. When that time comes it is as simple as configuring new work cells and equipment. All of your data will then be available through your reports with no additional effort on your part.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Flexible and Reliable&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;A FactoryTalk Metrics system can be as small or as large as you need it to be. As your plant grows your need for information will expand as well. Metrics gives you the ability to use the same system to easily collect all of your data and more easily access all of the information using the reports you are already familiar with.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;FactoryTalk Metrics is a powerful tool you can use to improve your operations without having to invest lots of resources in expansion and engineering. Please feel free to &lt;a href=&quot;mailto:alex@corsosystems.com?Subject=FactoryTalk%20Metrics&quot;&gt;reach out to us&lt;/a&gt; if you have any questions or would like to understand how Metrics can give you the information you&#39;ve been looking for to take your plant to the next level.&lt;/p&gt;
+</description>
+                <link>http://corsosystems.github.io/blog/summarizing-factorytalk-metrics.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>1969-12-31T18:00:10-06:00</pubDate>
         </item>
