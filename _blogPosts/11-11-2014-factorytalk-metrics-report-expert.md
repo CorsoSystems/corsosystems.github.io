@@ -8,7 +8,7 @@ image: "/img/reportExample.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>After implementing your process model in FactoryTalk Metrics you want a way to access your performance data. Report Expert provides a quick and simple way to access the most common data used to assess plant performance with pre-configured reports capable of tracking your entire process or filtering down to any level of detail to answer your most important questions.</p>"
-date: "11-12-2014"
+date: "11-11-2014"
 ---
 
 <p>After implementing your process model in FactoryTalk Metrics you want a way to access your performance data. Report Expert provides a quick and simple way to access the most common data used to assess plant performance with pre-configured reports capable of tracking your entire process or filtering down to any level of detail to answer your most important questions.</p>
