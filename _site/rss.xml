@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-11-11T15:05:19-06:00</lastBuildDate>
-        <pubDate>2014-11-11T15:05:19-06:00</pubDate>
+        <lastBuildDate>2014-11-12T16:29:22-06:00</lastBuildDate>
+        <pubDate>2014-11-12T16:29:22-06:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -450,6 +450,39 @@
                 <link>http://corsosystems.github.io/blog/factorytalk-metrics-backend.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>2014-10-11T00:00:00-05:00</pubDate>
+        </item>
+
+        <item>
+                <title>Your job is so easy a computer can do it.</title>
+                <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;img src=&quot;/img/robot.jpg&quot; width=&quot;430px&quot;/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;p&gt;It&#39;s a hot topic up for debate, are grocery stores justified in installing self-check out systems? Do pharmacies have the right to eliminate your pharmacist in favor of a robot arm? What about Google&#39;s self-driving cars in place of taxi cab drivers?&lt;/p&gt;
+
+&lt;p&gt;Needless to say there&#39;s no right or wrong answer, but there are a few things to consider before jumping to a conclusion. Let&#39;s look at a self-checkout system at a grocery store. &lt;/p&gt;
+
+&lt;p&gt;Unless you live under a rock you have probably used a self-check out system at your local grocery store, chances are you had to run in for a few things and didn&#39;t feel like waiting in line behind the people who&#39;s carts were stacked sky high. Often times grocery stores are only running a few of their many checkout lines so you opt for a self-check out. My experiences have been mostly positive, I scan my items, pay, and am walking out much faster than I would have if I waited in line. It almost seems too good to be true, customers are happy and your checkout process is more efficient, but let&#39;s take a closer look.&lt;/p&gt;
+
+&lt;p&gt;It turns out the self-check out systems, aren&#39;t a exactly win-win for owners. One of the major issues with these systems is theft. According to a recent survey from the U.K., Retail Wire reports, &quot;approximately 19 percent of shoppers admit to stealing from self-checkouts with the majority of those claiming they did so regularly. Around 57% of those indicated they first started stealing at self-checkouts because they couldn&#39;t get the items to scan.&quot; via &lt;a href=&quot;http://www.retailwire.com/discussion/17529/self-checkout-theft-is-habit-forming&quot;&gt;Self-checkout theft is habit forming.&lt;/a&gt;
+
+&lt;p&gt;Can we blame people for bagging items that wouldn&#39;t scan? That&#39;s another discussion entirely, but while the self-checkouts are faster, they&#39;re not necessarily more efficient if they allow theft. On the surface self-checkouts seemed like a no brainier, but after looking a little bit closer we can see just how valuable a human is as opposed to a computer in the grocery line.&lt;/p&gt;
+
+&lt;img src=&quot;/img/robothandshake.jpg&quot; width=&quot;430px&quot;/&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;The truth is that a lot of these technologies are not developed enough to be put into mainstream use without a human controlling or managing them. Pharmacies are toying with the idea of an automated pharmacist, but there&#39;s no technology even close to replacing a human. Google&#39;s self-driving cars are awesome, but can&#39;t drive anywhere that&#39;s not predetermined by a bunch of route planning done by senors and other humans driving the route first. The best automation is the kind that assists humans in doing their job.&lt;/p&gt;
+
+&lt;p&gt;One of the things we strive for as an integrator is not sacrificing humans for a more efficient process. This doesn&#39;t work out in the long run, we believe machines should be doing the jobs that people wish machines could have done years ago and help a company meet demand. For example, a bottling line machine that produces 500 bottles per minute as opposed multiple people trying to bottle enough beer to meet demand is a great thing. Allowing companies to have the technology they need to grow, expand, and hire more people to run the machines is what automation and integration is all about.
+
+&lt;p&gt;At the end of the day we aren&#39;t at the technological level of robots independently running society and we&#39;re sure nowhere near Terminator or the Matrix, as much as I would love rebelling against the robot empire. For now you can put away your tin-foil hats and grab a programing book, because one thing I know for sure is that computer automation isn&#39;t going anywhere so why not be ahead of the curve? &lt;/p&gt;
+
+
+</description>
+                <link>http://corsosystems.github.io/blog/automation_and_jobs.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-11-12T00:00:00-06:00</pubDate>
         </item>
 
         <item>
