@@ -8,7 +8,7 @@ image: "/img/metricsLogo.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>In today's world of fully automated processing it can be difficult to turn process data into useful information. One way of doing this is by using Rockwell Automation's FactoryTalk Metrics solution. In this series we will cover the basics of what Metrics does and its benefits, detail on implementation, and how to quickly realize the ROI on your investment.</p>"
-date: "11-08-2014"
+date: "8-11-2014"
 ---
 
 <p>In today's world of fully automated production it can be difficult to turn process data into useful information. One way of doing this is by using Rockwell Automation's FactoryTalk Metrics package. In this series we will cover the basics of what Metrics does and its benefits, details on <a href="/blog/factorytalk-metrics-backend.html">implementation</a>, and how to quickly realize the <a href="/blog/factorytalk-metrics-data-analysis.html">ROI</a> on your investment.</p>

@@ -8,7 +8,7 @@ image: "/img/digifactory.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>Many companies have a handful of systems they use to run their day-to-day operations. Production scheduling, process data from the plant floor, shipping and receiving management, staff scheduling, etc. Most of the time these systems are implemented at different points of a company's lifecycle and are not designed with the other systems in mind. With today's technology making it easy to integrate systems into a cohesive tool, see how you can get more value from your existing infrastructure.</p>"
-date: "10-23-2014"
+date: "23-10-2014"
 ---
 
 <p>Many companies have a handful of systems they use to run their day-to-day operations. Production scheduling, process data from the plant floor, shipping and receiving management, staff scheduling, etc. Most of the time these systems are implemented at different points of a company's lifecycle and are not designed with the other systems in mind. With today's technology making it easy to integrate systems into a cohesive tool, see how you can get more value from your existing infrastructure.</p>

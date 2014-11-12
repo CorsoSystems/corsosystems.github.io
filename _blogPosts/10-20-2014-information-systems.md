@@ -10,7 +10,7 @@ author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 thumbnail: "/img/bottlingline.jpg"
 blurb: "<p>Learn how process data systems can enable you to track your brewing operation more effectively.</p>"
-date: "10-20-2014"
+date: "2	0-10-2014"
 ---
 
 <p>Learn how process data systems can enable you to track your brewing operation more effectively.</p>

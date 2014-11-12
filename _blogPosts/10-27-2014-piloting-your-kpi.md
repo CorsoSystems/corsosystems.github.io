@@ -8,7 +8,7 @@ image: "/img/sugar.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>Implementing a KPI based performance monitoring program can be a complicated process. Learn how you can start small and avoid common pitfalls companies run into when rolling out a comprehensive system all at once.</p>"
-date: "10-27-2014"
+date: "27-10-2014"
 ---
 
 <p>Implementing a KPI based performance monitoring program can be a complicated process. Learn how you can start small and avoid common pitfalls companies run into when rolling out a comprehensive system all at once.</p>

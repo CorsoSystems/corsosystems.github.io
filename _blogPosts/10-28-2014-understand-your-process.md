@@ -8,7 +8,7 @@ image: "/img/flowchartmenu.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>The first step in measuring your performance is to understand what you are measuring. By learning and documenting your processes you can easily identify key results to use in your performance monitoring efforts.</p>"
-date: "10-28-2014"
+date: "28-10-2014"
 ---
 
 <p>The first step in measuring your performance is to understand what you are measuring. By learning and documenting your processes you can easily identify key results to use in your performance monitoring efforts.</p>

@@ -8,7 +8,7 @@ image: "/img/kpiintro.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>Most companies have complex processes. Keeping everyone up to date on every aspect of operations can take a lot of time and lead to lots of confusion. Find out what many companies have found to be a better way.</p>"
-date: "10-26-2014"
+date: "26-10-2014"
 ---
 
 <p>Most companies have complex processes. Keeping everyone up to date on every aspect of operations can take a lot of time and lead to lots of confusion. Find out what many companies have found to be a better way to track performance.</p>

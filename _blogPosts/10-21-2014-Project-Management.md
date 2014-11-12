@@ -9,7 +9,7 @@ image: "/img/flowchart.jpg"
 author: "Mike Cammarato"
 author-email: "mike@corsosystems.com"
 blurb: "<p>Gain a deeper understanding of how project management software strengthens communication and does the hard work for you.</p>"
-date: "10-21-2014"
+date: "21-10-2014"
 ---
 
 <p>Often times projects don't get completed on time or under budget. Learn how project management software can keep your team in the loop and your project on track.</p>
