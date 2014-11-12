@@ -1,7 +1,7 @@
 ---
 layout: blog_post
-title: "Your Job Is So Easy A Computer Can Do It."
-page_title: "Your Job Is So Easy A Computer Can Do It."
+title: "Your Job is So Easy A Computer Can Do It."
+page_title: "Your Job is So Easy A Computer Can Do It."
 tags: ["Educate"]
 permalink: /blog/automation_and_jobs.html
 image: "/img/robot.jpg"
