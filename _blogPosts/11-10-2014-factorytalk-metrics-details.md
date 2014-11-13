@@ -11,7 +11,7 @@ blurb: "<p>FactoryTalk Metrics has three major components, the database, process
 date: "11-11-2014"
 ---
 
-<p>Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. FactoryTalk Metrics operates the same way. Data from your process control system is brought into the Metrics using FactoryTalk Transaction Manager, stored in a SQL Server database and accessed in reports using Report Expert or along with real-time process data visualization using FactoryTalk VantagePoint.</p>
+<p>Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. FactoryTalk Metrics operates the same way. Data from your process control system is brought into Metrics using FactoryTalk Transaction Manager, stored in a SQL Server database and accessed in reports using Report Expert or along with real-time process data visualization using FactoryTalk VantagePoint.</p>
 
 <p>In this post we will give you an overview of how FactoryTalk Metrics models your process and data is brought into the system. The next post  will discuss how to access the data using Report Expert and FactoryTalk VantagePoint in addition to integrating with other business systems you may be using.</p>
 <br/>
