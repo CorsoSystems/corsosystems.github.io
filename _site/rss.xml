@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-11-12T17:06:59-06:00</lastBuildDate>
-        <pubDate>2014-11-12T17:06:59-06:00</pubDate>
+        <lastBuildDate>2014-11-13T16:27:01-06:00</lastBuildDate>
+        <pubDate>2014-11-13T16:27:01-06:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -411,7 +411,7 @@
 
         <item>
                 <title>FactoryTalk Metrics - The Backend</title>
-                <description>&lt;p&gt;Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. FactoryTalk Metrics operates the same way. Data from your process control system is brought into the Metrics using FactoryTalk Transaction Manager, stored in a SQL Server database and accessed in reports using Report Expert or along with real-time process data visualization using FactoryTalk VantagePoint.&lt;/p&gt;
+                <description>&lt;p&gt;Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. FactoryTalk Metrics operates the same way. Data from your process control system is brought into Metrics using FactoryTalk Transaction Manager, stored in a SQL Server database and accessed in reports using Report Expert or along with real-time process data visualization using FactoryTalk VantagePoint.&lt;/p&gt;
 
 &lt;p&gt;In this post we will give you an overview of how FactoryTalk Metrics models your process and data is brought into the system. The next post  will discuss how to access the data using Report Expert and FactoryTalk VantagePoint in addition to integrating with other business systems you may be using.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -558,6 +558,34 @@
                 <link>http://corsosystems.github.io/blog/automation_and_jobs.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>2014-11-12T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>How Siemens' Performance Management solutions Can Improve Your Bottom Line</title>
+                <description>&lt;p&gt;In today&#39;s world of fully automated production it can be difficult to turn process data into useful information. One way of doing this is by using Siemen&#39;s WinCC Performance Monitor in conjunction with Simatic Information Server. In this series we will cover the basics of these tools their benefits, details on &lt;a href=&quot;/blog/wincc-performance-monitor.html&quot;&gt;implementation&lt;/a&gt;, and how to quickly realize the &lt;a href=&quot;/blog/simatic-information-server.html&quot;&gt;ROI&lt;/a&gt; on your investment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/perfMonLogo.png&quot; width=&quot;280px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Turning Data into Information&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Many manufacturing companies cannot easily assess the health of their plants. This is rarely due to a lack of data. Process Historians collect real-time data and can be used to show trends over time, quality control data can be compared to those trends and even some KPIs can be calculated for the process as a whole. This system breaks down when raw data is the only resource available to provide the necessary insight to answer questions about operations.&lt;/p&gt;
+
+&lt;p&gt;Data fails to take into account micro-level details affecting macro-level performance. For example, with raw data alone it can be difficult to determine which machines are causing the most downtime, where bottlenecks are in the process and where quality losses are greatest. Determing the top 10 causes of downtime would require first collecting all of the data in one location, summing the downtime for all pieces of equipment, and ordering the list. If you are lucky you might be able to get all of this done before the phone rings with some other distractions.&lt;/p&gt;
+
+&lt;p&gt;How do people find ways to track their process, find the major issues, and get them resolved? One way is to use performance management systems such as WinCC Performance Manager and Simatic Information Server. These type of systems take the process data you are already collecting and provide the context necessary for the data to be useful as a decision making tool.&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;Deciding to Do Things Differently&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;The decision to implement a performance monitoring system can seem daunting. The cost of buying the software, the time involved in configuring things, learning a new system and integrating it into your workflow. While there are some costs associated with the system both in terms of time and resources, these systems can have a direct impact on your bottom line. One simple is example of this is by using the tools to identify and reduce the top 3 reasons for downtime in your plant, thus automatically increasing productivity. Our customers have made similar gains by decreasing processing time by identifying bottlenecks and reducing re-work and scrap by identifying faulty equipment.&lt;/p&gt;
+
+&lt;p&gt;In this series we will focus on Siemens&#39; WinCC Performance Monitor and Simatic Information Server. We will answer some common questions about what these tools have to offer and discuss of the direct benefits our customers have found after using them. If you are looking at similar solutions from other companies, we will cover continue to cover those in later posts. &lt;/p&gt;
+
+&lt;p&gt;To summarize, performance management systems give you the ability to ask questions about your operation whille at the same time giving you the information you need to answer those questions and prioritize improvements. The give you an honest assessment of your plant&#39;s health. While this may be difficult to stomach, if your plant needs some help wouldn&#39;t you want to know exactly what to fix to make it better?&lt;/p&gt;
+
+</description>
+                <link>http://corsosystems.github.io/blog/simatic-performance-management-overview.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-11-14T00:00:00-06:00</pubDate>
         </item>
 
 
