@@ -8,7 +8,7 @@ image: "/img/metricsLogoSummary.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>After looking at all of the components of FactoryTalk Metrics, we will summarize the key benefits of using Metrics as a performance management solution for your plant.</p>"
-date: "28-10-2014"
+date: "19-11-2014"
 ---
 
 <p></p>
