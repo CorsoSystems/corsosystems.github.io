@@ -8,7 +8,7 @@ image: "/img/winccDataOverview.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>Siemens' performance management suite has three major components, the database, process communications and reporting/analysis. This post details the database and communications systems and how they can be used to integrate WinCC Performance Monitor into your process.</p>"
-date: "17-11-2014"
+date: "14-11-2014"
 ---
 
 <p>Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. WinCC Performance Monitor operates the same way. Data from your process control system is brought into the system using the WinCC data manager, stored in a SQL Server database and accessed in reports using Simatic Information Server.</p>
