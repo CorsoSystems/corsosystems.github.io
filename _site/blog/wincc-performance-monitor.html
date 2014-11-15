@@ -4,17 +4,17 @@
   <head>
     <meta charset="utf-8">
     
-      <meta property="og:image" content="http://corsosystems.com/img/digifactory.jpg"/>
+      <meta property="og:image" content="http://corsosystems.com/img/winccDataOverview.png"/>
       <meta property="og:type" content="image"/>
-      <meta property="og:url" content="http://corsosystems.com/blog/bridging-the-gap.html"/>
+      <meta property="og:url" content="http://corsosystems.com/blog/wincc-performance-monitor.html"/>
       <meta name="twitter:card" content="summary">
       <meta name="twitter:site" content="@corsosystems">
       <meta name="twitter:creator" content="@corsosystems">
-      <meta name="twitter:title" content="Breaking Down the Walls of Your Information Silos">
-      <meta name="twitter:description" content="<p>Many companies have a handful of systems they use to run their day-to-day operations. Production scheduling, process data from the plant floor, shipping and receiving management, staff scheduling, etc. Most of the time these systems are implemented at different points of a company's lifecycle and are not designed with the other systems in mind. With today's technology making it easy to integrate systems into a cohesive tool, see how you can get more value from your existing infrastructure.</p>">
-      <meta name="twitter:image:src" content="http://corsosystems.com/img/digifactory.jpg">
+      <meta name="twitter:title" content="WinCC Performance Monitor">
+      <meta name="twitter:description" content="<p>Siemens' performance management suite has three major components, the database, process communications and reporting/analysis. This post details the database and communications systems and how they can be used to integrate WinCC Performance Monitor into your process.</p>">
+      <meta name="twitter:image:src" content="http://corsosystems.com/img/winccDataOverview.png">
     
-    <title>Bridging the Gap</title>
+    <title>WinCC Performance Monitor</title>
     
     <meta name="author" content="Corso Systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,61 +91,50 @@
           <div class="col-md-10 col-md-offset-1" style="background:#ffffff;border-radius:5px;">
           <div class="col-md-7" style="padding:0px;border-right:1px solid #cccccc;">
           <div style="text-align:left;background:#ffffff;color:#f43e00;padding:1px 10px 8px 10px;">
-            <h2>Breaking Down the Walls of Your Information Silos</h2>
+            <h2>WinCC Performance Monitor</h2>
           </div>
           <div style="border:1px solid #ececec;width:100%;float:right;"></div>
           <div class="row" style="text-align:left;padding-left:25px;">
             
-          <span style="float:left;width:50%;"><h6>By: Alex Marcy on October 23, 2014</h6></span><span style="float:right;padding-right:30px;"><h6>Tagged: 
-    Empower
+          <span style="float:left;width:50%;"><h6>By: Alex Marcy on November 14, 2014</h6></span><span style="float:right;padding-right:30px;"><h6>Tagged: 
+    Educate
 </h6></span>
        
         </div>
         <div style="border:1px solid #ececec;width:100%;float:right;"></div>
           <div style="text-align:left;padding:0px 10px 1px 10px;background:#ffffff;">
             <br/>
-          <p>Many companies have a handful of systems they use to run their day-to-day operations. Production scheduling, process data from the plant floor, shipping and receiving management, staff scheduling, etc. Most of the time these systems are implemented at different points of a company's lifecycle and are not designed with the other systems in mind. With today's technology making it easy to integrate systems into a cohesive tool, see how you can get more value from your existing infrastructure.</p>
+          <p>Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. WinCC Performance Monitor operates the same way. Data from your process control system is brought into the system using the WinCC data manager, stored in a SQL Server database and accessed in reports using Simatic Information Server.</p>
 
-<p><img src="/img/digifactory.jpg" width="430px" />
-<br />
-<br /></p>
-<h5><b>A Mile in Your Shoes</b></h5>
-<p>When we go to a facility for the first time we put ourselves in your shoes as we seek to understand your culture, people, and processes. We tend to find a few common, interesting things:</p>
+<p>In this post we will give you an overview of how WinCC Performance Monitor models your process and data is brought into the system. The next post  will discuss how to access the data using Simatic Information Server in addition to integrating with other business systems you may be using.</p>
+<p><br /></p>
+<h5><b>Modeling Your Process</b></h5>
+<p><img src="/img/perfMonTree.png" width="430px" /></p>
+<p>WinCC Performance Monitor allows you to easily model your process equipment and processing lines. This is done is by defining overall equipment types or process areas and instantiating these types with instances for each piece equipment in your plant.</p>
 
-<ul>
-	<li>Work orders are usually on a sheet of paper physically located at operator workstations</li>
-	<li>Inefficient communication throughout the entire process - from customer orders to the production floor all the way through order fulfillment</li>
-	<li>Machine maintenance being done too often or not often enough, causing too much planned or unplanned downtime</li>
-	<li>Delays in the process not being communicated back to production scheduling causing an increase in lead times</li>
-	<li>Quality control staff asking production staff for process data information costing time on both sides of the equation</li>
-</ul>
+<p>In addition to creating template types for your euqipment, you can associate datapoints from your process to your model allowing you calculate OEE or any other KPI you can come up with. You can create custom KPIs with customizable calculations to meet any reporting or analysis requirements you might have.</p>
 
-<p>Many of these issues cause delays in order fulfillment and ultimately increase workload and stress on your staff. This not only can lead to mandatory overtime to meet production demand while still maintaining the delivery schedule, but also to not meeting customer expectations and possibly hurting relationships.</p>
+<p><img src="/img/perfMonKPIs.png" width="430px" /></p>
+<p>Using your WinCC HMI application allows you to enter your production schedules, shifts, planned downtime and other manual data into the system. Utilizing your actual production schedules allows you to analyze data by shift, crew, and by date giving you the ability to further understand how your entire plant, including personnel, is doing.</p>
 
-<p>Enter the concept of the digital factory. By utilizing fully-integrated systems and mobile technology, production efficiency and employee effectiveness can operate at their highest potential. Let's take a look at a few ideas of how intelligent systems can streamline your operation:</p>
+<p>By utilizing the detailed modeling capabilities of WinCC Performance Monitor you are able to generate standard metrics such as OEE and production throughput while also having the ability to incorporate manually entered data to generate any KPI you could possibly need to monitor.</p>
 
-<p><b>Communication Across the Organization</b></p>
-<ul>
-    <li><b>Notification:</b> Communication can happen automatically, alerting staff on a periodic or real-time basis about changes in production, maintenance issues, process metrics and KPIs</li>
-    <li><b>Documentation:</b> Information on how to handle process upsets, workflow manuals or any other required documentation can be built directly into your systems no longer requiring operators to leave their station to ask a question</li>
-    <li><b>Information:</b> Process data can be made available from the shop to the top floor including QA/QC, shipping, sales, and management keeping everyone up-to-date at a level of granularity specific to their needs</li>
-    <li><b>Organization:</b> If you have more than one facility everyone in your entire company can keep up to date with all of your production facilities.<br />You can also limit access to any portion of the system to specific employees, giving everyone access to the information they need to see, when they need to see it</li>
-</ul>
+<p><br /></p>
+<h5><b>Tracking Your Process</b></h5>
+<p>WinCC Performance Monitor uses actual process data to track things like downtime and production losses. You can implement complex hiearchies to track the effect of upstream or downstream process upsets. You can also generate automatic reason codes for process events or manually enter them after the fact, enabling you to easily find the most common issues your plant faces.</p>
 
-<p><b>Training and Best Practices</b></p>
-<ul>
-    <li><b>Tutorials:</b> Training materials can be easily accessible when they are immediately useful making it easy for operators to accomplish periodic tasks in a timely manner and make it easy to cross train other employees on any job function</li>
-    <li><b>Internal Wiki:</b> Best practices, detailed instructions and institutional knowledge can all be recorded making it easy to keep everyone up to speed on how things should be done at your company</li>
-</ul>
+<p>All of the data tracked by Performance Monitor is accessible in WinCC with standard trending and dashboard controls or using <a href="/blog/simatic-information-server.html">Simatic Information Server</a> and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.</p>
 
-<p><b>Worker Productivity</b></p>
-<ul>
-    <li><b>Maintenance:</b> Your work order system can be directly integrated into plant floor data to automatically generate work orders as they are needed per manufacturer's specifications reducing under or over-maintaining equipment.<br />Maintenance personnel can update and manage work orders with automatic notification to operators and other personnel as maintenance work is completed</li>
-    <li><b>Operations:</b> Your operations staff can quickly see when process upsets will affect their workflow, as well as generate and monitor maintenance work-orders directly from their stations</li>
-	<li><b>Metrics:</b> In-app dashboards can show metrics for your facility keeping them front-of-mind for your staff. <br />These metrics can include the KPIs you already use to track the health of your operation with the added benefit of brining up historical data to compare to previous production shifts at any time</li> 
-</ul>
+<p><br /></p>
+<h5><b>Communicating With Your Process</b></h5>
+<p>Data from your process is brought into WinCC Performance Monitor directly from your WinCC HMI application. You don't need to configure a separate communication system like on some other platforms. This reduces the amount of time to implement the system as well as reducing the amount of time to troubleshoot any communication issues in the first place.</p>
 
-<p>These are just a handful of the potentially unlimited number of ideas on how you can utilize a fully integrated, intelligent system at your organization. When you empower your people to do their job more effectively you will see improvement in the KPIs and metrics you use to monitor the health of your operation. This can result in happier customers, employees and improve your bottom line by better utilizing the data you already have available.</p>
+<p><br /></p>
+<h5><b>A Full-Service Performance Management Solution</b></h5>
+<p>Implementing WinCC Performance monitor gives you accurate, real-time tracking of your processes' performance and the tools you need to analyze and improve operations directly in your HMI. In addition to tracking OEE and its components, downtime, throughput, and cycle time, you can create any KPI you could possibly need with the ability to create your own calculations.</p>
+
+<p>WinCC Performance Monitor is an easy to configure and use tool capable of giving you the ability to understand and manage your process at an extremely detailed level.</p>
+
 
         </div>
         </div>
