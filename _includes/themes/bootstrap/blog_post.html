@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-5" style="background:#ffffff;text-align:left;">
           <h4 style="color:#f43e00;">Recent Posts:</h4>
-          {% for post in site.blogPosts reversed limit:3 %}
+          {% for post in site.blogPosts reversed offset:10 limit:3%}
           <div class="row" style="text-align:left;">
           <div class="col-md-5">
             <a href="{{post.permalink}}"><img src="{{post.image}}" style="width:100%;"/></a>
@@ -32,7 +32,7 @@
           <div class="col-md-7" style="text-align:left;">
             <h5><a href="{{post.permalink}}">{{post.page_title}}</a></h5>
             
-            <h6>{{post.date}}</h6>
+            <h6>{{post.date | date: '%m/%d/%y'}}</h6>
           </div>
         </div>
         <br/>
