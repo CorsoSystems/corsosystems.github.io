@@ -104,15 +104,15 @@
         <div style="border:1px solid #ececec;width:100%;float:right;"></div>
           <div style="text-align:left;padding:0px 10px 1px 10px;background:#ffffff;">
             <br/>
-          <p>Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. WinCC Performance Monitor operates the same way. Data from your process control system is brought into the system using the WinCC data manager, stored in a SQL Server database and accessed in reports using Simatic Information Server.</p>
+          <p>Most systems your company uses are going to have a few common components. You need a way to get data into the system, a way to analyze that data, and a way to view the results. WinCC Performance Monitor operates the same way. Data from your process control system is brought into the system using the WinCC data manager, stored in a SQL Server database and accessed in reports using Simatic Information Server.</p>
 
-<p>In this post we will give you an overview of how WinCC Performance Monitor models your process and data is brought into the system. The next post  will discuss how to access the data using Simatic Information Server in addition to integrating with other business systems you may be using.</p>
+<p>In this post we will give you an overview of how WinCC Performance Monitor models your process and data is brought into the system. The next post will discuss how to access the data using Simatic Information Server in addition to integrating with other business systems you may be using.</p>
 <p><br /></p>
 <h5><b>Modeling Your Process</b></h5>
 <p><img src="/img/perfMonTree.png" width="430px" /></p>
 <p>WinCC Performance Monitor allows you to easily model your process equipment and processing lines. This is done is by defining overall equipment types or process areas and instantiating these types with instances for each piece equipment in your plant.</p>
 
-<p>In addition to creating template types for your euqipment, you can associate datapoints from your process to your model allowing you calculate OEE or any other KPI you can come up with. You can create custom KPIs with customizable calculations to meet any reporting or analysis requirements you might have.</p>
+<p>In addition to creating template types for your equipment, you can associate datapoints from your process to your model allowing you calculate OEE or any other KPI you can come up with. You can create custom KPIs with customizable calculations to meet any reporting or analysis requirements you might have.</p>
 
 <p><img src="/img/perfMonKPIs.png" width="430px" /></p>
 <p>Using your WinCC HMI application allows you to enter your production schedules, shifts, planned downtime and other manual data into the system. Utilizing your actual production schedules allows you to analyze data by shift, crew, and by date giving you the ability to further understand how your entire plant, including personnel, is doing.</p>
@@ -121,7 +121,7 @@
 
 <p><br /></p>
 <h5><b>Tracking Your Process</b></h5>
-<p>WinCC Performance Monitor uses actual process data to track things like downtime and production losses. You can implement complex hiearchies to track the effect of upstream or downstream process upsets. You can also generate automatic reason codes for process events or manually enter them after the fact, enabling you to easily find the most common issues your plant faces.</p>
+<p>WinCC Performance Monitor uses actual process data to track things like downtime and production losses. You can implement complex hierarchies to track the effect of upstream or downstream process upsets. You can also generate automatic reason codes for process events or manually enter them after the fact, enabling you to easily find the most common issues your plant faces.</p>
 
 <p>All of the data tracked by Performance Monitor is accessible in WinCC with standard trending and dashboard controls or using <a href="/blog/simatic-information-server.html">Simatic Information Server</a> and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.</p>
 

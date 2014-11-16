@@ -30,7 +30,7 @@ date: "11-11-2014"
 <h5><b>Tracking Your Process</b></h5>
 <p>Work cells and equipment utilize events to trigger downtime start/end times, track throughput and changes in cycle times. This allows you to configure complex conditions for tracking downtime including when upstream or downstream issues cause production losses at any point in the process. Each event can utilize manually entered information, including reason codes.</p>
 
-<p>The true power of events comes into play when you implement automatic reason code tracking. This feature allows you to easily determine when your process went down, what piece(s) of equpiment took it down, and the exact reason for the problem. This allows you to understand, on great detail, the cause of your most common production losses, allowing you to quickly and clearly prioritize maintenance and process changes to affect your bottom line.</p>
+<p>The true power of events comes into play when you implement automatic reason code tracking. This feature allows you to easily determine when your process went down, what piece(s) of equipment took it down, and the exact reason for the problem. This allows you to understand, on great detail, the cause of your most common production losses, allowing you to quickly and clearly prioritize maintenance and process changes to affect your bottom line.</p>
 <img src="/img/events.png" width="430px"/>
 
 <p>All of the data tracked by FactoryTalk Metrics is accessible using the included <a href="/blog/factorytalk-metrics-data-analysis.html">analysis tools</a> and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.</p>

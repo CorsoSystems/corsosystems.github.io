@@ -7,18 +7,18 @@ permalink: /blog/simatic-information-server.html
 image: "/img/infoSvrOverview.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
-blurb: "<p>After implementing KPIs in WinCC Performance Monitor you will need a way to visualize your Plant's performance. Simatic Information Server gives you an easy way to build reports and other visualizations you can use to analyze your data and use it as the informatio necessary to run your process at the highest standard.</p>"
+blurb: "<p>After implementing KPIs in WinCC Performance Monitor you will need a way to visualize your Plant's performance. Simatic Information Server gives you an easy way to build reports and other visualizations you can use to analyze your data and use it as the information necessary to run your process at the highest standard.</p>"
 date: "15-11-2014"
 ---
 
-<p>After implementing KPIs in WinCC Performance Monitor you will need a way to visualize your Plant's performance. Simatic Information Server gives you an easy way to build reports and other visualizations you can use to analyze your data and use it as the informatio necessary to run your process at the highest standard.</p>
+<p>After implementing KPIs in WinCC Performance Monitor you will need a way to visualize your Plant's performance. Simatic Information Server gives you an easy way to build reports and other visualizations you can use to analyze your data and use it as the information necessary to run your process at the highest standard.</p>
 
 <img src="/img/reportExampleInfoSvr.png" width="430px"/>
 <br/>
 <br/>
 
 <h5><b>Reports and Dashboards</b></h5>
-<p>Simatic Information Server saves you time. You will no longer need to spend an afternoon troubleshooting a calculation in Excel making your KPIs go off the charts. You won't have to spend energy to compile information into multiple formats to make everyone on your team happy, and you don't have to worry about getting the reports sent out on time.</p>
+<p>Simatic Information Server saves you time. You will no longer need to spend an afternoon troubleshooting a calculation in Excel that is making your KPIs go off the charts. You won't have to spend energy compiling information into multiple formats to make everyone on your team happy, and you don't have to worry about getting the reports sent out on time.</p>
 
 <p>With Simatic Information Server your KPIs have already been generated, you can easily generate reports in Excel, Word or PDF formats using out of the box templates, and you can automatically send out reports on a schedule.</p>
 
@@ -39,7 +39,7 @@ date: "15-11-2014"
 
 
 <h5><b>Business System Integration</b></h5>
-<p>If you have any systems elsewhere in your business you can easily integrate WinCC Performnance Monitor information into their workflows using Siemens' Industrial Data Bridge tool. Maybe process downtime directly affects product quality testing schedules. You can notify your quality technicians of process upsets on particular product runs allowing them to schedule their time more effectively. Another example might be when product quality directly affects when shipments will go out and the shipping department can be immediately notified of delays so they can manage customer expectations as soon as necessary to maintain customer agreements.</p>
+<p>If you have any systems elsewhere in your business you can easily integrate WinCC Performance Monitor information into their workflows using Siemens' Industrial Data Bridge tool. Maybe process downtime directly affects product quality testing schedules. You can notify your quality technicians of process upsets on particular product runs allowing them to schedule their time more effectively. Another example might be when product quality directly affects when shipments will go out and the shipping department can be immediately notified of delays so they can manage customer expectations as soon as necessary to maintain customer agreements.</p>
 <img src="/img/IDB.png" width="300px"/>
 
 <p>Integrating with your business systems is likely more complicated than implementing Siemens' performance management suite in the first place, however you can work with your IT staff or outside developers to access this data directly from the database. We have leveraged this capability for many of our customers with great success. All of the data is available for you to use and you can structure your data in the most efficient way possible for your systems.</p>

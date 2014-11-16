@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-11-15T13:23:32-06:00</lastBuildDate>
-        <pubDate>2014-11-15T13:23:32-06:00</pubDate>
+        <lastBuildDate>2014-11-15T21:25:44-06:00</lastBuildDate>
+        <pubDate>2014-11-15T21:25:44-06:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -238,7 +238,7 @@
 &lt;h5&gt;&lt;b&gt;The Rubber Meets The Road&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;What is a KPI? A KPI is a way to simply convey complex information. One example in the manufacturing world is known as Overall Equipment Effectiveness or OEE. This is a calculation involving the uptime of a process, the quality of produced goods, and how quickly those goods were produced. These values are compared to their ideal amounts giving you a percentage value of the health of your operation.&lt;/p&gt;
 
-&lt;p&gt;Once you have this value you can determine if it meets your needs or if it needs to be improved. If it needs to be improved you drill down into the three component values and start asking questions. Is one of the metrics causing the number to drop quite a bit? Which one? If your line is accruing lots of unplanned downtime dig deeper and see how to fix it. If you are getting a larger than usual number of bad parts why? &lt;/p&gt;
+&lt;p&gt;Once you have this value you can determine if it meets your needs or if it needs to be improved. If it needs to be improved you drill down into the three component values and start asking questions. Is one of the metrics causing the number to drop quite a bit? Which one? If your line is accruing lots of unplanned downtime dig deeper and see how to fix it. If you are getting a larger than usual number of bad parts, why? &lt;/p&gt;
 
 &lt;p&gt;This functionality can be built directly into your system, automatically generating OEE per day, shift, etc. The values in the report can be directly linked to raw data allowing you to ask and answer any questions you may have about the data in the report.&lt;/p&gt;
 
@@ -392,7 +392,7 @@
 &lt;h5&gt;&lt;b&gt;Turning Data into Information&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;Many manufacturing companies cannot easily assess the health of their plants. This is rarely due to a lack of data. Process Historians collect real-time data and can be used to show trends over time, quality control data can be compared to those trends and even some KPIs can be calculated for the process as a whole. This system breaks down when raw data is the only resource available to provide the necessary insight to answer questions about operations.&lt;/p&gt;
 
-&lt;p&gt;Data fails to take into account micro-level details affecting macro-level performance. For example, with raw data alone it can be difficult to determine which machines are causing the most downtime, where bottlenecks are in the process and where quality losses are greatest. Determing the top 10 causes of downtime would require first collecting all of the data in one location, summing the downtime for all pieces of equipment, and ordering the list. If you are lucky you might be able to get all of this done before the phone rings with some other distractions.&lt;/p&gt;
+&lt;p&gt;Data fails to take into account micro-level details affecting macro-level performance. For example, with raw data alone it can be difficult to determine which machines are causing the most downtime, where bottlenecks are in the process and where quality losses are greatest. Determining the top 10 causes of downtime would require first collecting all of the data in one location, summing the downtime for all pieces of equipment, and ordering the list. If you are lucky you might be able to get all of this done before the phone rings with some other distractions.&lt;/p&gt;
 
 &lt;p&gt;How do people find ways to track their process, find the major issues, and get them resolved? One way is to use performance management systems such as FactoryTalk Metrics. These type of systems take the process data you are already collecting and provide the context necessary for the data to be useful as a decision making tool.&lt;/p&gt;
 
@@ -430,7 +430,7 @@
 &lt;h5&gt;&lt;b&gt;Tracking Your Process&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;Work cells and equipment utilize events to trigger downtime start/end times, track throughput and changes in cycle times. This allows you to configure complex conditions for tracking downtime including when upstream or downstream issues cause production losses at any point in the process. Each event can utilize manually entered information, including reason codes.&lt;/p&gt;
 
-&lt;p&gt;The true power of events comes into play when you implement automatic reason code tracking. This feature allows you to easily determine when your process went down, what piece(s) of equpiment took it down, and the exact reason for the problem. This allows you to understand, on great detail, the cause of your most common production losses, allowing you to quickly and clearly prioritize maintenance and process changes to affect your bottom line.&lt;/p&gt;
+&lt;p&gt;The true power of events comes into play when you implement automatic reason code tracking. This feature allows you to easily determine when your process went down, what piece(s) of equipment took it down, and the exact reason for the problem. This allows you to understand, on great detail, the cause of your most common production losses, allowing you to quickly and clearly prioritize maintenance and process changes to affect your bottom line.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/events.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All of the data tracked by FactoryTalk Metrics is accessible using the included &lt;a href=&quot;/blog/factorytalk-metrics-data-analysis.html&quot;&gt;analysis tools&lt;/a&gt; and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.&lt;/p&gt;
@@ -501,16 +501,16 @@
 &lt;p&gt;&lt;img src=&quot;/img/metricsLogoSummary.png&quot; width=&quot;430px&quot; /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;As we discussed in the two previous posts (&lt;a href=&quot;/blog/factorytalk-metrics-overview.html&quot;&gt;part 1&lt;/a&gt;, &lt;a href=&quot;/blog/factorytalk-metrics-backend.html&quot;&gt;part 2,&lt;/a&gt; and &lt;a href=&quot;/blog/factorytalk-metrics-data-analysis.html&quot;&gt;part 3&lt;/a&gt;) FactoryTalk Metrics is a powerful, easy-to-use performance management system.&lt;/p&gt;
+&lt;p&gt;As we discussed in the three previous posts (&lt;a href=&quot;/blog/factorytalk-metrics-overview.html&quot;&gt;part 1&lt;/a&gt;, &lt;a href=&quot;/blog/factorytalk-metrics-backend.html&quot;&gt;part 2,&lt;/a&gt; and &lt;a href=&quot;/blog/factorytalk-metrics-data-analysis.html&quot;&gt;part 3&lt;/a&gt;) FactoryTalk Metrics is a powerful, easy-to-use performance management system.&lt;/p&gt;
 
-&lt;p&gt;Like other performance management systems FactoryTalk Metrics turns your process&#39; data into information allowing you to increase production and quality, and reduct costs by using existing equipment and labor more effectively.&lt;/p&gt;
+&lt;p&gt;Like other performance management systems FactoryTalk Metrics turns your process&#39; data into information allowing you to increase production and quality, and reduce costs by using existing equipment and labor more effectively.&lt;/p&gt;
 
 &lt;p&gt;FactoryTalk Metrics takes the burden of tracking down your data and performing the calculations to summarize production losses, downtime, and OEE off of your shoulders, freeing you to tackle the tasks you need to focus on to succeed.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h5&gt;&lt;b&gt;Quick to Implement&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;As part of the FactoryTalk family of products, Metrics is extremely easy to implement. Once the software is installed and you can communicate with your PLCs using the FactoryTalk administration console getting your data into the system is a quick process.&lt;/p&gt;
 
-&lt;p&gt;Leveraging your understanding of your production lines and schedules implementing work cells, equipment models, and events can be a one time procedure giving you full access to everything you need to realize the benefits or can be broken up into phases giving you the ability to scale the system as you become more familiar with its capabilities.&lt;/p&gt;
+&lt;p&gt;Leveraging your understanding of your production lines and schedules, implementing work cells, equipment models, and events can be a one time procedure giving you full access to everything you need to realize the benefits or can be broken up into phases giving you the ability to scale the system as you become more familiar with its capabilities.&lt;/p&gt;
 
 &lt;h5&gt;&lt;b&gt;Easy to Maintain&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;Once the system is up and running you should never have to look at the backend again, that is until you want to expand the system to more areas of your process. When that time comes it is as simple as configuring new work cells and equipment. All of your data will then be available through your reports with no additional effort on your part.&lt;/p&gt;
@@ -571,7 +571,7 @@
 &lt;h5&gt;&lt;b&gt;Turning Data into Information&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;Many manufacturing companies cannot easily assess the health of their plants. This is rarely due to a lack of data. Process Historians collect real-time data and can be used to show trends over time, quality control data can be compared to those trends and even some KPIs can be calculated for the process as a whole. This system breaks down when raw data is the only resource available to provide the necessary insight to answer questions about operations.&lt;/p&gt;
 
-&lt;p&gt;Data fails to take into account micro-level details affecting macro-level performance. For example, with raw data alone it can be difficult to determine which machines are causing the most downtime, where bottlenecks are in the process and where quality losses are greatest. Determing the top 10 causes of downtime would require first collecting all of the data in one location, summing the downtime for all pieces of equipment, and ordering the list. If you are lucky you might be able to get all of this done before the phone rings with some other distractions.&lt;/p&gt;
+&lt;p&gt;Data fails to take into account micro-level details affecting macro-level performance. For example, with raw data alone it can be difficult to determine which machines are causing the most downtime, where bottlenecks are in the process and where quality losses are greatest. Determining the top 10 causes of downtime would require first collecting all of the data in one location, summing the downtime for all pieces of equipment, and ordering the list. If you are lucky you might be able to get all of this done before the phone rings with some other distractions.&lt;/p&gt;
 
 &lt;p&gt;How do people find ways to track their process, find the major issues, and get them resolved? One way is to use performance management systems such as WinCC Performance Manager and Simatic Information Server. These type of systems take the process data you are already collecting and provide the context necessary for the data to be useful as a decision making tool.&lt;/p&gt;
 
@@ -580,7 +580,7 @@
 
 &lt;p&gt;In this series we will focus on Siemens&#39; WinCC Performance Monitor and Simatic Information Server. We will answer some common questions about what these tools have to offer and discuss of the direct benefits our customers have found after using them. If you are looking at similar solutions from other companies, we will cover continue to cover those in later posts. &lt;/p&gt;
 
-&lt;p&gt;To summarize, performance management systems give you the ability to ask questions about your operation whille at the same time giving you the information you need to answer those questions and prioritize improvements. The give you an honest assessment of your plant&#39;s health. While this may be difficult to stomach, if your plant needs some help wouldn&#39;t you want to know exactly what to fix to make it better?&lt;/p&gt;
+&lt;p&gt;To summarize, performance management systems give you the ability to ask questions about your operation while at the same time giving you the information you need to answer those questions and prioritize improvements. They give you an honest assessment of your plant&#39;s health. While this may be difficult to stomach, if your plant needs some help wouldn&#39;t you want to know exactly what to fix to make it better?&lt;/p&gt;
 
 </description>
                 <link>http://corsosystems.github.io/blog/simatic-performance-management-overview.html</link>
@@ -590,15 +590,15 @@
 
         <item>
                 <title>WinCC Performance Monitor</title>
-                <description>&lt;p&gt;Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. WinCC Performance Monitor operates the same way. Data from your process control system is brought into the system using the WinCC data manager, stored in a SQL Server database and accessed in reports using Simatic Information Server.&lt;/p&gt;
+                <description>&lt;p&gt;Most systems your company uses are going to have a few common components. You need a way to get data into the system, a way to analyze that data, and a way to view the results. WinCC Performance Monitor operates the same way. Data from your process control system is brought into the system using the WinCC data manager, stored in a SQL Server database and accessed in reports using Simatic Information Server.&lt;/p&gt;
 
-&lt;p&gt;In this post we will give you an overview of how WinCC Performance Monitor models your process and data is brought into the system. The next post  will discuss how to access the data using Simatic Information Server in addition to integrating with other business systems you may be using.&lt;/p&gt;
+&lt;p&gt;In this post we will give you an overview of how WinCC Performance Monitor models your process and data is brought into the system. The next post will discuss how to access the data using Simatic Information Server in addition to integrating with other business systems you may be using.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h5&gt;&lt;b&gt;Modeling Your Process&lt;/b&gt;&lt;/h5&gt;
 &lt;p&gt;&lt;img src=&quot;/img/perfMonTree.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;WinCC Performance Monitor allows you to easily model your process equipment and processing lines. This is done is by defining overall equipment types or process areas and instantiating these types with instances for each piece equipment in your plant.&lt;/p&gt;
 
-&lt;p&gt;In addition to creating template types for your euqipment, you can associate datapoints from your process to your model allowing you calculate OEE or any other KPI you can come up with. You can create custom KPIs with customizable calculations to meet any reporting or analysis requirements you might have.&lt;/p&gt;
+&lt;p&gt;In addition to creating template types for your equipment, you can associate datapoints from your process to your model allowing you calculate OEE or any other KPI you can come up with. You can create custom KPIs with customizable calculations to meet any reporting or analysis requirements you might have.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/perfMonKPIs.png&quot; width=&quot;430px&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Using your WinCC HMI application allows you to enter your production schedules, shifts, planned downtime and other manual data into the system. Utilizing your actual production schedules allows you to analyze data by shift, crew, and by date giving you the ability to further understand how your entire plant, including personnel, is doing.&lt;/p&gt;
@@ -607,7 +607,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h5&gt;&lt;b&gt;Tracking Your Process&lt;/b&gt;&lt;/h5&gt;
-&lt;p&gt;WinCC Performance Monitor uses actual process data to track things like downtime and production losses. You can implement complex hiearchies to track the effect of upstream or downstream process upsets. You can also generate automatic reason codes for process events or manually enter them after the fact, enabling you to easily find the most common issues your plant faces.&lt;/p&gt;
+&lt;p&gt;WinCC Performance Monitor uses actual process data to track things like downtime and production losses. You can implement complex hierarchies to track the effect of upstream or downstream process upsets. You can also generate automatic reason codes for process events or manually enter them after the fact, enabling you to easily find the most common issues your plant faces.&lt;/p&gt;
 
 &lt;p&gt;All of the data tracked by Performance Monitor is accessible in WinCC with standard trending and dashboard controls or using &lt;a href=&quot;/blog/simatic-information-server.html&quot;&gt;Simatic Information Server&lt;/a&gt; and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.&lt;/p&gt;
 
@@ -629,14 +629,14 @@
 
         <item>
                 <title>Simatic Information Server</title>
-                <description>&lt;p&gt;After implementing KPIs in WinCC Performance Monitor you will need a way to visualize your Plant&#39;s performance. Simatic Information Server gives you an easy way to build reports and other visualizations you can use to analyze your data and use it as the informatio necessary to run your process at the highest standard.&lt;/p&gt;
+                <description>&lt;p&gt;After implementing KPIs in WinCC Performance Monitor you will need a way to visualize your Plant&#39;s performance. Simatic Information Server gives you an easy way to build reports and other visualizations you can use to analyze your data and use it as the information necessary to run your process at the highest standard.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/reportExampleInfoSvr.png&quot; width=&quot;430px&quot; /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h5&gt;&lt;b&gt;Reports and Dashboards&lt;/b&gt;&lt;/h5&gt;
-&lt;p&gt;Simatic Information Server saves you time. You will no longer need to spend an afternoon troubleshooting a calculation in Excel making your KPIs go off the charts. You won&#39;t have to spend energy to compile information into multiple formats to make everyone on your team happy, and you don&#39;t have to worry about getting the reports sent out on time.&lt;/p&gt;
+&lt;p&gt;Simatic Information Server saves you time. You will no longer need to spend an afternoon troubleshooting a calculation in Excel that is making your KPIs go off the charts. You won&#39;t have to spend energy compiling information into multiple formats to make everyone on your team happy, and you don&#39;t have to worry about getting the reports sent out on time.&lt;/p&gt;
 
 &lt;p&gt;With Simatic Information Server your KPIs have already been generated, you can easily generate reports in Excel, Word or PDF formats using out of the box templates, and you can automatically send out reports on a schedule.&lt;/p&gt;
 
@@ -656,7 +656,7 @@
 &lt;p&gt;In addition to reports you can display all of the data from your WinCC Performance Monitor system in your existing WinCC applications. Using standard trend tools built specifically for KPI tracking you can show your KPIs with less time than it takes to read this article.&lt;/p&gt;
 
 &lt;h5&gt;&lt;b&gt;Business System Integration&lt;/b&gt;&lt;/h5&gt;
-&lt;p&gt;If you have any systems elsewhere in your business you can easily integrate WinCC Performnance Monitor information into their workflows using Siemens&#39; Industrial Data Bridge tool. Maybe process downtime directly affects product quality testing schedules. You can notify your quality technicians of process upsets on particular product runs allowing them to schedule their time more effectively. Another example might be when product quality directly affects when shipments will go out and the shipping department can be immediately notified of delays so they can manage customer expectations as soon as necessary to maintain customer agreements.&lt;/p&gt;
+&lt;p&gt;If you have any systems elsewhere in your business you can easily integrate WinCC Performance Monitor information into their workflows using Siemens&#39; Industrial Data Bridge tool. Maybe process downtime directly affects product quality testing schedules. You can notify your quality technicians of process upsets on particular product runs allowing them to schedule their time more effectively. Another example might be when product quality directly affects when shipments will go out and the shipping department can be immediately notified of delays so they can manage customer expectations as soon as necessary to maintain customer agreements.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/IDB.png&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Integrating with your business systems is likely more complicated than implementing Siemens&#39; performance management suite in the first place, however you can work with your IT staff or outside developers to access this data directly from the database. We have leveraged this capability for many of our customers with great success. All of the data is available for you to use and you can structure your data in the most efficient way possible for your systems.&lt;/p&gt;
@@ -670,6 +670,37 @@
                 <link>http://corsosystems.github.io/blog/simatic-information-server.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>2014-11-15T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Summarizing Siemens Performance Management</title>
+                <description>&lt;p&gt;&lt;img src=&quot;/img/perfMonSummary.png&quot; width=&quot;430px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;As we discussed in the three previous posts (&lt;a href=&quot;/blog/simatic-performance-management-overview.html&quot;&gt;part 1&lt;/a&gt;, &lt;a href=&quot;/blog/wincc-performance-monitor.html&quot;&gt;part 2,&lt;/a&gt; and &lt;a href=&quot;/blog/simatic-information-server.html&quot;&gt;part 3&lt;/a&gt;) Siemens Performance Monitor combined with Simatic Information Server provides a powerful, easy-to-use performance management system.&lt;/p&gt;
+
+&lt;p&gt;Like other performance management systems Siemens&#39; Performance Management tools turn your process&#39; data into information allowing you to increase production and quality, and reduce costs by using existing equipment and labor more effectively.&lt;/p&gt;
+
+&lt;p&gt;WinCC Performance Manager takes the burden of tracking down your data and performing the calculations to summarize KPIs, downtime, and OEE off of your shoulders, freeing you to tackle the tasks you need to focus on to succeed.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Quick to Implement&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;As part of the WinCC suite of products Performance Manager and Information server are easy to install, quick to configure, and give you the information you need with very little effort.&lt;/p&gt;
+
+&lt;p&gt;Leveraging your understanding of your production lines and schedules, your process models and KPI calculations and events can be a one time procedure giving you full access to everything you need to realize the benefits or can be broken up into phases giving you the ability to scale the system as you become more familiar with its capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Easy to Maintain&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Once the system is up and running you should never have to look at the backend again, that is until you want to expand the system to more areas of your process. When that time comes it is as simple as configuring new KPIs and calculations. All of your data will then be available through your reports with no additional effort on your part.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Flexible and Reliable&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;A Performance Monitor system can be as small or as large as you need it to be. As your plant grows your need for information will expand as well. Siemens&#39; tools gives you the ability to use the same system to easily collect all of your data and more easily access all of the information using the reports you are already familiar with.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;WinCC Performance Monitor combined with Simatic Information Server is a powerful solution you can use to improve your operations without having to invest lots of resources in expansion and engineering. Please feel free to &lt;a href=&quot;mailto:alex@corsosystems.com?Subject=Siemens%20Performance%20Management&quot;&gt;reach out to us&lt;/a&gt; if you have any questions or would like to understand how these tools can give you the information you&#39;ve been looking for to take your plant to the next level.&lt;/p&gt;
+</description>
+                <link>http://corsosystems.github.io/blog/summarizing-siemens-performance-management.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-11-17T00:00:00-06:00</pubDate>
         </item>
 
 
