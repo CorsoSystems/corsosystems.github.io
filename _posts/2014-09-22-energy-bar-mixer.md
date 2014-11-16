@@ -1,6 +1,7 @@
 ---
 layout: case_study
 title: "Energy Bar Packaging Facility Mixer Replacement"
+date: "2014-09-22"
 description: "Replacing aging process control hardware on an OEM mixer unit for an energy bar manufacturing facility."
 tags: ["Food and Beverage","Technology Migration", "Process Control", "PLC", "HMI"]
 permalink: /case_studies/food_and_beverage/energy-bar-mixer

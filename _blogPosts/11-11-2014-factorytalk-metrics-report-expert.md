@@ -2,7 +2,7 @@
 layout: blog_post
 title: "FactoryTalk Metrics Data Analysis"
 page_title: "FactoryTalk Metrics Data Analysis"
-tags: ["Educate"]
+tags: ["FactoryTalk","Metrics"]
 permalink: /blog/factorytalk-metrics-data-analysis.html
 image: "/img/reportExample.png"
 author: "Alex Marcy"

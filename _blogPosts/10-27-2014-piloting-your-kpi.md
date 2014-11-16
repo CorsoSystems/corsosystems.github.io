@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Piloting Your KPIs"
 page_title: "Piloting Your KPIs"
-tags: ["Educate"]
+tags: ["Educate", "KPI"]
 permalink: /blog/kpi-pilot-program.html
 image: "/img/sugar.jpg"
 author: "Alex Marcy"

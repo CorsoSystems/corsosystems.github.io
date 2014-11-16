@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Your Job Is So Easy a Computer Can Do It."
 page_title: "Your Job Is So Easy a Computer Can Do It."
-tags: ["Educate"]
+tags: ["Educate", "General"]
 permalink: /blog/automation_and_jobs.html
 image: "/img/robot.jpg"
 author: "Mike Cammarato"

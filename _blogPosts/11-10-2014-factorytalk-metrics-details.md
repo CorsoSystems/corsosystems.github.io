@@ -2,7 +2,7 @@
 layout: blog_post
 title: "FactoryTalk Metrics - The Backend"
 page_title: "FactoryTalk Metrics - The Backend"
-tags: ["Educate"]
+tags: ["KPI", "OEE", "FactoryTalk","Metrics"]
 permalink: /blog/factorytalk-metrics-backend.html
 image: "/img/plantModel.png"
 author: "Alex Marcy"

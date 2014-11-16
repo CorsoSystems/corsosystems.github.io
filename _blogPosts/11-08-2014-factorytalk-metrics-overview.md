@@ -2,7 +2,7 @@
 layout: blog_post
 title: "An Overview of FactoryTalk Metrics"
 page_title: "How FactoryTalk Metrics Can Improve Your Bottom Line"
-tags: ["Educate"]
+tags: ["KPI","FactoryTalk","Metrics"]
 permalink: /blog/factorytalk-metrics-overview.html
 image: "/img/metricsLogo.png"
 author: "Alex Marcy"

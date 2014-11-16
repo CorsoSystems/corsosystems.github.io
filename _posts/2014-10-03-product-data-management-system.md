@@ -1,6 +1,7 @@
 ---
 layout: case_study
 title: "Production Data Management System for a Diatomaceous Earth Processing Company"
+date: "2014-10-03"
 description: "A mining company worked with us to design and implement a production data management system to track manually entered data."
 tags: ["Mining","Web-based Solutions","Process Analytics","Database Management"]
 permalink: /case_studies/mining/production-data-management-system

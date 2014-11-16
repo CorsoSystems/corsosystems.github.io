@@ -3,7 +3,7 @@ layout: blog_post
 title: "Introduction to Process Data Systems"
 page_title: "Using Data to Make Your Process Work Smarter"
 description: "Introduction to Process Data Systems"
-tags: ["Educate"]
+tags: ["Educate", "KPI", "Information"]
 permalink: /blog/intro-to-process-data-systems.html
 image: "/img/bottlingline.jpg"
 author: "Alex Marcy"

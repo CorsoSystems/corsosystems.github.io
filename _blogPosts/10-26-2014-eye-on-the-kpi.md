@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Eye On the KPI"
 page_title: "Getting Started with KPIs"
-tags: ["Empower"]
+tags: ["Empower", "KPI", "Information"]
 permalink: /blog/eye-on-the-kpi.html
 image: "/img/kpiintro.jpg"
 author: "Alex Marcy"

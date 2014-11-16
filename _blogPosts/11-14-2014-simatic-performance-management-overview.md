@@ -2,7 +2,7 @@
 layout: blog_post
 title: "How Siemens' Performance Management solutions Can Improve Your Bottom Line"
 page_title: "How Siemens' Performance Management solutions Can Improve Your Bottom Line"
-tags: ["Educate"]
+tags: ["KPI", "OEE", "Siemens"]
 permalink: /blog/simatic-performance-management-overview.html
 image: "/img/perfMonLogo.png"
 author: "Alex Marcy"

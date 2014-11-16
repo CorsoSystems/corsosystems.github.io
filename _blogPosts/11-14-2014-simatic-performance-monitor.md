@@ -2,7 +2,7 @@
 layout: blog_post
 title: "WinCC Performance Monitor"
 page_title: "WinCC Performance Monitor"
-tags: ["Educate"]
+tags: ["KPI",Siemens"]
 permalink: /blog/wincc-performance-monitor.html
 image: "/img/winccDataOverview.png"
 author: "Alex Marcy"

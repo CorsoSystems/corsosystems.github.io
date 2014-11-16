@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Understand Your Processes"
 page_title: "Understand Your Processes"
-tags: ["Educate"]
+tags: ["Educate", "Information"]
 permalink: /blog/understand-your-processes.html
 image: "/img/flowchartmenu.jpg"
 author: "Alex Marcy"
