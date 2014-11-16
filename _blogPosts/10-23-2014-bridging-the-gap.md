@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Bridging the Gap"
 page_title: "Breaking Down the Walls of Your Information Silos"
-tags: ["Empower"]
+tags: ["Empower", "Information"]
 permalink: /blog/bridging-the-gap.html
 image: "/img/digifactory.jpg"
 author: "Alex Marcy"

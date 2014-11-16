@@ -3,7 +3,7 @@ layout: blog_post
 title: "Welcome to our blog"
 page_title: "Welcome to our blog"
 description: "Blog Template"
-tags: ["Educate"]
+tags: ["General"]
 permalink: /blog/first-post.html
 image: "/img/logocolor.svg"
 type: "Case Study"

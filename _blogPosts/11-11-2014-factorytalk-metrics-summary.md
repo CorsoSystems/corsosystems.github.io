@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Summarizing FactoryTalk Metrics"
 page_title: "Summarizing FactoryTalk Metrics"
-tags: ["Educate"]
+tags: ["FactoryTalk","Metrics"]
 permalink: /blog/summarizing-factorytalk-metrics.html
 image: "/img/metricsLogoSummary.png"
 author: "Alex Marcy"

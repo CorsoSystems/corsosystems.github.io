@@ -21,6 +21,36 @@
             <br/>
           {{ content }}
         </div>
+        <hr>
+        <div style="text-align:left;padding:0px 10px 1px 10px;background:#ffffff;">
+        {% assign hasSimilar = '' %}
+        {% for post in site.blogPosts %}
+          {% assign postHasSimilar = false %}
+          {% for tag in post.tags %}
+            {% for thisTag in page.tags %}
+              {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+                  <h4>Related Posts</h4>
+                  <ul>
+                  {% endif %}
+                    <li class="relatedPost">
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+                  {% if post.series %}
+                    (Series: {{ post.series }})
+                  {% endif %}
+                    </a>
+                    </li>
+                  {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                  {% assign postHasSimilar = true %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          {% endfor %}
+        {% if hasSimilar.size > 0 %}
+        </ul>
+        {% endif %}
+      </div>
+        <hr>
         </div>
         <div class="col-md-5" style="background:#ffffff;text-align:left;">
           <h4 style="color:#f43e00;">Recent Posts:</h4>
@@ -66,10 +96,14 @@
           
         </div>
       </div>
+
         </div>
+
     </div>
 
     <hr>
+
+    
     <!--{% include JB/comments %}-->
   </div>
 </div>

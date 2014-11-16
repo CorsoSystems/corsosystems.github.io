@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Twitter & IBM Team Up"
 page_title: "Twitter & IBM Team Up"
-tags: ["Educate"]
+tags: ["Educate", "General"]
 permalink: /blog/twitter-ibm.html
 image: "/img/twitter-ibm.jpg"
 author: "Mike Cammarato"

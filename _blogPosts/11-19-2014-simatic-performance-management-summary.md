@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Summarizing Siemens Performance Management"
 page_title: "Summarizing Siemens Performance Management"
-tags: ["Educate"]
+tags: ["Siemens"]
 permalink: /blog/summarizing-siemens-performance-management.html
 image: "/img/perfMonSummary.png"
 author: "Alex Marcy"

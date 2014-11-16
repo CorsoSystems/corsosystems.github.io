@@ -2,7 +2,7 @@
 layout: blog_post
 title: "Simatic Information Server"
 page_title: "Simatic Information Server"
-tags: ["Educate"]
+tags: ["Siemens"]
 permalink: /blog/simatic-information-server.html
 image: "/img/infoSvrOverview.png"
 author: "Alex Marcy"

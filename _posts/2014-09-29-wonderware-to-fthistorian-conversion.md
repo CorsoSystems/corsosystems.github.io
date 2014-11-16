@@ -1,6 +1,7 @@
 ---
 layout: case_study
 title: "Wonderware Historian to FactoryTalk Historian Migration"
+date: "2014-09-29"
 description: "Migrated an existing Wonderware Historian installation to a FactoryTalk Historian with no loss of data."
 tags: ["Mining","Technology Migration", "Process Historian", "Process Analytics", "Database Management"]
 permalink: /case_studies/mining/wonderware-to-factorytalk-historian-migration

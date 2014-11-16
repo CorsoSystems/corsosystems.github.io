@@ -3,7 +3,7 @@ layout: blog_post
 title: "Project Management Basics"
 page_title: "Have Software Do The Heavy Lifting"
 description: "asldas;fjasdf"
-tags: ["Educate"]
+tags: ["Educate", "Project Management"]
 permalink: /blog/project-management-basics.html
 image: "/img/flowchart.jpg"
 author: "Mike Cammarato"
