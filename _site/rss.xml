@@ -5,8 +5,8 @@
         <description>Corso Systems - Corso Systems</description>
         <link>http://corsosystems.github.io</link>
         <link>http://corsosystems.github.io</link>
-        <lastBuildDate>2014-11-15T22:04:03-06:00</lastBuildDate>
-        <pubDate>2014-11-15T22:04:03-06:00</pubDate>
+        <lastBuildDate>2014-11-18T20:42:25-06:00</lastBuildDate>
+        <pubDate>2014-11-18T20:42:25-06:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -701,6 +701,47 @@
                 <link>http://corsosystems.github.io/blog/summarizing-siemens-performance-management.html</link>
                 <guid>http://corsosystems.github.io</guid>
                 <pubDate>2014-11-17T00:00:00-06:00</pubDate>
+        </item>
+
+        <item>
+                <title>Calculating Cost-Per-Unit</title>
+                <description>&lt;p&gt;What is the effect of one minute of downtime on your profits? Where would you even begin to calculate this value if someone asked for it? We are going to show you how you can incorporate all of the costs associated with producing products into an overall cost-per-unit. This value can be calculated in real-time, giving you a concrete demonstration of how your day-to-day actions directly affect your bottom line.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/costPerUnit.png&quot; width=&quot;430px&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Energy&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;One potentially variable cost to manufacturing is energy. This mainly includes electricity and gas, and could also include the cost of heating your plant, leaving the lights on, etc. If you are IKEA you can save the cost of the lights by using robots to do all of the work.&lt;/p&gt;
+
+&lt;p&gt;Depending on your facility you may be able to install power meters that track the global energy usage of your plant, or you might be able to install equipment level monitoring. Either way or a combination of both will give you better information about the cost-per-unit. From these meters you can read data directly into your process historian.&lt;/p&gt;
+
+&lt;p&gt;If your plant is in a place where the temperature doesn&#39;t fluctuate much during the year you might find your climate control costs to be pretty constant. If this is the case, this along with other fixed costs, you have the option of building these directly into your calculation of cost-per-unit. If instead you live in an area where the temperature fluctuates throughout the year you will likely find as it gets warmer or cooler your cost-per-unit increases due to additional climate control requirements.&lt;/p&gt;
+
+&lt;p&gt;If you are like some of our customers you may have set up power purchasing agreements directly with utilities or through an energy aggregator. Depending on your agreement you might be charged more for peak usage, which adds further cost variability. Your cost-per-unit at peak usage times would be higher than non-peak.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Labor&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Another major contribution to your cost per unit is labor. On a basic level this can simply be the sum of the total cost of each operator on the line per hour x the number of hours per shift. Depending on the makeup of your production crews this cost can vary. One way to reduce variability would be to structure your crews with identical skill levels on each shift.&lt;/p&gt;
+
+&lt;p&gt;Another labor cost that might be involved is maintenance. Depending on your budget this may or may not be in the same bucket as operations, still maintenance is part of the cost-per-unit, even if indirectly. If maintenance workers are required to resolve a downtime issue the cost-per-unit fluctuates based on how much lost production you face.&lt;/p&gt;
+
+&lt;p&gt;Regardless of how you decide to calculate the labor component of cost-per-unit this data is likely available in an ERP system or can be made available in a database accessible to your enterprise intelligence system.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;b&gt;Shipping, Inventory, Other Misc. Costs&lt;/b&gt;&lt;/h5&gt;
+&lt;p&gt;Other costs you should include are shipping, inventory, and any other miscellaneous costs incurred in getting your raw materials to the plant, processed, and shipped to the customer.&lt;/p&gt;
+&lt;p&gt;Depending on your organization this information may be available in your ERP system or may need to be entered manually. Either way it can be helpful to include these costs, especially if they are variable, to get a complete picture of your cost-per-unit.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5&gt;Bringing It All Together&lt;/h5&gt;
+&lt;p&gt;Once you have identified all of the components of your cost-per-unit you need a way to calculate the value. Luckily you can use data from your ERP system, process historian, and any manually entered data, run a query in a database and get the result. From there you can send this value over to a dashboard used by management to track costs, put it in a report that goes to the finance department to understand pricing, how SKUs are performing based on their costs, and if there are areas where resources can be saved. You can even send the number to your control room for display on your HMI so the operators know where they stand at any given time.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5&gt;In Summary&lt;/h5&gt;
+&lt;p&gt;Cost-per-unit incorporates a lot of data while giving you a valuable piece of information. It is affected by your staff, your energy consumption, and many other factors. Using cost-per-unit you can easily see the impact of downtime on profitability, which shifts are more profitable, and what times of year are more profitable. You can use this information to optimize any number of processes to maximize your profitability by reducing your cost-per-unit.
+
+	
+&lt;/p&gt;
+</description>
+                <link>http://corsosystems.github.io/blog/calculating-real-time-cost-per-unit.html</link>
+                <guid>http://corsosystems.github.io</guid>
+                <pubDate>2014-11-19T00:00:00-06:00</pubDate>
         </item>
 
 
