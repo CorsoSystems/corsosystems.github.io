@@ -18,7 +18,7 @@ tagline:
 		<p>PLC programming is typically done in <b>ladder logic</b>, a language designed to mimic the PLC's predecessor, <b>relay logic</b>. Many modern PLCs can be programmed in multiple languages, defined by <b>IEC 61131-3</b> standards, including <b>structured text</b>, <b>function blocks</b>, and <b>sequential flow charts</b>. This gives the PLC the ability to use <b>object oriented</b> code, making it possible to build <b>reusable code</b>, thus <b>saving</b> development <b>time</b> and <b>costs</b>.</p>
 	</div>
 	<div class="col-md-5">
-		<img src="img/plc.jpg" width="200">
+		<img src="img/plc.jpg" width="200" >
 	</div>
 </div>
 <div class="row">
