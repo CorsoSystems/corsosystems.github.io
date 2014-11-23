@@ -7,39 +7,39 @@ tagline:
 {% include JB/setup %}
 
 <div class="row">
-    <div class="row"><h2>PLC Programming</h2></div>
+    <div class="row"><h3>Manufacturing Exection (MES) / Manufacturing Operations Management (MOM) Systems </h3></div>
 </div>
 <hr>
 
 <div class="row">
 	<div class="col-md-7" style="text-align:left;">
-		<p>A <b>Programmable Logic Controller</b> (PLC) is a specialized industrial computer with physical inputs and outputs used to control <b>industrial processes</b>. PLCs play a large part in the world of <b>industrial automation</b>.</p>
+		<p><b>Manufacturing Execution Systems</b> (<b>MES</b>) or <b>Manufacturing Operations Management</b> systems (<b>MOM)</b> encompass a wide array of intelligent tools enabling you to integrate process data with other business systems including <b>ERP</b> systems giving you a complete view of how all of the moving parts of your operation interact with one another.</p>
 
-		<p>PLC programming is typically done in <b>ladder logic</b>, a language designed to mimic the PLC's predecessor, <b>relay logic</b>. Many modern PLCs can be programmed in multiple languages, defined by <b>IEC 61131-3</b> standards, including <b>structured text</b>, <b>function blocks</b>, and <b>sequential flow charts</b>. This gives the PLC the ability to use <b>object oriented</b> code, making it possible to build <b>reusable code</b>, thus <b>saving</b> development <b>time</b> and <b>costs</b>.</p>
+		<p>Typical MES systems include a handful of common tools including <b>Operational Equipment Effectiveness</b> <b>(OEE)</b> tracking, <b>quality monitoring</b>, <b>recipe management</b>, <b>energy management</b>, <b>statistical process control</b>, <b>scheduling integration</b>, and <b>work order management</b> to name a few. Each of these tools give you better information about your process and business, providing the insight you need to <b>cut costs</b>, <b>increase productivity</b>, and <b>increase revenue</b>.</p>
 	</div>
 	<div class="col-md-5">
-		<img src="img/plc.jpg" width="200">
+		<img src="img/mes.png" width="250">
 	</div>
 </div>
 <div class="row">
 	
 	<div class="col-md-12" style="text-align: left;">
-		<h4 style="text-align: left;">Corso Systems Development Philosophy</h4>
-		<p>Having spent time deciphering other people's code in the past, we focus on writing <b>structured</b>, <b>well-designed</b> PLC code. The benefit with this approach is an <b>easy</b> to understand, <b>flexible</b> system, capable of modification for <b>future</b> needs. We have <b>libraries</b> of code we have developed and <b>tested</b>, currently running some of the top facilities in the world, available for new systems.</p>
-		<p>Put simply, our goal is to build a system <b>anyone</b> can <b>maintain</b> in the future. Our customers should never feel like we are the only resource available to maintain their systems.</p>
+		<h4 style="text-align: left;">Corso Systems MES/MOM Development Philosophy</h4>
+		<p>Our philosophy with MES and MOM systems is to develop easy-to-use systems to give you the information you need to run your company more efficiently. This starts with demonstrating how the system can <b>cut costs</b>, <b>increase productivity</b>, and <b>increase revenue</b>, while developing the <b>business case</b> for <b>capital justification</b>. We then help find the appropriate <b>technology</b> for your needs, based on existing infrastructure, number of facilities, support requirements, etc. We also spend time with corporate <b>stakeholders</b> and <b>IT</b> to find the best ways to integrate the systems with their workflows. After the system is designed and implemented, we provide <b>training</b>, <b>documentation</b>, and <b>support</b> for our customers to get the most value possible from their <b>investment</b>.</p>
 	</div>
-
-
 </div>
 
 
 <div class="row" style="text-align: left;">
 	
 	<div class="col-md-12">
-		<h4 >Corso Systems' PLC Engineering Service Offerings and Experience</h4>
-	<p>We can develop <b>new PLC programs</b> from the ground up, and can <b>troubleshoot</b>, <b>update</b>, and <b>modify</b> existing systems anywhere in the world. We are experienced with <b>Siemens</b>, <b>Allen Bradley/Rockwell</b>, <b>Modicon/Schneider Electric</b>, <b>Omron</b>, <b>Automation Direct</b>, <b>SCADAPack</b>, and <b>others</b>, including <b>Safety PLCS</b>. We integrate PLCs with other devices and systems including, but not limited to, <b>HMIs</b>, <b>manufacturing execution systems</b>, <b>databases</b>, <b>drives</b>, and <b>RFID</b> and <b>barcode scanners</b>. We can also work with any industrial network protocol or hardware layer out there, including <b>Profibus</b>, <b>Profinet</b>, <b>ControlNet</b>, <b>DeviceNet</b>, <b>Ethernet I/P</b>, <b>Modbus</b>, <b>RS-232</b>, <b>RS-485</b>, <b>HART</b>, and others.</p>
+		<h4 >Corso Systems' MES/MOM Engineering Service Offerings and Experience</h4>
+	<p>We can develop <b>new MES/MOM systems</b> from the ground up, and can <b>troubleshoot</b>, <b>update</b>, and <b>modify</b> existing systems anywhere in the world. We are experienced with <b>Siemens</b>, <b>Rockwell</b>, <b>Inductive Automation</b>, <b>Wonderware</b>, and <b>others</b>, including the ability to develop <b>custom systems</b> to meet the needs of <b>any size</b> company.</p>
+
+	<p>Our MES/MOM systems have helped companies <b>improve equipment utilization</b>, <b>improve operational efficiency and consistency</b>, <b>reduce inventory</b>, <b>reduce scrap and rework</b>, <b>improve response time to production issues</b>, <b>improve visibility to production data</b> within single plant and across world wide manufacturing locations, and provide our customers with <b>common data and reporting tools</b>.
+</p>
 	
-	<p>In addition to controlling process equipment we <b>develop software libraries</b>, <b>APIs</b>, <b>Add-On Instructions (AOIs)</b> and <b>function blocks</b> enabling end users to easily integrate any other hardware or software you may have into your PLC platform.</p>
+	<p>In addition to implemented MES/MOM systems we develop <b>standardized reports</b>, <b>data visualization tools</b>, <b>APIs</b>, and can implement <b>process-level code</b> to <b>reduce</> the amount of time for <b>MES/MOM system implementation</b>.</p>
 </div>
 </div>
 
@@ -47,7 +47,7 @@ tagline:
 <hr>
 
 <div class="row">
-    <div class="row"><h4>PLC Platforms</h4></div>
+    <div class="row"><h4>MES/MOM System Platforms</h4></div>
 </div>
 
 
@@ -56,10 +56,13 @@ tagline:
 <div class="col-xs-4"><a href="http://www.rockwell.com" title="Rockwell" target="_blank"><img alt="Rockwell" src="img/platforms/rockwell.jpg" width="250px"></a></div>
 
 <div class="col-xs-4"><a href="http://www.siemens.com/entry/cc/en/" title="Siemens" target="_blank"><img alt="Siemens" src="img/platforms/siemens.jpg" width="250px"></a></div>
+<div class="col-xs-4"><a href="http://www.inductiveautomation.com" title="Inductive Automation" target="_blank"><img alt="Ignition by Inductive Automation" src="img/platforms/ia.png" width="250px"></a></div>
 
-<div class="col-xs-4"><a href="http://products.schneider-electric.us/products-services/products/automation-products/" title="Modicon" target="_blank"><img alt="Schneider Electric" src="img/platforms/schneider.jpg" width="250px"></a></div>
 </div>
+<div class="row">
+	<div class="col-xs-4"><a href="http://www.wonderware.com" title="Wonderware" target="_blank"><img alt="Wonderware" src="img/platforms/wonderware.png" width="250px"></a></div>
 
+</div>
 
 <hr>
 
@@ -67,6 +70,6 @@ tagline:
 <div class="row">
 <h4 style="text-align: left;">We speclialize in developing customized solutions to meet our clients' needs.</h4>
 
-<h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=Information%20Request">info@corsosystems.com</a>.</h4>
+<h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=MES%20Information%20Request">info@corsosystems.com</a>.</h4>
 </div>
 
