@@ -14,6 +14,28 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
     </div>
 </div>
 <hr>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2" style="text-align:left;">
+		<p>You're responsible for improving your bottom line by increasing productivity, reducing downtime, and ultimately increasing revenue.</p>
+		<p>You designed a form to manually collect process data, spend time updating whiteboards with performance data every shift, and battle with Excel to calculate your KPIs. While this information is valuable it caused some friction by requiring your operators to do even more work during their already jam-packed shifts.</p>
+		<p>Now that your system has some traction you are spending time every day putting together reports for corporate and they are looking for even higher performance gains.</p>
+		<p>To get the information you need to go the next level you need to pull together a variety of systems with different data, interfaces, update schedules, and stakeholders.</p>
+		<p>Some of these systems are under your control, while others, like shipping, accounting, or enterprise resource planning (ERP), are in someone else's wheelhouse. The goal of all of these systems is to make someone's life easier, but when it comes to improving your bottom line they could not be more different.</p>
+		<p>Naturally, the more systems there are, the more chaos there is. Your job is to be "the organized one" and make sure everything's under control and things go as planned. You need a clear view of all of your company's moving parts.</p>
+		<p>This is a tall order and a tough job and you rarely get the credit you deserve for doing it well.</p>
+		<p>You crave a system that helps you effortlessly be on top of everything.</p>
+		<p>You need a tool to automatically collect all of your data, while simultaneously turning it into useful information. You need to know what maintenance is doing, how much your raw materials cost, how much energy your facilities are using, automatically calculate and analyze your KPIs, trend data, and generate reports with different information for your operators, your C-level people, and everyone in between.</p>
+		<p>It needs to make things easier for you but it can't be at the expense of anyone else's sanity.</p>
+		<p>You know you can't use tools that impose on the people you're working with. It can't be complicated, it can't force people to drastically change the way they work, and it can't require them to pay close attention all day long so they don't miss something important.</p>
+		<p>You're already fighting an uphill battle against deadlines, expectations, and human nature - you don't want to have to fight against software too.</p>
+		<p>You've worked with people long enough to know some people rally around a new system, others will push hard against it. There will be folks who are all-in, and folks who just want to get stuff sent to them via email. So whatever system you adopt, it needs to work well regardless of how much other people choose to engage with it.</p>
+		<p>This tool needs to be your trusted assistant, not your adversary.</p>
+		<p>In the end, what matters is information, improving the process, and the impact to the bottom line. You need to deliver results, and your people need to be empowered to work smarter. You need tools that'll amplify your skills and support you every step of the way.</p>
+		<p>You're in luck, we build tools like this for people just like you.</p>
+	</div>
+</div>
+
+<hr>
 
 
 <div class="row">
