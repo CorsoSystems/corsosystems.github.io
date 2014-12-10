@@ -4,10 +4,10 @@ title:
 tagline: 
 
 ---
-{% include JB/setup %}
 
-<div class="row">
-    <div class="row"><h2>HMI/SCADA Systems</h2></div>
+
+<div class="row" style="text-align:center;">
+    <h2>HMI/SCADA Systems</h2>
 </div>
 <hr>
 
@@ -48,7 +48,7 @@ tagline:
 <hr>
 
 <div class="row">
-    <div class="row"><h4>HMI/SCADA Platforms</h4></div>
+    <div class="col-md-12"><h4>HMI/SCADA Platforms</h4></div>
 </div>
 
 
@@ -70,8 +70,10 @@ tagline:
 
 
 <div class="row">
+	<div class="col-md-12">
 <h4 style="text-align: left;">We speclialize in developing customized solutions to meet our clients' needs.</h4>
 
 <h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=HMI%20Information%20Request">info@corsosystems.com</a>.</h4>
+</div>
 </div>
 

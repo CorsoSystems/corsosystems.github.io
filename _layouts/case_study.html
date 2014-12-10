@@ -1,5 +1,12 @@
----
-layout: default
----
-{% include JB/setup %}
-{% include themes/bootstrap/case_study.html %}
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include navbar.html %}
+		{% include case_study.html %}
+
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>

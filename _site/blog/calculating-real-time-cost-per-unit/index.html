@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Corso Systems</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="icon" 
+          type="image/png" 
+          href="img/favicon.png" sizes="32x32">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+	<body style="background-color:#b3b3b3;">
+		<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://www.corsosystems.com/"><img src="/img/invert1.png" style="width:65px;margin:0px 0px;float:left;opacity:1!important;"/></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+            <ul class="nav navbar-nav" style="margin-left:20px;">
+                <li><a href="http://www.corsosystems.com/about" class="bright">About</a>
+                </li>
+                <li><a href="http://www.corsosystems.com/blog.html" class="bright">Blog</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle bright" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret bright"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://www.corsosystems.com/plc_programming" class="bright">PLC Programming</a></li>
+                        <li><a href="http://www.corsosystems.com/hmi_scada" class="bright">HMI/SCADA</a></li>
+                        <li><a href="http://www.corsosystems.com/mes" class="bright">Manufacturing Execution Systems (MES)</a></li>
+                        <!--<li><a href="http://www.corsosystems.com/business_intelligence">Business Intelligence</a></li>
+                                         -->
+                    </ul>
+                </li>
+                <li><a href="http://www.corsosystems.com/platforms" class="bright">Platforms</a></li>
+                <li><a href="http://www.corsosystems.com/case_studies.html" class="bright">Case Studies</a></li>
+                <li><a href="http://www.corsosystems.com/contact" class="bright">Contact</a></li>
+            </ul>
+            <div class="navbar-form navbar-right" role="search">
+              <div id="search" class="form-group">
+                <form action="/search" method="get">
+                  <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off" class="form-control">
+                  <button type="submit" class="btn btn-default">Search</button>
+                </form>
+              </div>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+
+    </div>
+    <!-- /.container -->
+</nav>
+		
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="content">
+        <div class="row"  >
+          <div class="col-md-10 col-md-offset-1" style="background:#ffffff;border-radius:5px;">
+          <div class="col-md-7" style="padding:0px;border-right:1px solid #cccccc;">
+          <div style="text-align:left;background:#ffffff;color:#f43e00;padding:1px 10px 8px 10px;">
+            <h2>Calculating Real-Time Cost-Per-Unit</h2>
+          </div>
+          <div style="border:1px solid #ececec;width:100%;float:right;"></div>
+          <div class="row" style="text-align:left;padding-left:25px;">
+            
+          <span style="float:left;width:50%;"><h6>By: Alex Marcy on November 19, 2014</h6></span><span style="float:right;padding-right:30px;"><h6>Tagged: 
+    Education
+
+    MES
+
+    ERP
+</h6></span>
+       
+        </div>
+        <div style="border:1px solid #ececec;width:100%;float:right;"></div>
+          <div style="text-align:left;padding:0px 10px 1px 10px;background:#ffffff;">
+            <br/>
+          <p>What is the effect of one minute of downtime on your profits? Where would you even begin to calculate this value if someone asked for it? We are going to show you how you can incorporate all of the costs associated with producing products into an overall cost-per-unit. This value can be calculated in real-time, giving you a concrete demonstration of how your day-to-day actions directly affect your bottom line.</p>
+<p><img src="/img/costPerUnit.png" width="430px" />
+<br />
+<br /></p>
+<h5><b>Energy</b></h5>
+<p>One potentially variable cost to manufacturing is energy. This mainly includes electricity and gas, and could also include the cost of heating your plant, leaving the lights on, etc. If you are IKEA you can save the cost of the lights by using robots to do all of the work.</p>
+
+<p>Depending on your facility you may be able to install power meters that track the global energy usage of your plant, or you might be able to install equipment level monitoring. Either way or a combination of both will give you better information about the cost-per-unit. From these meters you can read data directly into your process historian.</p>
+
+<p>If your plant is in a place where the temperature doesn't fluctuate much during the year you might find your climate control costs to be pretty constant. If this is the case, this along with other fixed costs, you have the option of building these directly into your calculation of cost-per-unit. If instead you live in an area where the temperature fluctuates throughout the year you will likely find as it gets warmer or cooler your cost-per-unit increases due to additional climate control requirements.</p>
+
+<p>If you are like some of our customers you may have set up power purchasing agreements directly with utilities or through an energy aggregator. Depending on your agreement you might be charged more for peak usage, which adds further cost variability. Your cost-per-unit at peak usage times would be higher than non-peak.</p>
+<p><br /></p>
+<h5><b>Labor</b></h5>
+<p>Another major contribution to your cost per unit is labor. On a basic level this can simply be the sum of the total cost of each operator on the line per hour x the number of hours per shift. Depending on the makeup of your production crews this cost can vary. One way to reduce variability would be to structure your crews with identical skill levels on each shift.</p>
+
+<p>Another labor cost that might be involved is maintenance. Depending on your budget this may or may not be in the same bucket as operations, still maintenance is part of the cost-per-unit, even if indirectly. If maintenance workers are required to resolve a downtime issue the cost-per-unit fluctuates based on how much lost production you face.</p>
+
+<p>Regardless of how you decide to calculate the labor component of cost-per-unit this data is likely available in an ERP system or can be made available in a database accessible to your enterprise intelligence system.</p>
+<p><br /></p>
+<h5><b>Shipping, Inventory, Other Misc. Costs</b></h5>
+<p>Other costs you should include are shipping, inventory, and any other miscellaneous costs incurred in getting your raw materials to the plant, processed, and shipped to the customer.</p>
+<p>Depending on your organization this information may be available in your ERP system or may need to be entered manually. Either way it can be helpful to include these costs, especially if they are variable, to get a complete picture of your cost-per-unit.</p>
+<p><br /></p>
+
+<h5>Bringing It All Together</h5>
+<p>Once you have identified all of the components of your cost-per-unit you need a way to calculate the value. Luckily you can use data from your ERP system, process historian, and any manually entered data, run a query in a database and get the result. From there you can send this value over to a dashboard used by management to track costs, put it in a report that goes to the finance department to understand pricing, how SKUs are performing based on their costs, and if there are areas where resources can be saved. You can even send the number to your control room for display on your HMI so the operators know where they stand at any given time.</p>
+<p><br /></p>
+<h5>In Summary</h5>
+<p>Cost-per-unit incorporates a lot of data while giving you a valuable piece of information. It is affected by your staff, your energy consumption, and many other factors. Using cost-per-unit you can easily see the impact of downtime on profitability, which shifts are more profitable, and what times of year are more profitable. You can use this information to optimize any number of processes to maximize your profitability by reducing your cost-per-unit.
+
+	
+</p>
+
+        </div>
+        <hr>
+        <div style="text-align:left;padding:0px 10px 1px 10px;background:#ffffff;">
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      </div>
+        <hr>
+        </div>
+        <div class="col-md-5" style="background:#ffffff;text-align:left;">
+          <h4 style="color:#f43e00;">Recent Posts:</h4>
+          
+          <div style="border:1px solid #ececec;width:100%;float:right;margin-bottom:20px;"></div>
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:320px;}
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+          <form action="//corsosystems.us8.list-manage.com/subscribe/post?u=9c3aca2e795f5d04e5358a747&amp;id=9e5fa8ddd1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL">Subscribe to our mailing list</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" style="width:90%;" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_9c3aca2e795f5d04e5358a747_9e5fa8ddd1" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+          </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+          <div style="border:1px solid #ececec;width:100%;float:right;"></div>
+          <br/>
+          <a class="twitter-timeline"  href="https://twitter.com/CorsoSystems" data-widget-id="522870128069730305">Tweets by @CorsoSystems</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+        </div>
+      </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    
+  
+  </div>
+</div>
+
+
+<script src="/assets/themes/bootstrap/resources/jquery/jquery.min.js"></script>
+<script src="/assets/themes/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.txt',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+
+
+
+		<div class="row footer">
+  <div class="container">
+    <div class="col-md-2">
+      <div style="color:#ffffff;">
+        <img src="/img/logowhite.png" width="100px" style="margin-bottom: 10px;float:left;" />
+        <br/>
+        <p style="float:left;">&copy; 2014 Corso Systems</p>
+      </div>       
+    </div>        
+    <div class="col-md-2 col-md-offset-3" style="list-style:none;border-right:1px solid #ffffff;padding-left:60px;">
+      <ul style="list-style:none;text-align:left;">
+        <li><a href="http://www.corsosystems.com/about" style="color:#ffffff;">About</a></li>
+        <li><a href="http://www.corsosystems.com/platforms" style="color:#ffffff;">Platforms</a></li>
+        <li><a href="http://www.corsosystems.com/contact" style="color:#ffffff;">Contact</a></li>
+      </ul>   
+      <br/>
+    </div>
+    <div class="col-md-5" style="">
+      <div style="float:left;border-right:1px solid #ffffff;padding-right:37px; padding-left:10px;">
+        <ul id="address" style="list-style:none; color:#ffffff;text-align:left;">
+          <li>Corso Systems</li>
+          <li>125 E 21st St #109</li>
+          <li>Chicago, IL 60616</li>
+          <li>775.750.0540</li>
+        </ul>
+      </div>
+      <div style="float:right;">
+        <ul style="list-style:none;">
+          <li style="display:inline; padding-right:10px;"><a href="https://www.facebook.com/corsosystems?ref=hl"><img src="/img/facebook.svg" width="70px"/></a></li>
+          <li style="display:inline; padding-right:10px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitter.svg" width="70px"/></a></li>
+          <li style="display:inline;"><a href="https://www.linkedin.com/profile/view?id=373927990&trk=spm_pic"><img src="/img/linkedin.svg" width="70px"/></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+		<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.lunr.search.js"></script>
+
+	</body>
+</html>

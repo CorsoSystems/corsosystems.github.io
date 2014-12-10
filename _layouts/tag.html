@@ -1,6 +1,12 @@
----
-layout: default
----
-{% include JB/setup %}
-{% include themes/bootstrap/tag.html %}
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include navbar.html %}
+		{% include tag.html %}
+
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>

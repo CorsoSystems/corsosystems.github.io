@@ -1,0 +1,9 @@
+---
+layout: default
+img: ipad.png
+category: Services
+title: Connected Enterprise
+description: |
+  <p class="lead">After you have automated and optimized your processes at the plant level the next impact to your bottom line comes from becoming a connected enterprise. By connecting the shop floor to the top floor and everything in between you will have information on how all areas of your organization are interconnected. Each level of your organization will have access to the information they need in the way they need to see it to make better decisions. </p>
+
+---
