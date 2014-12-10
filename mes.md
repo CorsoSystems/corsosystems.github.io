@@ -4,14 +4,10 @@ title: Manufacturing Execution (MES) / Manufacturing Operations  Maangement (MOM
 tagline: Reduce your manufacturing costs 30% with the facilities you already have.
 
 ---
-{% include JB/setup %}
-<div class="row">
-    <div class="row">
-    	<h3>Manufacturing Exection (MES) / Manufacturing Operations Management (MOM) Systems</h3>
-    </div>
-    <div class="row">
+
+<div class="row" style="text-align:center;">
+    	<h3>Manufacturing Execution (MES) / Manufacturing Operations Management (MOM) Systems</h3>
     	<h4>Reduce your manufacturing costs <b>30%</b> with the facilities you already have</h4>
-    </div>
 </div>
 <hr>
 
@@ -99,7 +95,7 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
 
 
 <div class="row">
-<h4 style="text-align: left;">We speclialize in developing customized solutions to meet our clients' needs.</h4>
+<h4 style="text-align: left;">We specialize in developing customized solutions to meet our clients' needs.</h4>
 
 <h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=MES%20Information%20Request">info@corsosystems.com</a>.</h4>
 </div>

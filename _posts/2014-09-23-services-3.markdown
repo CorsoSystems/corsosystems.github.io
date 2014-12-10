@@ -1,0 +1,9 @@
+---
+layout: default
+img: phones.png
+category: Services
+title: Manufacturing Intelligence
+description: |
+  <p class="lead">In a similar way to your HMI system adding a layer of intelligence to your automated systems, a <a target="_blank" href="http://www.google.com/fonts">Manufacturing Execution System (MES)</a> enables you to make even smarter decisions. MES systems turn your data into useful information enabling you to directly correlate things like energy usage, inventory, and quality to real-time process conditions. Using this information allows you to fully understand your process and how it can be optimized to reach its highest potential.</p>
+
+---

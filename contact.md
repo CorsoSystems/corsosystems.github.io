@@ -4,7 +4,7 @@ title:
 tagline: 
 
 ---
-{% include JB/setup %}
+
 
 <body>
 

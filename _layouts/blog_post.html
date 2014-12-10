@@ -1,6 +1,12 @@
----
-layout: default
----
-{% include JB/setup %}
-{% include themes/bootstrap/blog_post.html %}
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
 
+	<body style="background-color:#b3b3b3;">
+		{% include navbar.html %}
+		{% include blog_post.html %}
+
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>

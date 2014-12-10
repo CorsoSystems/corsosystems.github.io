@@ -1,10 +1,10 @@
 ---
+category: CaseStudy
 layout: case_study
 title: "Process Change Management System for a mining company"
 date: "2014-09-19"
 description: "Implemented a web-based management system to manage process changes at a leading diatomaceous earth processing facility."
 tags: ["Mining", "Standardization", "Web-based Solutions", "Database Management"]
-permalink: /case_studies/mining/process-change-management-system
 case_study_title: "Process Change Management System for a mining company"
 summary: "Our staff worked with a leading diatomaceous earth processing facility to implement a centralized, web-based Process Change Management System. "
 image: "/img/moc.png"

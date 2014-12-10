@@ -5,7 +5,6 @@ tagline:
 summary: ""
 
 ---
-{% include JB/setup %}
 
 <h2>Our Story</h2>
 
@@ -23,6 +22,9 @@ summary: ""
 </div>
 <hr>
 
+
+<br/>
+<br/>
 
 
 

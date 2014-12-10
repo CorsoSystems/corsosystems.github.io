@@ -6,8 +6,8 @@ group: navigation
 
 ---
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="{{ASSET_PATH}}/resources/bootstrap/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="{{ASSET_PATH}}/resources/bootstrap/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
 
 
 <section id="search-results" style="display: none;text-align:left;">
