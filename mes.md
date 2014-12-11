@@ -64,7 +64,7 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
 
 	<p>Our MES/MOM systems have helped companies <b>improve equipment utilization</b>, <b>improve operational efficiency and consistency</b>, <b>reduce inventory</b>, <b>reduce scrap and rework</b>, <b>improve response time to production issues</b>, <b>improve visibility to production data</b> within single plant and across world wide manufacturing locations, and provide our customers with <b>common data and reporting tools</b>.</p>
 	
-	<p>In addition to implemented MES/MOM systems we develop <b>standardized reports</b>, <b>data visualization tools</b>, <b>APIs</b>, and can implement <b>process-level code</b> to <b>reduce</> the amount of time for <b>MES/MOM system implementation</b>.</p>
+	<p>In addition to implemented MES/MOM systems we develop <b>standardized reports</b>, <b>data visualization tools</b>, <b>APIs</b>, and can implement <b>process-level code</b> to <b>reduce</b> the amount of time for <b>MES/MOM system implementation</b>.</p>
 </div>
 
 </div>
