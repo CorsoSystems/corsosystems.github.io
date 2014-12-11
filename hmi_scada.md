@@ -51,7 +51,7 @@ tagline:
     <div class="col-md-12"><h4>HMI/SCADA Platforms</h4></div>
 </div>
 
-<br/>
+
 <br/>
 
 <div class="row">

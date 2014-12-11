@@ -50,7 +50,7 @@ tagline:
     <div class="col-md-12"><h4>PLC Platforms</h4></div>
 </div>
 
-
+<br/>
 
 <div class="row">
 <div class="col-xs-4"><a href="http://www.rockwell.com" title="Rockwell" target="_blank"><img alt="Rockwell" src="img/platforms/rockwell.jpg" width="250px"></a></div>

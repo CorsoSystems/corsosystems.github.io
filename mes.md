@@ -74,10 +74,10 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
 
 
 <div class="row">
-    <div class="col-md-12"><h4>Popular MES/MOM System Platforms We Have Worked Implemented</h4></div>
+    <div class="col-md-12"><h4>Popular MES/MOM System Platforms We Have Implemented</h4></div>
 </div>
 
-<br/>
+
 <br/>
 
 <div class="row">
