@@ -5,5 +5,5 @@ category: Services
 title: Automation
 description: |
   <p class="lead">The goal of automation is to repeatedly execute a production process, enabling you to make consistent products every time one rolls off the line.  Automation simplifies production by using <a target="_blank"
-  href="http://join.deathtothestockphoto.com/">Programmable Logic Controllers (PLCs)</a> to handle tedious tasks, freeing your team to understand manage your resource usage and costs more effectively. Automation is the first step towards making your business work for you.</p>
+  href="http://corsosystems.com/plc_programming">Programmable Logic Controllers (PLCs)</a> to handle tedious tasks, freeing your team to understand manage your resource usage and costs more effectively. Automation is the first step towards making your business work for you.</p>
 ---

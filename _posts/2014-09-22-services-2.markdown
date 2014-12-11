@@ -5,6 +5,6 @@ category: Services
 title: Interaction
 description: |
   <p class="lead">Once your process is automated your operators need a way to leverage their expertise and experience with your systems. This is where a <a
-  target="_blank" href="http://www.psdcovers.com/">Human Machine Interface (HMI)</a> comes into play. This system gives your operators full control of your process with feedback on status, alarms, upsets, etc. At this level some of your data can even be turned into information through the use of historical trends, dashboard elements, and other operator notifications.</p>
+  target="_blank" href="http://corsosystems.com/hmi_scada">Human Machine Interface (HMI)</a> comes into play. This system gives your operators full control of your process with feedback on status, alarms, upsets, etc. At this level some of your data can even be turned into information through the use of historical trends, dashboard elements, and other operator notifications.</p>
 
 ---
