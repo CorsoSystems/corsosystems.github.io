@@ -78,6 +78,7 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
 </div>
 
 <br/>
+<br/>
 
 <div class="row">
 <div class="col-xs-4"><a href="http://www.rockwell.com" title="Rockwell" target="_blank"><img alt="Rockwell" src="img/platforms/rockwell.jpg" width="250px"></a></div>
