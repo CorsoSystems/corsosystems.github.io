@@ -5,11 +5,11 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
 
 ---
 
-<div class="row">
-    <div class="row">
+<div class="row" style="text-align:center;">
+    <div class="col-md-12">
     	<h3>Manufacturing Exection (MES) / Manufacturing Operations Management (MOM) Systems</h3>
     </div>
-    <div class="row">
+    <div class="col-md-12">
     	<h4>Reduce your manufacturing costs <b>30%</b> with the facilities you already have</h4>
     </div>
 </div>
