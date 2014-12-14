@@ -23,12 +23,19 @@ Usage:
 {% if site.JB.pages_list.provider == "custom" %}
   {% include custom/pages_list %}
 {% else %}
+  <div class="col-md-12">
   {% for node in pages_list %}
+    {% if forloop.index >2 %}
+      {% assign mod = forloop.index| modulo:3 %}
+    {% else %}
+      {% assign mod = 1 %}
+    {% endif %}
     {% if node.category contains'CaseStudy' %}
       {% capture title_size %}{{ node.case_study_title | size }}{% endcapture %}
       {% if node.title != null %}
         {% if group == null or group == node.group %}
       	 {% if page.url == node.url %}
+
       	     <div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
                  <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
                       <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>{{ node.case_study_title }}</b></a>                    
@@ -59,10 +66,21 @@ Usage:
       {% endif %}
     {% endif %}
     {% endif %}
+    {% if mod == 0 %}
+      </div>
+
+      <div class="col-md-10 col-md-offset-1">
+        <hr>
+      </div>
+
+      <div class="col-md-12">
+    {% endif %}
   {% endfor %}
+  </div>
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+
 <!--
         <div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
           <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
