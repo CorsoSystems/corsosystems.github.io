@@ -8,7 +8,7 @@ image: "/img/wrench.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>Throughout the course of your system's life you may want someone else to work on it. You should be allowed to.</p>"
-date: "05-02-2014"
+date: "05-02-2015"
 ---
 
 <p>Long term support can be a hot-button issue. We don't think it ever needs to get to that point.</p>
