@@ -13,6 +13,12 @@
 
     <title>{% if page.titlebar %}{{ page.titlebar }}{% else %}{{ site.title }}{% endif %}</title>
 
+    <meta property="og:url" content="{{ BASE_PATH }}{{page.url}}"/>
+    <meta property="og:title" content="{{page.page_title}}"/>
+    <meta property="og:description" content="{{page.blurb}}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="{{post.image}}" /><br>
+
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
