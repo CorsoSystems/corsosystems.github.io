@@ -11,9 +11,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{% if page.titlebar %}{{ page.titlebar }}{% else %}{{ site.title }}{% endif %}</title>
+    
 
     {% if page.url contains 'blog/' %}
+    <title>{{page.page_title}}</title>
       <meta property="og:image" content="http://corsosystems.com{{page.image}}"/>
       <meta property="og:type" content="image"/>
       <meta property="og:url" content="{{page.url}}"/>
@@ -25,6 +26,8 @@
       <meta name="twitter:title" content="{{page.page_title}}">
       <meta name="twitter:description" content="{{page.blurb}}">
       <meta name="twitter:image:src" content="http://corsosystems.com{{page.image}}">
+      {% else %}
+      <title>{% if page.titlebar %}{{ page.titlebar }}{% else %}{{ site.title }}{% endif %}</title>
     {% endif %}
 
     <!-- Bootstrap Core CSS -->
