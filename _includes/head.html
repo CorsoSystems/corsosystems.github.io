@@ -13,11 +13,19 @@
 
     <title>{% if page.titlebar %}{{ page.titlebar }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <meta property="og:url" content="{{page.url}}"/>
-    <meta property="og:title" content="{{page.page_title}}"/>
-    <meta property="og:description" content="{{page.blurb}}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="{{page.image}}" /><br>
+    {% if page.url contains 'blog/' %}
+      <meta property="og:image" content="http://corsosystems.com{{page.image}}"/>
+      <meta property="og:type" content="image"/>
+      <meta property="og:url" content="{{page.url}}"/>
+      <meta property="og:title" content="{{page.page_title}}"/>
+      <meta property="og:description" content="{{page.blurb}}" />
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@corsosystems">
+      <meta name="twitter:creator" content="@corsosystems">
+      <meta name="twitter:title" content="{{page.page_title}}">
+      <meta name="twitter:description" content="{{page.blurb}}">
+      <meta name="twitter:image:src" content="http://corsosystems.com{{page.image}}">
+    {% endif %}
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
