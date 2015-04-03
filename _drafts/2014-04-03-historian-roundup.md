@@ -59,10 +59,11 @@ In addition to historical data analysis, VantagePoint gives you access to dashbo
 
 FactoryTalk Historian also has the ability to work with Excel directly with the purchase of an additional license for the functionality. This allows you to create reports in Excel without spending time learning VantagePoint.
 
-Outside of trending and reporting tools the other main way to access historical data is through database queries. A couple of versions ago FactoryTalk Historian included ODBC access out of the box making this form of access extremely easy. For "officially" unconfirmed yet easy to infer reasons, this was likely due to system integrators creating their own software packages competing with VantagePoint (which had recently been acquired by Rockwell). Since then the ODBC connection has been moved to an "Advanced Server License" along with a couple of other features.
+Outside of trending and reporting tools the other main way to access historical data is through database queries. A couple of versions ago FactoryTalk Historian included SQL Server ODBC access out of the box making this form of access extremely easy. For "officially" unconfirmed yet easy to infer reasons, this was likely due to system integrators creating their own software packages competing with VantagePoint (which had recently been acquired by Rockwell). Since then the ODBC connection has been moved to an "Advanced Server License" along with a couple of other features.
 
 To access data using SQL queries, thus making it accessible to other business systems, QA/QC, production, ERP, etc., you can use a feature called the VantagePoint CLR. Basically the VantagePoint CLR is a set of pre-defined queries you can use to access historical data through VantagePoint. The documentation for this feature is very clear and while it adds a few steps to installation and acts as a middleman between you and your data it is pretty easy to use. We have used it on every FactoryTalk Historian installation we have done since it was released and all of our customers have been happy with its performance.
 
+As with most Rockwell products FactoryTalk Historian and VantagePoint are well integrated with Microsoft platforms making it difficult to use other databases or operating systems.
 
 
 <h5>Inductive Automation - Ignition</h5>
@@ -81,14 +82,23 @@ With data stored in SQL tables, the database you are using will dictate the data
 
 Deadband configuration is available, storing only datapoints as they change instead of storing every point as it is collected.
 <h5>Licensing</h5>
+Inductive Automation's approach to licensing is simple. If you purchase any of their Ignition tiers above "Lite" you get unlimited historical tags included with your system.
+
+The caveat to this is that you will also need a database license, in addition to Ignition licensing. From the basic Community or Express versions of some of the popular database packages, all the way up to a world-wide enterprise solution you can find a database to meet your needs and budget. Your company likely already has this infrastructure in place making Ignition an easy addition to your arsenal.
+
+Many databases are supported and unlike some of the other offerings on the market you are not limited to SQL Server when using Ignition.
 
 <h5>Data Access/Visualization</h5>
 
+Inductive Automation offers one of the most "open" architectures of any of the major Historian offerings. With data accessible directly through a SQL database you can easily access data for any line-of-business or process programs you are using. 
 
+Trending is handled using Ignition's built-in trending tools. This is a powerful tool used to view real-time or historical data with configurable pens. The other great feature of Inductive's architecture is the ability to seamlessly integrate data from your database with historical data on the trend control. While this is possible in other packages with additional licensing requirements, it works out of the box with Ignition. This is typically manually entered data from non-Inductive Automation databases, such as QA/QC systems, or other line-of-business applications. This provides you the ability to build a single application that can be used across all levels of your organization to access data at any level of detail from the shop floor to the top floor.
 
-Depending on what you want to do with your data you can use Inductive Automation's modules to view and analyze historical data or you can directly access it from the database for use in other applications such as lab information management systems.
+Ignition also gives you the ability to access your data in tabular format with table controls. These controls give you direct access to SQL queries allowing you to access any data you might need in any format you can dream up.
 
-Given Inductive Automation's extensive database integration you can also easily access manually entered data from non-Inductive Automation databases in the HMI application. This provides you the ability to build a single application that can be used across all levels of your organization to access data at any level of detail from the plant floor all the way up to the board room.
+With the Reporting Module (included in each tier with historical tags) you have a powerful reporting engine you can use to build reports for any of the data in your system. Reports can include tables, graphs, and images, use dynamic parameters such as date ranges, and be easily exported to image and PDF formats.
+
+The beauty of the Ignition platform is that all of the data access methods are built-into the system from the start. You are free to build systems on top of the historical data as necessary and can easily extend functionality into areas like Manufacturing Execution Systems without having to learn an entirely new software package.
 
 
 
@@ -96,7 +106,7 @@ Given Inductive Automation's extensive database integration you can also easily 
 
 <h5>Wonderware - Historian</h5>
 <h5>Configuration, Communication, and Collection </h5>
-Wonderware's historical data system is known simply as Historian. Historian is a proprietary system using flat files to store process data. 
+Wonderware's historical data system, part of their System Platform architecture, is known simply as Historian. Historian is a proprietary system using flat files to store process data. 
 
 Historian allows you to collect and store data from any device using Wonderware's DAServer communication protocols. 
 
@@ -122,9 +132,9 @@ Accessing data in Historian can be accomplished in two ways. First by using Wond
 
 As mentioned in the FactoryTalk Historian section, Wonderware's Historian Client package was created by the same team who created the software that became VantagePoint. While there are a few differences in functionality they are largely very similar packages. 
 
-All of your bases are covered with Historian Client. A robust trending tool gives you access to all of your time-series data with access to various analysis tools. You can also use an X-Y Scatter Plot with the ability to generate a "golden batch" comparison for your ideal process conditions.
+Nearly all of your bases are covered with Historian Client. A robust trending tool gives you access to all of your time-series data with access to various analysis tools. You can also use an X-Y Scatter Plot with the ability to generate a "golden batch" comparison for your ideal process conditions.
 
-Second you can access the data through Microsoft SQL Server Wonderware's query interface. This allows you to use the historical data in other applications such as lab information management or downtime/OEE tracking systems in conjunction with manually entered data from process operators or technicians.
+Second, you can access the data through Microsoft SQL Server using Wonderware's query interface. This allows you to use the historical data in other applications such as lab information management or downtime/OEE tracking systems in conjunction with manually entered data from process operators or technicians. Clear documentation is available showing you how to retrieve your data in different formats and we have used this method with great success on many projects.
 
 
 
