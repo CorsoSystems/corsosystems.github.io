@@ -20,6 +20,18 @@ tagline:
 	</div>
 </div>
 
+
+
+<div class="row">
+		<div class="col-md-1 col-md-offset-3">
+			<a href="{{ site.url }}/white_papers/startupSuccess.pdf"><img src="/img/bullseye.png" width="60"/></a>
+		</div>
+		<div class="col-md-4">
+		<h4><a href="{{ site.url }}/white_papers/startupSuccess.pdf">Startup Success</a></h4>
+		<p>A brief overview of our approach to projects.</p>
+	</div>
+</div>
+
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<hr>
@@ -28,13 +40,15 @@ tagline:
 
 <div class="row">
 		<div class="col-md-1 col-md-offset-3">
-			<a href="{{ site.url }}/white_papers/startupSuccess.pdf"><img src="/img/bullseye.png" width="60"/></a>
+			<a href="{{ site.url }}/white_papers/Top 5 Historian Criteria.pdf"><img src="/img/top5Hist.png" width="60"/></a>
 		</div>
 		<div class="col-md-4">
-		<h4><a href="{{ site.url }}/white_papers/startupSuccess.pdf">Startup Success</a></h4>
-		<p>A brief overview of how we approach projects.</p>
+		<h4><a href="{{ site.url }}/white_papers/Top 5 Historian Criteria.pdf">Top 5 Historian Purchase Criteria</a></h4>
+		<p>We discuss the most popular process historians on the market and give you the Top 5 Criteria our customers have used in every historian purchasing decision.</p>
 	</div>
 </div>
+
+
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<hr>
