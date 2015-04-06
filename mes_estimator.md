@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automation Estimator
+title: MES Estimator
 tagline: 
 
 ---
@@ -25,12 +25,12 @@ tagline:
 	</style>
 	<div class="row">
 		<div class="col-md-4 noprint">
-			<h2>Automation Project Estimator</h2>
+			<h2>MES Project Estimator</h2>
 			<br/>
-			<p>The Automation Project Estimator is a <b>simple tool</b> allowing project managers to <b>quickly</b> and <b>thoroughly</b> estimate the time and materials required for <b>any project</b>.</p>
+			<p>The Manufacturing Execution System (MES) Project Estimator is a <b>simple tool</b> allowing project managers to <b>quickly</b> and <b>thoroughly</b> estimate the time and materials required for <b>any project</b>.</p>
 			<p>To use, simply enter the title of the project and your default hourly rate. Then adjust your anticipated hours for each task to generate the total project estimate. When finished, you can view your finalized estimate in a print-ready format in case you’d like to save a PDF or print a copy for your records.</p>
-			<p>We included the common tasks encountered on most automation projects, you can easily add new tasks using the "Add Task" button if you need more line items.</p>
-			<p>*Note, we have no way of accessing any information you put into the Automation Estimator. Unless someone is looking over your shoulder you will have complete privacy while using our tools. If you have any questions or would like more information on the Automation Estimator or anything else please <a href="http://www.corsosystems.com/contact">contact us</a>.</p>
+			<p>We included the common tasks encountered on most MES projects, you can easily add new tasks using the "Add Task" button if you need more line items.</p>
+			<p>*Note, we have no way of accessing any information you put into the MES Estimator. Unless someone is looking over your shoulder you will have complete privacy while using our tools. If you have any questions or would like more information on the MES Estimator or anything else please <a href="http://www.corsosystems.com/contact">contact us</a>.</p>
 		</div>
 		<div class="col-md-7 col-md-offset-1">
 		<br/>
@@ -100,7 +100,7 @@ tagline:
 <script type="text/javascript">
 
 $(function() {
-	var tasks = ["Project Kickoff/Design meeting","Additional Project Meetings","Develop Control Philosophy","HMI Screen Mockups","Develop HMI Screens","Develop PLC Program","Software Configuration","Configure Communications","Alarm Configuration","Historian Configuration","Software deployment","Prepare O&M Materials","Functional Acceptance Testing (FAT)","Site Acceptance Testing (SAT)","Startup/Commissioning","Training"];
+	var tasks = ["Project Kickoff/Design meeting","Additional Project Meetings","Identify Process Areas","Identify Downtime Conditions","Develop Waste Model","Develop Throughput Model","Identify Scheduling Needs","Map ERP Connectivity","Develop Process Hierarchy","Implement Process Model in MES Package", "Configure Database","Configure Process Communications","Configure ERP Communications","Develop Reports","Software Deployment","Report Deployment", "Prepare O&M Materials","Pre-Implementation Testing","Post-Implementation Testing","Training"];
 
 	$('#header > tbody:last').append('<tr><td class="hover"><input class="desc" type="text" style="display:none;font-size:20px;" width="300px"></input><label class="lbl" style="font-size:20px;">Project Name</label><button class="edit btn btn-primary btn-sm" style="display:none;margin-left:10px;">Edit</button><button class="save btn btn-success btn-sm" style="display:none;margin-left:10px;">Save</button></td><td class="rateHover">$<input class="defaultRate" type="text" style="display:none;width:60px;font-size:20px;" value="0"></input><label class="rateLbl" style="font-size:20px;">0</label><button class="rateEdit btn btn-primary btn-sm" style="display:none;margin-left:10px;">Edit</button><button class="rateSave btn btn-success btn-sm" style="display:none;margin-left:10px;">Save</button></td></tr>');
 
