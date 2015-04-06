@@ -4,8 +4,10 @@
     <script>
         var blocklink = ['http://blackhatworth.com/', 'http://forum.topic55365580.darodar.com'];
         for (var b = blocklink.length; b--;) {
-        if (document.referrer.match(blocklink[b]))
+          if (document.referrer.match(blocklink[b])){
             window.location = "http://priceg.com/";
+          }
+        }
     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +45,7 @@
 
 	<body>
 		<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-static-top noprint" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -74,8 +76,9 @@
                 <li><a href="http://www.corsosystems.com/platforms" class="bright">Platforms</a></li>
                 <li><a href="http://www.corsosystems.com/case_studies.html" class="bright">Case Studies</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle bright" data-toggle="dropdown" role="button" aria-expanded="false">Education <span class="caret bright"></span></a>
+                    <a href="#" class="dropdown-toggle bright" data-toggle="dropdown" role="button" aria-expanded="false">Resources <span class="caret bright"></span></a>
                     <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://www.corsosystems.com/automation_estimator.html">Automation Estimator</a></li>
                         <li><a href="http://www.corsosystems.com/wpsignup.html">White Papers</a></li>
                     </ul>
                 </li>
@@ -563,7 +566,7 @@
 
 
 
-		<div class="row footer">
+		<div class="row footer noprint">
   <div class="container">
     <div class="col-md-2">
       <div style="color:#ffffff;">
