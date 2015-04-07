@@ -13,24 +13,31 @@ blurb: "<p>Learn how process data systems can enable you to track your brewing o
 date: "20-10-2014"
 ---
 
+
 <p>Learn how process data systems can enable you to track your brewing operation more effectively.</p>
 
 <img src="/img/bottlingline.jpg" width="400px"/>
 
-<p>Let’s say you run a small brewery. You take your raw ingredients, run them through the mashing and boiling processes, let the liquid ferment and finally put it into bottles or cans to be shipped to your customers. Odds are your goal is to product a consistent product.</p>
-<p>Along with your recipe you likely have a clipboard to track data for each batch. The amount of raw ingredients, what variety of hops, how long you boiled everything, fermentation duration, alcohol content, etc.</p>
-<p>Once you have run a complete batch through quality control you might generate some more data on color, taste, clarity, and so on. The recipe and all of the data you collect during the brewing process can easily be entered into a system making this data more valuable than a sheet of paper in a filing cabinet.</p>
+<p>Imagine you run a small brewery. You take raw ingredients, run them through the mashing and boiling processes, let the liquid ferment and finally put it into bottles or cans to be shipped to your customers. Odds are your <b>goal</b> is to produce an <b>amazing</b> and <b>consistent</b> product.</p>
 
-<p>Instead of a drawer as the final home for your data, imagine you open a web-browser, log in to a site and input the data into a database. For each step of the brewing process you can pull up a report comparing this batch to any or all of your previous batches and get a detailed view of how it compares. You can even have a good idea of what your final product will look like based on all of your experience with the data to back up your gut.</p>
+<h4><b>Why leave quality up to chance?</b></h4>
+
+
+<p>With your recipes as a foundation, you likely use a clipboard to track data for each batch. The amount of raw ingredients, what variety of hops, how long you boiled everything, fermentation duration, alcohol content, etc.</p>
+<p>Once you have run a complete batch through quality control you might generate some more data on color, taste, clarity, and so on. What do you do with this data once you are done? </p>
+
+<p>Instead of a drawer as the final home for your data, imagine you open a web-browser, log in to a site and input the data into a database. For each step of the brewing process you can pull up a report comparing this batch to any or all of your previous batches and get a detailed view of how it compares. You can even have a good idea of what your final product will look like based on all of your experience with the data to back up your instincts.</p>
 <br/>
 <img src="/img/datasystemscreen.png" width="350px"/>
 <br/>
 <br/>
-<p>The real value of the system comes when you make subsequent batches and generate more data. If you make a particularly great tasting batch, can you easily identify what was different about the process compared to a normal batch? Were there any differences in your ingredients? Would you like to be able to repeat your results and have the ability to spot trends in your final products? When a major distributor picks up your product and you need to increase production how easily can you ramp up production to meet demand?</p>
 
-<p>These questions are all things a large brewer like Anheuser-Busch has answered. They track a lot of data for every batch. If something ends up tasting off in the end product they can compare the batch to every other batch in their database and diagnose likely causes. They track the effect of various ingredients on the final product, finding ways to brew consistent tasting products at any of their facilities. Granted their brewing process is heavily automated which simplifies data collection, the concepts of using a centralized data collection system to brew smarter can be implemented in any size brewery.</p>
+<h4>Turning Data Into Information</h4>
+<p>The real value of the data comes when you make subsequent batches and generate more data. If you make a particularly great tasting batch, can you easily identify what was different about the process compared to a normal batch? Were there any differences in your ingredients? Would you like to be able to repeat your results and have the ability to spot trends in your final products? When a major distributor picks up your product and you need to increase production how easily can you ramp up production to meet demand? Answering these questions is easy when you have context combined with data. <b>Information.</b> </p>
 
-<p>We have have had the opportunity to implement similar systems that make the lives of operators and artisans easier. Once people get their hands on this type of technology they get excited about what they can do next. Turning data into information makes it easy to increase productivity, consistency, and customer satisfaction. Intelligent information about a process truly expands the horizon of what is possible and gives people the tools to operate at their highest potential.</p>
+<p>These questions are all things a large brewer like Anheuser-Busch has answered. <b>AB might be a bad word within your walls</b>. We are not suggesting you become them, only bringing to light the fact they have consistency and quality control figured out. They track a lot of data for every batch. If something ends up tasting off in the end product they can compare the batch to every other batch in their database and diagnose likely causes. They track the effect of various ingredients on the final product, finding ways to brew consistent tasting products at any of their facilities. Granted their brewing process is heavily automated simplifying data collection, still the concepts of using a centralized data collection system to brew smarter can be implemented in any size brewery.</p>
+
+<p>We implement similar systems in other industries making the lives of operators and artisans easier. Once people get their hands on this type of technology they get excited about what they can do next. Turning data into information makes it easy to <b>increase productivity</b>, <b>consistency</b>, and <b>customer satisfaction</b>. Intelligent information about a process truly expands the horizon of what is possible and gives people the tools to operate at their highest potential.</p>
 <hr>
 <p><b>For more information about how you can use a centralized data collection system at your facility enter your information below to receive our three part series on designing data systems.</b></p>
 
