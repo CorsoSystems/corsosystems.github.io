@@ -8,7 +8,7 @@ tagline:
 <div class="container">
 
 <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 col-md-offset-1" >
     <img src="/img/cover.jpg" width="102%">
     </div>
 
@@ -41,11 +41,11 @@ tagline:
 			<a href="http://www.corsosystems.com/ask_an_expert.html" class="btn btn-primary">Ask an expert</a></span>
 		</div>
 		<hr>
-		<div style="padding-left:25px;">
-			<span style="display:inline-block;width:60px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitterSmall.svg" width="36"></a></span>
-			<span style="display:inline-block;width:60px;"><a href="https://www.linkedin.com/company/corso-systems"><img src="/img/linkedinSmall.svg" width="36"></a></span>
-			<span style="display:inline-block;width:60px;"><a href="https://www.facebook.com/corsosystems"><img src="/img/facebookSmall.svg" width="36"></a></span>
-			<span style="display:inline-block;width:60px;"><a href="http://www.corsosystems.com/blog.html"><img src="/img/rssSmall.svg" width="36"></a></span>
+		<div style="padding-left:35px;">
+			<span style="display:inline-block;width:50px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitterSmall.svg" width="36"></a></span>
+			<span style="display:inline-block;width:50px;"><a href="https://www.linkedin.com/company/corso-systems"><img src="/img/linkedinSmall.svg" width="36"></a></span>
+			<span style="display:inline-block;width:50px;"><a href="https://www.facebook.com/corsosystems"><img src="/img/facebookSmall.svg" width="36"></a></span>
+			<span style="display:inline-block;width:50px;"><a href="http://www.corsosystems.com/blog.html"><img src="/img/rssSmall.svg" width="36"></a></span>
 		</div>
 		<hr>
 		<div style="padding-left:12px;">
