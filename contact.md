@@ -6,7 +6,7 @@ tagline:
 ---
 
 
-<body style="margin-top:-50px;">
+<body>
 
 
 <!--<img style="margin-left:auto; margin-right:auto; display:block;" src="img/chat.svg" height="100px" width="100px">-->
