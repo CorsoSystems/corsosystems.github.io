@@ -11,7 +11,7 @@ tagline:
 </div>
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
-    <h4 style="text-align: left;">Corso Systems has experience with many technology platforms, including but not limited to those shown below:</h4>
+    <h4 style="text-align: left;">We have experience with many technology platforms, including but not limited to those shown below:</h4>
 </div>
 
 </div>
@@ -50,8 +50,6 @@ tagline:
 <hr>
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
-<h4 style="text-align: left;">We speclialize in developing customized solutions to meet our clients' needs.</h4>
-
 <h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=Information%20Request">info@corsosystems.com</a>.</h4>
 </div>
 </div>
