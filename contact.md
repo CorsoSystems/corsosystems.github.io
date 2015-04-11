@@ -17,4 +17,9 @@ tagline:
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>﻿
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="http://form.jotform.us/jsform/42667426563159"></script>
+<style type="text/css">
+	iframe{
+		margin-top:-30px;
+	}
+</style>
 </body>
