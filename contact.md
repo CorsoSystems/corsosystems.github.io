@@ -21,6 +21,6 @@ tagline:
 <script type="text/javascript">
 	$(function(){
 		$('#42667426563159').css("padding-top",-30);
-	});
+		$('.form-all').css("padding-top",-30);
 </script>
 </body>
