@@ -1,5 +1,8 @@
 /* Custom CSS */
-
+.form-all {
+padding-top: 0;
+margin-top: -10px;
+}
 
 #contact {
 	text-align: center;
