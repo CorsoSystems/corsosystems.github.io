@@ -67,7 +67,8 @@ tagline:
 <div class="col-md-12">
 <h4 style="text-align: left;">We speclialize in developing customized solutions to meet our clients' needs.</h4>
 
-<h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=Information%20Request">info@corsosystems.com</a>.</h4>
+<h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please contact us:.</h4>
+ <a href="mailto:info@corsosystems.com?Subject=Information%20Request" class="btn btn-cta">Ask us about PLC Programming</a>
 </div>
 </div>
 

@@ -60,7 +60,6 @@ tagline:
 				<li><a href="http://www.corsosystems.com/mes_estimator">MES Project Estimator</a></li>
 			</ul>
 		</div>
-
 	</div>
 </div>
 </div>
@@ -89,10 +88,14 @@ tagline:
 
 
 <div class="row">
-<div class="col-md-10 col-md-offset-1">
+<div class="col-md-10 col-md-offset-1" style="text-align:center;">
 <hr>
 
-<h4 style="text-align: left;">If you don't see your platform listed or would like our help with finding a new one, please email one of our engineers at <a href="mailto:info@corsosystems.com?Subject=Information%20Request">info@corsosystems.com</a>.</h4>
-</div>
-</div>
+<h4><b>Please let us know if you have any questions:</b></h4>
+<br/>
+<a href="mailto:info@corsosystems.com?Subject=Information%20Request" class="btn btn-cta">Ask us about PLCs</a>
 
+</div>
+</div>
+<br/>
+<br/>
