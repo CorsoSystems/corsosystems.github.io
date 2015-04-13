@@ -38,10 +38,38 @@ tagline:
 		<hr>
 		<div>
 			<span style="display:inline-block;width:60px;vertical-align:top;padding-left:12px;padding-top:12px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/questionSmall.svg" width="36"></a></span>
-			<span style="display:inline-block;"><label>Have a question about a process, <br/>technology, or anything else?</label>
+			<span style="display:inline-block;"><label>Have a question about a process,<br/>technology, or anything else?</label>
 			<br/>
 			<a href="http://www.corsosystems.com/ask_an_expert.html" class="btn btn-primary">Ask an expert</a></span>
 		</div>
+		<hr>
+		<label style="color:#F64100;">GET</label><label>&nbsp;OUR NEWSLETTER</label>
+		<!-- Begin MailChimp Signup Form -->
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			#mc_embed_signup{
+
+			}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
+		<div style="margin-bottom:-12px;">
+		<div id="mc_embed_signup">
+			<form action="//corsosystems.us8.list-manage.com/subscribe/post?u=9c3aca2e795f5d04e5358a747&amp;id=f4221f1e3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    				<div id="mc_embed_signup_scroll">
+					
+					<span style="float:left;width:50%;"><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="width:50%!important;height:34px;border-radius: 3px;"></span>
+    			
+    					<div style="position: absolute; left: -5000px;"><input type="text" name="b_9c3aca2e795f5d04e5358a747_f4221f1e3b" tabindex="-1" value=""></div>
+    					<span style="float:right;width:50%;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></span>
+    					<span style="width:100%;clear:both;"></span>
+    				</div>
+			</form>
+
+		</div>
+		<span style="height:5px;">&nbsp;</span>
+		</div>
+		
 		<hr>
 		<div style="padding-left:35px;">
 			<span style="display:inline-block;width:50px;"><a href="https://twitter.com/CorsoSystems"><img src="/img/twitterSmall.svg" width="36"></a></span>
