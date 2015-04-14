@@ -53,14 +53,7 @@ date: "14-04-2015"
 <p>Sometimes you just need some moral support. We have been there... Knowing someone else has been down the same road is sometimes all you need to push into new territory.</p>
 
 
-<div style="text-align:center;">
-	<p><b>Simple, right?</b></p>
-</div>
-<br/>
 
-<div style="text-align:center;width:100%;">
-	<h4>Consider this our open invitation to Ask Us Anything.</h4>
-</div>
 
 <br/>
 <h3>What do <b style="color:#f64100;">you</b> want to learn?</h3>
@@ -82,15 +75,15 @@ date: "14-04-2015"
 </ul>
 <br/>
 
-<h3>Let's <b style="color:#f64100">start</b> a conversation.</h3>
-
-<p>You name it, you got it &mdash; Just Ask Us. We'll keep any and all information completely confidential. If you ask a question we think would be valuable to the rest of the world, we will ask if we can share it with the world and leave out any info you ask us to.</p>
-
-
+<h3 style="text-align:center;">Let's <b style="color:#f64100">start</b> a conversation.</h3>
 <br/>
 
+
 <div class="row" style="text-align:center;">
-	<a href="mailto:info@corsosystems.com?Subject=Ask%20Us%20Anything" class="btn btn-cta">Ask us anything!</a>
+	<span style="width:25%;margin-left:15%;padding-right:25px;"><a href="mailto:info@corsosystems.com?Subject=Ask%20Us%20Anything" style="margin-top:20px;" class="btn btn-cta">Ask us anything!</a></span>
+	<span style="color:#f64100;font-size:12px;float:right;width:55%;text-align:left;"><p><img src="/img/approved.svg" width="16"/>&nbsp;&nbsp;Answers are free of charge, hassle, and pressure</p>
+		<p><img src="/img/approved.svg" width="16"/>&nbsp;&nbsp;You won't be spammed by us</p>
+		<p><img src="/img/approved.svg" width="16"/>&nbsp;&nbsp;Your information will remain confidential</p></span>
 </div>
 
 
