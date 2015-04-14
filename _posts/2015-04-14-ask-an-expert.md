@@ -63,7 +63,7 @@ date: "14-04-2015"
 </div>
 
 <br/>
-<h3>What do you <b style="color:#f64100;">need</b> to know?</h3>
+<h3>What do <b style="color:#f64100;">you</b> want to learn?</h3>
 
 
 <p>Sure, there are some limits, obviously we can't do an entire project for you out of the goodness of our hearts. What we can offer is some of our time to help you. Think of it as our version of <b style="color:#f64100;">Office Hours</b>.</p>
