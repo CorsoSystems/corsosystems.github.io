@@ -12,24 +12,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<p>FactoryTalk Metrics has three major components, the database, process communications and reporting/analysis. This post details the database and communications systems and how they can be used to integrate FactoryTalk Metrics into your process.</p>">
+    <meta name="description" content="<p>As your manufacturing empire grows, it becomes critical to have as a better handle on your supply chain. From raw materials, through manufacturing, all the way to your end users, knowing when things go wrong as soon as possible can save you time, headaches, and avoid costly recalls. Learn how to take the first step.</p>">
     <meta name="author" content="Alex Marcy">
 
     
 
     
-      <title>FactoryTalk Metrics - The Backend</title>
-      <meta property="og:image" content="http://corsosystems.com/img/plantModel.png"/>
+      <title>The First Step Towards A Fully Integrated Supply Chain</title>
+      <meta property="og:image" content="http://corsosystems.com/img/trace.jpg"/>
       <meta property="og:type" content="article"/>
-      <meta property="og:url" content="http://corsosystems.com/blog/factorytalk-metrics-details"/>
-      <meta property="og:title" content="FactoryTalk Metrics - The Backend"/>
-      <meta property="og:description" content="<p>FactoryTalk Metrics has three major components, the database, process communications and reporting/analysis. This post details the database and communications systems and how they can be used to integrate FactoryTalk Metrics into your process.</p>" />
+      <meta property="og:url" content="http://corsosystems.com/blog/track-and-trace"/>
+      <meta property="og:title" content="The First Step Towards A Fully Integrated Supply Chain"/>
+      <meta property="og:description" content="<p>As your manufacturing empire grows, it becomes critical to have as a better handle on your supply chain. From raw materials, through manufacturing, all the way to your end users, knowing when things go wrong as soon as possible can save you time, headaches, and avoid costly recalls. Learn how to take the first step.</p>" />
       <meta name="twitter:card" content="summary">
       <meta name="twitter:site" content="@corsosystems">
       <meta name="twitter:creator" content="@corsosystems">
-      <meta name="twitter:title" content="FactoryTalk Metrics - The Backend">
-      <meta name="twitter:description" content="<p>FactoryTalk Metrics has three major components, the database, process communications and reporting/analysis. This post details the database and communications systems and how they can be used to integrate FactoryTalk Metrics into your process.</p>">
-      <meta name="twitter:image:src" content="http://corsosystems.com/img/plantModel.png">
+      <meta name="twitter:title" content="The First Step Towards A Fully Integrated Supply Chain">
+      <meta name="twitter:description" content="<p>As your manufacturing empire grows, it becomes critical to have as a better handle on your supply chain. From raw materials, through manufacturing, all the way to your end users, knowing when things go wrong as soon as possible can save you time, headaches, and avoid costly recalls. Learn how to take the first step.</p>">
+      <meta name="twitter:image:src" content="http://corsosystems.com/img/trace.jpg">
     
 
     <!-- Bootstrap Core CSS -->
@@ -119,59 +119,54 @@
           <div class="col-md-10 col-md-offset-1" style="background:#ffffff;border-radius:5px;">
           <div class="col-md-7" style="padding:0px;border-right:1px solid #cccccc;">
           <div style="text-align:left;background:#ffffff;color:#f43e00;padding:1px 10px 8px 10px;">
-            <h2>FactoryTalk Metrics - The Backend</h2>
+            <h2>The First Step Towards A Fully Integrated Supply Chain</h2>
           </div>
           <div style="border:1px solid #ececec;width:100%;float:right;"></div>
           <div class="row" style="text-align:left;padding-left:25px;">
             
-          <span style="float:left;width:50%;"><h6>By: Alex Marcy on November 11, 2014</h6></span><span style="float:right;padding-right:30px;"><h6>Tagged: 
-    KPI
-
-    OEE
-
-    FactoryTalk
-
-    Metrics
+          <span style="float:left;width:50%;"><h6>By: Alex Marcy on April 14, 2015</h6></span><span style="float:right;padding-right:30px;"><h6>Tagged: 
+    Education
 </h6></span>
        
         </div>
         <div style="border:1px solid #ececec;width:100%;float:right;"></div>
           <div style="text-align:left;padding:0px 10px 1px 10px;background:#ffffff;">
             <br/>
-          <p>Most systems your company uses are going to have a few common components. A way to get data into the system, a way to analyze that data and a way to view the results. FactoryTalk Metrics operates the same way. Data from your process control system is brought into Metrics using FactoryTalk Transaction Manager, stored in a SQL Server database and accessed in reports using Report Expert or along with real-time process data visualization using FactoryTalk VantagePoint.</p>
+          <p>As your manufacturing empire grows, it becomes critical to have as a better handle on your supply chain. From raw materials, through manufacturing, all the way to your end users, knowing when things go wrong as soon as possible can save you time, headaches, and avoid costly recalls.</p>
 
-<p>In this post we will give you an overview of how FactoryTalk Metrics models your process and data is brought into the system. The next post  will discuss how to access the data using Report Expert and FactoryTalk VantagePoint in addition to integrating with other business systems you may be using.</p>
+<p>Let's dive into the first step you can take to painting a better picture of your supply chain.</p>
+
+<p><br />
+<a href="https://www.flickr.com/photos/creative_stock/"><img src="/img/trace.jpg" width="350px" /></a>
+<br /><br /></p>
+
+<h4>The Essentials</h4>
+
+<p>A track and trace system tracks a product through all phases of manufacturing and provides a trace of the product’s lifecycle from the plant to the customer.</p>
+
+<p>The first step in implementing a track and trace system is assigning individual products or batches unique ID’s or serial numbers accessible with barcodes or RFID tags. When each unit enters the process its serial number and location is stored in a database. Each time it advances to the next step in the process the database is updated to reflect its location. Plant personnel can access the tracking information to easily determine where any item is on the line.</p>
+
+<p>An advanced tracking system monitors process conditions along with quality control data to automatically flag products as defective as they advance through the process.</p>
+
+<p>Traceability relates to the production history of each unit or batch. This includes information across the supply chain from raw materials to where each unit is shipped to once it leaves the factory. This allows you to pinpoint where quality issues originated and simplifies the process of doing product recalls.</p>
 <p><br /></p>
-<h5><b>Modeling Your Process</b></h5>
-<p>FactoryTalk Metrics allows you to logically model your entire process. This is done is by defining areas known as "work cells". In a typical configuration a work cell would be mapped to a specific area of the process, for example, packaging or raw material feed. For each work cell you can track OEE and its components, downtime, throughput, and production cycle times in addition to various events from your process.</p>
+<h4>Benefits</h4>
 
-<p>Work cells are comprised of various pieces of equipment. In a packaging work cell at a food and beverage facility you may have a former, a filler, a sealer, and a metal detector. You can track downtime, throughput, cycle time, and events for each piece of equipment in your work cell.</p>
+<p>Implementing a track and trace system helps you:</p>
 
-<p><img src="/img/plantModel.png" width="430px" /></p>
-
-<p>FactoryTalk Metrics also allows you to enter your production schedules, shifts and planned downtime. Utilizing your actual production schedules allows you to analyze data by shift, crew, and by date giving you the ability to further understand how your entire plant, including personnel, is doing.</p>
-
-<p>By utilizing work cells and production scheduling to model your facility you can use FactoryTalk Metrics to get a detailed view of every piece of equipment in your entire facility during all of your scheduled production runs. You also have the ability to monitor how each piece of equipment contributes to your process losses. This removes operator error in tracking process upsets and gives you a true view of the health of your plant.</p>
-
+<ul>
+    <li>Improve overall process quality and efficiency by exposing error-prone portions of the process</li>
+    <li>Reduce recall expenses by knowing exactly where each unit or batch was shipped</li>
+    <li>Expose inconsistencies in raw materials</li>
+    <li>Reduce re-work and reject batches by catching quality issues as they occur</li>
+    <li>Increase process visibility for plant personnel</li>
+ </ul>
 <p><br /></p>
-<h5><b>Tracking Your Process</b></h5>
-<p>Work cells and equipment utilize events to trigger downtime start/end times, track throughput and changes in cycle times. This allows you to configure complex conditions for tracking downtime including when upstream or downstream issues cause production losses at any point in the process. Each event can utilize manually entered information, including reason codes.</p>
+<h4>The rubber meets the road</h4>
 
-<p>The true power of events comes into play when you implement automatic reason code tracking. This feature allows you to easily determine when your process went down, what piece(s) of equipment took it down, and the exact reason for the problem. This allows you to understand, on great detail, the cause of your most common production losses, allowing you to quickly and clearly prioritize maintenance and process changes to affect your bottom line.</p>
-<p><img src="/img/events.png" width="430px" /></p>
+<p>One example of a track and trace system in action is our case study on upgrading a slot machine manufacturing company's <a href="http://corsosystems.com/casestudy/slot-machine-conveyor-upgrades/">conveyor system</a>. Here we used RFID tags embedded into pallets to track each machine as it moved through the process, sending it to a rework area if rework was required, or required parts were no longer in inventory.</p>
 
-<p>All of the data tracked by FactoryTalk Metrics is accessible using the included <a href="/blog/factorytalk-metrics-data-analysis.html">analysis tools</a> and can be integrated into other business systems directly through the database. This gives you the ability to truly turn your process data into useful information from the shop floor to the top floor.</p>
-
-<p><br /></p>
-<h5><b>Communicating With Your Process</b></h5>
-<p><img src="/img/transMgr.png" width="430px" /></p>
-<p>The central nervous system of FactoryTalk Metrics is FactoryTalk Transaction Manager. The data from your PLCs can be stored directly into a SQL Server database using FactoryTalk Transaction Manager. This allows you to populate the FactoryTalk Metrics database, and also to get real-time process data directly into any of your other SQL Server based systems without having to go through a Process Historian. Granted you don't want to store all of your process data this way, still it is extremely useful to save some manual data entry into you ERP system for example.</p>
-
-<p><br /></p>
-<h5><b>A Full-Service Performance Management Solution</b></h5>
-<p>Implementing FactoryTalk Metrics gives you accurate, real-time tracking of your processes' performance and the tools you need to analyze and improve operations. In addition to tracking OEE and its components, downtime, throughput, and cycle time, you can incorporate data from your PLCs directly into any of your other SQL Server based systems using FactoryTalk Transaction Manager.</p>
-
-<p>FactoryTalk Metrics is an easy to configure and use tool capable of giving you the ability to understand and manage your process at an extremely detailed level.</p>
+<p>Track and trace is one of the first steps you can take towards the implementation of a full <a href="http://corsosystems.com/blog/product-lifecycle-management">Product Lifecycle Management</a> system.</p>
 
 
         </div>
