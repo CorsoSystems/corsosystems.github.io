@@ -8,7 +8,7 @@ tagline:
 
 <body style="text-align:center;">
 
-<div class="col-md-8 col-md-offset-2">
+<div class="col-md-6 col-md-offset-3">
 
 <h3>You get asked a lot of <b style="color:#f64100;">questions</b></h3>
 
@@ -21,7 +21,7 @@ tagline:
 <br/>
 <h3>Do you enjoy <b style="color:#f64100;">asking</b> questions... Maybe even <b style="color:#f64100;">difficult</b> ones?</h3>
 
-<ul>
+<ul style="text-align:left;">
 	<li>How do you interface a certain PLC with a certain piece of software?</li>
 	<li>Is the price you are being charged for this work fair?</li>
 	<li>Can you find an easy way to tell when your bottles are full? Everything so far hasn't worked.</li>
@@ -59,7 +59,7 @@ tagline:
 
 
 <p>It doesn't even have to be manufacturing related.</p>
-<ul>
+<ul style="text-align:left;">
 <li>Want some help navigating social media?</li>
 <li>What podcasts we listen to when we are driving to a job-site?</li>
 <li>What beer we had in some far-away land and are craving to this day?</li> 
