@@ -12,11 +12,11 @@ tagline:
 
 <h3>You get asked a lot of <b style="color:#f64100;">questions</b></h3>
 
-<p>Easy questions like what you do for a living... where you are from... where you went to school...</p>
+<p style="text-align:left;">Easy questions like what you do for a living... where you are from... where you went to school...</p>
 
-<p>Fun questions like who is your favorite sports team &mdash; what's the best restaurant in town &mdash; or what music you would have on a desert island.</p>
+<p style="text-align:left;">Fun questions like who is your favorite sports team &mdash; what's the best restaurant in town &mdash; or what music you would have on a desert island.</p>
 
-<p>Tough questions like how are you going to meet your production quotas with less budget, staff, and without new equipment?</p>
+<p style="text-align:left;">Tough questions like how are you going to meet your production quotas with less budget, staff, and without new equipment?</p>
 
 <br/>
 <h3>Do you enjoy <b style="color:#f64100;">asking</b> questions... Maybe even <b style="color:#f64100;">difficult</b> ones?</h3>
@@ -44,18 +44,18 @@ tagline:
 <h3><b style="color:#f64100;">More Information</b> lets you make &mdash; <b style="color:#f64100;">Better Decisions</b></h3>
 
 
-<p>Arming yourself with <b>more information</b> gives you <b>more options</b>. You can see <b>new possibilities</b> and find new ways to get where <b>you want to be</b>.</p>
-<p>Sometimes you just need some moral support. We have been there... Knowing someone else has been down the same road is sometimes all you need to push into new territory.</p>
+<p style="text-align:left;">Arming yourself with <b>more information</b> gives you <b>more options</b>. You can see <b>new possibilities</b> and find new ways to get where <b>you want to be</b>.</p>
+<p style="text-align:left;">Sometimes you just need some moral support. We have been there... Knowing someone else has been down the same road is sometimes all you need to push into new territory.</p>
 
 
 <br/>
 <a href="http://www.lumaxart.com/"><img src="/img/unity.jpg" width="180px"/></a>
-<br/><br/>
+<br/>
 
 <br/>
 <h3>What do <b style="color:#f64100;">you</b> want to learn?</h3>
 
-<p>If you had a group of <b>experts</b> at your disposal, available to answer any question you might have, would you step up to the plate and ask?</p>
+<p style="text-align:left;">If you had a group of <b>experts</b> at your disposal, available to answer any question you might have, would you step up to the plate and ask?</p>
 
 
 <p>It doesn't even have to be manufacturing related.</p>
@@ -70,11 +70,11 @@ tagline:
 <h4 style="text-align:center;">We're here to help.</h4>
 <br/>
 
-<p>You are welcome to any of the information we are allowed to share, our ideas, our opinions and advice about any issues you may be facing.</p>
+<p style="text-align:left;">You are welcome to any of the information we are allowed to share, our ideas, our opinions and advice about any issues you may be facing.</p>
 
-<p><b>Anything</b> &mdash; from our unbiased take on software you may be considering &mdash; a second opinion on an estimate &mdash; help with a design. Pretty much anything you can throw at us.*</p>
+<p style="text-align:left;"><b>Anything</b> &mdash; from our unbiased take on software you may be considering &mdash; a second opinion on an estimate &mdash; help with a design. Pretty much anything you can throw at us.*</p>
 
-<p>*Sure, there are some limits, obviously we can't do an entire project for you out of the goodness of our hearts. What we can offer is some of our time to help you. Think of it as our version of <b style="color:#f64100;">Office Hours</b>.</p>
+<p style="text-align:left;">*Sure, there are some limits, obviously we can't do an entire project for you out of the goodness of our hearts. What we can offer is some of our time to help you. Think of it as our version of <b style="color:#f64100;">Office Hours</b>.</p>
 
 
 <h3 style="text-align:center;">Let's <b style="color:#f64100">start</b> a conversation.</h3>
@@ -89,4 +89,6 @@ tagline:
 </div>
 </div>
 
+<br/>
+<br/>
 </body>
