@@ -19,7 +19,7 @@ tagline:
 <p style="text-align:left;">Tough questions like how are you going to meet your production quotas with less budget, staff, and without new equipment?</p>
 
 <br/>
-<h3>Do you enjoy <b style="color:#f64100;">asking</b> questions... Maybe even <b style="color:#f64100;">difficult</b> ones?</h3>
+<h3>Do you enjoy <b style="color:#f64100;">asking</b> questions... Even <b style="color:#f64100;">difficult</b> ones?</h3>
 
 <ul style="text-align:left;">
 	<li>How do you interface a certain PLC with a certain piece of software?</li>
@@ -41,7 +41,7 @@ tagline:
 
 <br/>
 
-<h3><b style="color:#f64100;">More Information</b> lets you make &mdash; <b style="color:#f64100;">Better Decisions</b></h3>
+<h3><b style="color:#f64100;">More Information</b> lets you make <b style="color:#f64100;">Better Decisions</b></h3>
 
 
 <p style="text-align:left;">Arming yourself with <b>more information</b> gives you <b>more options</b>. You can see <b>new possibilities</b> and find new ways to get where <b>you want to be</b>.</p>
@@ -76,6 +76,7 @@ tagline:
 
 <p style="text-align:left;">*Sure, there are some limits, obviously we can't do an entire project for you out of the goodness of our hearts. What we can offer is some of our time to help you. Think of it as our version of <b style="color:#f64100;">Office Hours</b>.</p>
 
+<br/>
 
 <h3 style="text-align:center;">Let's <b style="color:#f64100">start</b> a conversation.</h3>
 <br/>
