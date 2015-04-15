@@ -6,11 +6,9 @@ tagline:
 ---
 
 
-<body>
+<body style="text-align:center;">
 
-<br/>
-<a href="http://www.lumaxart.com/"><img src="/img/unity.jpg" width="380px"/></a>
-<br/><br/>
+<div class="col-md-8 col-md-offset-2">
 
 <h3>You get asked a lot of <b style="color:#f64100;">questions</b></h3>
 
@@ -50,12 +48,15 @@ tagline:
 <p>Sometimes you just need some moral support. We have been there... Knowing someone else has been down the same road is sometimes all you need to push into new territory.</p>
 
 
-
+<br/>
+<a href="http://www.lumaxart.com/"><img src="/img/unity.jpg" width="180px"/></a>
+<br/><br/>
 
 <br/>
 <h3>What do <b style="color:#f64100;">you</b> want to learn?</h3>
 
 <p>If you had a group of <b>experts</b> at your disposal, available to answer any question you might have, would you step up to the plate and ask?</p>
+
 
 <p>It doesn't even have to be manufacturing related.</p>
 <ul>
@@ -85,6 +86,7 @@ tagline:
 	<span style="color:#f64100;font-size:12px;float:right;width:55%;text-align:left;"><p><img src="/img/approved.svg" width="16"/>&nbsp;&nbsp;Answers are free of charge, hassle, and pressure</p>
 		<p><img src="/img/approved.svg" width="16"/>&nbsp;&nbsp;You won't be spammed by us</p>
 		<p><img src="/img/approved.svg" width="16"/>&nbsp;&nbsp;Your information will remain confidential</p></span>
+</div>
 </div>
 
 </body>
