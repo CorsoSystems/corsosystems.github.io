@@ -46,7 +46,7 @@ date: "14-04-2015"
 
 <br/>
 
-<h3></b>The <b style="color:#f64100;">More Information</b> you have &mdash; <br/>the <b style="color:#f64100;">Better Decisions</b> you can make.</b></h3>
+<h3><b style="color:#f64100;">More Information</b> lets you make &mdash; <b style="color:#f64100;">Better Decisions</b></h3>
 
 
 <p>Arming yourself with <b>more information</b> gives you <b>more options</b>. You can see <b>new possibilities</b> and find new ways to get where <b>you want to be</b>.</p>
@@ -58,14 +58,8 @@ date: "14-04-2015"
 <br/>
 <h3>What do <b style="color:#f64100;">you</b> want to learn?</h3>
 
+<p>If you had a group of <b>experts</b> at your disposal, available to answer any question you might have, would you step up to the plate and ask?</p>
 
-<p>Sure, there are some limits, obviously we can't do an entire project for you out of the goodness of our hearts. What we can offer is some of our time to help you. Think of it as our version of <b style="color:#f64100;">Office Hours</b>.</p>
-
-<p>You are welcome to any of the information we are allowed to share, our ideas, our opinions and advice about any issues you may be facing.</p>
-
-<p><b>Anything</b> &mdash; from our unbiased take on software you may be considering &mdash; a second opinion on an estimate &mdash; help with a design. Pretty much anything you can throw at us.*</p>
-
-<p>*Don't worry, if you cross a line, we'll let you know.</p>
 <p>It doesn't even have to be manufacturing related.</p>
 <ul>
 <li>Want some help navigating social media?</li>
@@ -74,6 +68,16 @@ date: "14-04-2015"
 <li>What about the best places to eat wherever we have done a project?</li>
 </ul>
 <br/>
+
+<h4 style="text-align:center;">We're here to help.</h4>
+<br/>
+
+<p>You are welcome to any of the information we are allowed to share, our ideas, our opinions and advice about any issues you may be facing.</p>
+
+<p><b>Anything</b> &mdash; from our unbiased take on software you may be considering &mdash; a second opinion on an estimate &mdash; help with a design. Pretty much anything you can throw at us.*</p>
+
+<p>*Sure, there are some limits, obviously we can't do an entire project for you out of the goodness of our hearts. What we can offer is some of our time to help you. Think of it as our version of <b style="color:#f64100;">Office Hours</b>.</p>
+
 
 <h3 style="text-align:center;">Let's <b style="color:#f64100">start</b> a conversation.</h3>
 <br/>
