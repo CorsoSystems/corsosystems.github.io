@@ -7,7 +7,7 @@ tags: ["Education"]
 image: "/img/vm.jpg"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
-blurb: "<p></p>"
+blurb: "<p>Virtual macines are a cost effective way to increase your productivity</p>"
 date: "15-04-2015"
 ---
 
