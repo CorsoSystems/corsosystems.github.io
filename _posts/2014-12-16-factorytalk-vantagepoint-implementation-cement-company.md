@@ -3,7 +3,7 @@ category: CaseStudy
 layout: case_study
 title: "Cement Manufacturing Process Analytics"
 description: "Implemented FactoryTalk VantagePoint and FactoryTalk Historian to store and analyze process data at an R&D facility for a cement manufacturing company."
-tags: ["Aggregates", "Database Management", "Process Historian","Process Analytics", "PLC"]
+tags: ["Database Management", "Process Historian"]
 image: "/img/cementplant.JPG"
 case_study_title: "Cement Manufacturing Process Analytics"
 summary: "A cement manufacturing facility worked with us to implement a process historian and data visualization tools for its R&D pilot plant."

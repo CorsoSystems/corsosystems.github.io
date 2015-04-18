@@ -4,7 +4,7 @@ layout: case_study
 title: "Energy Bar Packaging Facility Conveyor Speed Sync"
 date: "2014-09-23"
 description: "Sychronized multiple conveyors on a process line for an energy bar manufacturing facility."
-tags: ["Food and Beverage","Process Optimization", "Process Control","PLC","HMI"]
+tags: ["Food and Beverage", "Process Control","HMI/PLC"]
 case_study_title: "Energy Bar Packaging Facility Conveyor Speed Sync"
 summary: "An energy bar packaging facility worked with us to replace a faulty mixer control system and upgrade it to modern standards."
 image: "/img/conveyor.png"

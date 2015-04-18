@@ -21,10 +21,11 @@ exclude_from_search: true
 <div class="col-md-9">
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
+
   {% assign zz = tag[1] | where: "category", "CaseStudy" | sort %}
     
     {% if zz != empty %}
-    <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+    <h2 id="{{ tag[0] }}-ref">{{ tag[0] | replace:'1234',''}}</h2>
     <hr>
       <div class="row">
         {% assign pages_list = tag[1] %}  
@@ -38,13 +39,32 @@ exclude_from_search: true
 
 <hr>
 
-<script src="/assets/themes/bootstrap/resources/jquery/jquery.min.js"></script>
-<script src="/assets/themes/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
-$('.pill').click(function(){
+
+
+var scroll = 0;
+var marginTop = -65;
+$(document).ready(function(){  
+
+  $('.pill').click(function(){
   var self = this;
   $('.pill').removeClass("active");
   $(this).addClass("active");
+});
+
+    $(window).scroll(function () {
+        if($(document).scrollTop()<65){
+          marginTop = 0;
+        }
+        else{
+           marginTop = ($(document).scrollTop() - scroll) + marginTop;
+        }
+
+        scroll = $(document).scrollTop();
+
+        $(".nav-pills").animate({"marginTop": marginTop+"px"}, {duration:100,queue:false} );
+    });  
 });
 
 </script>

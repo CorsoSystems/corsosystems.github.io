@@ -3,7 +3,7 @@ category: CaseStudy
 layout: case_study
 title: "Solar Facility Commissioning with Custom Data Monitoring Website"
 description: "Solar Facility Commissioning with Custom Data Monitoring Website"
-tags: ["Solar", "Standardization", "Process Analytics","Database Management", "Process Historian", "Infrastructure","Remote Support","Web-based Solutions"]
+tags: ["Solar", "Standardization", "Process Analytics","Database Management", "Process Historian","Remote Support","Web-based Solutions"]
 type: "Case Study"
 date: "2014-12-15"
 case_study_title: "Solar Facility Commissioning with Custom Data Monitoring Website"

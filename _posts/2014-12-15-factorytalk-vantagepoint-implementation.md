@@ -3,7 +3,7 @@ category: CaseStudy
 layout: case_study
 title: "Historian for a Mineral Processing Company"
 description: "Implemented FactoryTalk VantagePoint and FactoryTalk Historian to store and analyze process data at multiple facilities for a leading diatomaceous earth processing company."
-tags: ["Mining", "PLC", "Database Management", "Process Analytics"]
+tags: ["Mining", "Database Management", "Process Analytics"]
 date: "2014-12-15"
 case_study_title: "Historian for a Mineral Processing Company"
 summary: "Implemented FactoryTalk VantagePoint and FactoryTalk Historian to store and analyze process data at multiple facilities for a leading diatomaceous earth processing company."

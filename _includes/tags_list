@@ -22,11 +22,11 @@ Usage:
 {% else %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 
-    	<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a></li>
+    	<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}aaaaaa</a></li>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
-    	<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}</a></li>
+    	<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}bbbbbb</a></li>
     {% endfor %}
   {% endif %}
 {% endif %}
@@ -37,7 +37,7 @@ Usage:
 {% assign zz = tag[1] | where: "category", "CaseStudy" | sort %}
 {% if zz != empty %}
 
-<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a></li>
+<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag[0] | replace:'1234','' }}</a></li>
 
  {% endif %}
 
