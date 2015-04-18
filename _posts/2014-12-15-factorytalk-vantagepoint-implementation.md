@@ -5,7 +5,7 @@ title: "Historian for a Mineral Processing Company"
 description: "Implemented FactoryTalk VantagePoint and FactoryTalk Historian to store and analyze process data at multiple facilities for a leading diatomaceous earth processing company."
 tags: ["Mining", "Database Management", "Process Analytics"]
 date: "2014-12-15"
-case_study_title: "Historian for a Mineral Processing Company"
+case_study_title: "Historian for a Mineral Processing Company&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 summary: "Implemented FactoryTalk VantagePoint and FactoryTalk Historian to store and analyze process data at multiple facilities for a leading diatomaceous earth processing company."
 image: "/img/devp.jpg"
 detail_summary: "<p>A large diatomaceous earth process company wanted to historize process data from one of its older facilities and view the data using modern trending and reporting tools.</p><p>After using the system, maintenance staff uncovered the cause of a common maintenance issue, reducing future troubleshooting time by an average of 85%.</p>"
