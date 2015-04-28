@@ -28,7 +28,7 @@ technology: "<li>Allen Bradley ControlLogix</li>
             <li>Rockwell FactoryTalk View ME</li>
             <li>Rockwell PlantPAX</li>
             <li>Rockwell FactoryTalk Historian</li>
-            <li>Rocwell FactoryTalk VantagePoint</li>
+            <li>Rockwell FactoryTalk VantagePoint</li>
             <li>Microsoft ASP.NET MVC</li>
             <li>SQL Server</li>"
 benefits: "<p>
