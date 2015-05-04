@@ -10,5 +10,8 @@ description: |
   correlate things like energy usage, inventory, and quality to real-time process
   conditions. Using this information allows you to fully <b style="color:#f64100;">understand</b> your processes and
   how they can be <b style="color:#f64100;">optimized</b> to reach their highest potential.</p>
+quote: The MES system and custom solutions Corso Systems built for our facilities will be paying dividends for years to come.
+name: Process Engineer
+company: EP Minerals
 
 ---
