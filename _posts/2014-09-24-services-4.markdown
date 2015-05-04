@@ -5,5 +5,8 @@ category: Services
 title: Connect Your Enterprise
 description: |
   <p class="lead">Optimizing outcomes at the plant level is only the <b style="color:#f64100;">first step</b>. <br/><br/> Connecting all of your shop floors to the top floor gives you the ability to reach your full potential. Once connected, every level of your organization will have access to information necessary to make the <b style="color:#f64100">best decisions</b> possible &mdash; for the <b style="color:#f64100;">entire organization</b>.</p>
+quote: TEST QUOTETEST QUOTETEST QUOTETEST QUOTETEST QUOTETEST QUOTE
+name: Alex Marcy
+company: Corso Systems
 
 ---
