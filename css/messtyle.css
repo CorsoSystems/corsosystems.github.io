@@ -68,7 +68,7 @@ body a{
 }
 /*-----start-header----*/
 .bg{
-	background: url(../img/footer-bg.jpg) no-repeat 0px 0px;
+	background: url(/img/footer-bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height: 760px;
 
