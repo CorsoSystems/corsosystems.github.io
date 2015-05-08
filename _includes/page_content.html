@@ -10,17 +10,27 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-6 col-sm-7">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     {{ post.description }}
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-5">
                     <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                 </div>
             </div>
-
+            <br/>
+            <div class="row">
+                <div class="col-md-6">
+                    "<span style="color:#f64100;">{{post.quote}}</span>"
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="text-align:right;">
+                    &mdash; {{post.name}}, {{post.company}}
+                </div>
+            </div>
         </div>
         <!-- /.container -->
 
@@ -33,17 +43,27 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-6  col-sm-push-6  col-sm-7">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     {{ post.description }}
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-5">
                   <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                 </div>
             </div>
-
+            <br/>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6">
+                    "<span style="color:#f64100;">{{post.quote}}</span>"
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6" style="text-align:right;">
+                    &mdash; {{post.name}}, {{post.company}}
+                </div>
+            </div>
         </div>
         <!-- /.container -->
 
@@ -55,7 +75,7 @@
 
 <div style="text-align:center;">
     <div class="row" style="color:white;background:#333333;">
-        <h3>Our Clients</h3>
+        <h3 style="margin-top:-3px;padding-top:12px;">Our Clients</h3>
     </div>
 </div>
 <div class="container" style="text-align:center;">
