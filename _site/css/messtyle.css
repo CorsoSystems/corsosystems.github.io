@@ -311,7 +311,7 @@ a.down-arrow span{
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/img/down13.svg) no-repeat 0px 0px;
 	position: absolute;
 	color:#f64100;
 	bottom: -43%;
@@ -321,7 +321,7 @@ label.mouse-divice{
 	width: 120px;
 	height: 342px;
 	display: inline-block;
-	background: url(../images/mouse.png) no-repeat 0px 0px;
+	background: url(/img/mouse.png) no-repeat 0px 0px;
 	position: absolute;
 	bottom: -56.5%;
 	left: 57.3%;
@@ -371,7 +371,7 @@ label.mouse-divice{
 	width: 101px;
 	height: 116px;
 	display: inline-block;
-	background: url(../images/about-icons.png) no-repeat 0px 0px;
+	background: url(/img/about-icons.png) no-repeat 0px 0px;
 }
 .about-grid p{
 	color:#ADADAD;
@@ -393,14 +393,14 @@ a.about-down-icon span{
 	width: 28px;
 	height: 28px;
 	display: inline-block;
-	background: url(../images/arrow1.png) no-repeat 0px 0px;
+	background: url(/img/arrow1.png) no-repeat 0px 0px;
 	position: absolute;
 	left: 50%;
 	bottom: 8%;
 }
 /*--- expand ----*/
 .expand{
-	background: url(../images/expand-bg.jpg) no-repeat 0px 0px;
+	background: url(/img/expand-bg.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	padding: 7em 0;
 	position:relative;
@@ -450,7 +450,7 @@ span.w-mouse{
 	width: 120px;
 	height: 342px;
 	display: inline-block;
-	background: url(../images/wmouse.png) no-repeat 0px 0px;
+	background: url(/img/wmouse.png) no-repeat 0px 0px;
 	position: absolute;
 	bottom: -10.5%;
 	left: 57.3%;
@@ -459,7 +459,7 @@ a.e-down-arrow span {
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/img/down13.svg) no-repeat 0px 0px;
 	position: absolute;
 	color:#f64100;
 	bottom: 4%;
@@ -478,7 +478,7 @@ a.p-down-arrow span {
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/img/down13.svg) no-repeat 0px 0px;
 	position: absolute;
 	bottom: 4%;
 	color:#f64100;
@@ -546,7 +546,7 @@ a.w-down-arrow span {
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/img/down13.svg) no-repeat 0px 0px;
 	position: absolute;
 	bottom: 4%;
 	color: #f64100;
@@ -582,7 +582,7 @@ a.ad-down-arrow span {
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/img/down13.svg) no-repeat 0px 0px;
 	position: absolute;
 	bottom: 4%;
 	color:#f64100;
@@ -620,7 +620,7 @@ a.mr-down-arrow span {
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/img/down13.svg) no-repeat 0px 0px;
 	position: absolute;
 	color:#f64100;
 	bottom: 4%;
@@ -882,7 +882,7 @@ p.m_5 {
 	width: 92px;
 	height: 92px;
 	display: inline-block;
-	background: url(../images/p-btn-bg.png) no-repeat 0px 0px;
+	background: url(/img/p-btn-bg.png) no-repeat 0px 0px;
 }
 .more-ports{
 	width: 100%;
@@ -919,7 +919,7 @@ a.port-down-arrow{
 	width: 28px;
 	height: 28px;
 	display: block;
-	background: url(../images/down13.svg) no-repeat 0px 0px;
+	background: url(/imgdown13.svg) no-repeat 0px 0px;
 	position: absolute;
 	color:#f64100;
 	bottom: 4%;
@@ -929,7 +929,7 @@ span.port-mouse{
 	width: 120px;
 	height: 191px;
 	display: inline-block;
-	background: url(../images/pmouse.png) no-repeat 0px 0px;
+	background: url(/img/pmouse.png) no-repeat 0px 0px;
 	position: absolute;
 	bottom:4%;
 	left: 58%;
@@ -983,7 +983,7 @@ span.port-mouse{
 	width:37px;
 	height:37px;
 	display:inline-block;
-	background:url(../images/t-social-icons.png) no-repeat 0px 0px;
+	background:url(/img/t-social-icons.png) no-repeat 0px 0px;
 }
 .team-member ul li a.twitter span{
 	background-position:0px 0px;
@@ -1042,7 +1042,7 @@ img.test-icon{
 	border:none;
 }
 .address-info{
-	background: url(../images/address-bg.png) no-repeat 0px 0px;
+	background: url(/img/address-bg.png) no-repeat 0px 0px;
 	min-height: 240px;
 	position: absolute;
 	left: 41%;
