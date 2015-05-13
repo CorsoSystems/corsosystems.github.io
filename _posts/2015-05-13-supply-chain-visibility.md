@@ -40,4 +40,6 @@ date: "13-05-2015"
 
 <p>While these concepts can be overwhelming, implementing SCADA and MES systems can be a painless process that doesn't break the bank. With recent developments in web-based and cloud technologies, customized solutions work in tandem with the industry standard infrastructure you already have in place to give you a bird's eye view of your business. Think of these customized solutions as adding a layer on top of your existing infrastructure.</p>
 
+<h4><b style="color:#f64100;">Visualize A More Efficient Business</b></h4>
+
 <p>The beauty of cloud-based solutions is that they're as flexible as you need them to be. Better visibility of your process can look however you would like it to look. Anything from a simple dashboard that can be accessed from from your phone or computer with basic information you want to see, to a rich site with real-time data, trends, and notifications that are pushed to your phone based on custom parameters you set. The possibilities are endless and are only limited by your imagination, and the resources you have around you.</p>
