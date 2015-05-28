@@ -4,12 +4,18 @@ $(function(){
     		type:'get',
     		dataType:'text',
     		success:function(data){
+    			var options = {
+      				series: {
+        					lines: { show: true },
+        					points: { show: true }
+      				}
+    			}
     			var trendData = [];
     			var result = $.csv.toObjects(data);
     			var options="";
 
 			for(var i in result){
-				trendData[i]=[result[i].Record,result[i].Record]
+				trendData[i]=[result[i].Record,result[i].Record];
 				
 			}
 			flot1 = $.plot($('#trend'), trendData, options);
