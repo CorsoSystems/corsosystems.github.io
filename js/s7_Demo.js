@@ -13,12 +13,11 @@ $(function(){
     			var trendData = [];
     			var result = $.csv.toObjects(data);
     			var options="";
-    			var j=0;
+    			
 			for(var i in result){
-				trendData[j]=[result[i].Record,result[i].Record];
-				j++;
+				trendData.push([result[i].Record,result[i].Record]);	
 			}
-			//flot1 = $.plot($('#trend'), trendData, options);
+			
 			$.plot("#trend",trendData);
     		}
 	})
