@@ -15,11 +15,10 @@ $(function(){
     			var options="";
 
 			for(var i in result){
-				
 				trendData[i]=[result[i].Record,result[i].Record];
-				alert(trendData[i][0]+" "+trendData[i][1]);
 			}
-			flot1 = $.plot($('#trend'), trendData, options);
+			//flot1 = $.plot($('#trend'), trendData, options);
+			$.plot("#trend",trendData);
 			flot1.setData(trendData);
       			flot1.setupGrid();
       			flot1.draw();
