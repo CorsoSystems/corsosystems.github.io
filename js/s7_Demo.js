@@ -19,9 +19,6 @@ $(function(){
 			}
 			//flot1 = $.plot($('#trend'), trendData, options);
 			$.plot("#trend",trendData);
-			flot1.setData(trendData);
-      			flot1.setupGrid();
-      			flot1.draw();
     		}
 	})
 });
