@@ -15,8 +15,11 @@ $(function(){
     			var options="";
     			
 			for(var i in result){
-				trendData.push([result[i].Record,result[i].Record]);	
+				trendData.push([result[i].Record,result[i].Record]);
+
 			}
+
+			alert(trendData);
 			
 			$.plot("#trend",trendData);
     		}
