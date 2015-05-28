@@ -20,8 +20,9 @@ $(function(){
 				alert(trendData[i][0]+" "+trendData[i][1]);
 			}
 			flot1 = $.plot($('#trend'), trendData, options);
-        			
-			
+			flot1.setData(trendData);
+      			flot1.setupGrid();
+      			flot1.draw();
     		}
 	})
 });
