@@ -15,8 +15,9 @@ $(function(){
     			var options="";
 
 			for(var i in result){
-				alert(result[i].Record);
+				
 				trendData[i]=[result[i].Record,result[i].Record];
+				alert(trendData[i][0]+" "+trendData[i][1]);
 			}
 			flot1 = $.plot($('#trend'), trendData, options);
         			
