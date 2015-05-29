@@ -15,19 +15,10 @@ $(function(){
     			var options="";
     			
 			for(var i in result){
-				var n = trendData.length;
-				trendData.push(new Array(2));
-				trendData[n][0]=result[i].Record;
-				trendData[n][1]=result[i].Record;
+				trendData.push([result[i]].Record, i)
 			}
-
-
-		var d1 = [];
-		for (var i = 0; i < 14; i += 0.5) {
-			d1.push([i, Math.sin(i)]);
-		}
 			
-			$.plot("#trend",[d1]);
+			$.plot("#trend",[trendData]);
     		}
 	})
 });
