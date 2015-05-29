@@ -19,7 +19,6 @@ $(function(){
 				trendData.push(new Array(2));
 				trendData[n][0]=result[i].Record;
 				trendData[n][1]=result[i].Record;
-				alert(trendData);
 			}
 
 
@@ -28,7 +27,7 @@ $(function(){
 			d1.push([i, Math.sin(i)]);
 		}
 			
-			$.plot("#trend",d1);
+			$.plot("#trend",[d1]);
     		}
 	})
 });
