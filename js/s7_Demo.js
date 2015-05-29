@@ -16,10 +16,12 @@ $(function(){
     			
 			for(var i in result){
 				var n = trendData.length;
-				trendData.push(new Array());
-				trendData[n].push=result[i].Record;
-				trendData[n].push=result[i].Record;
+				trendData.push(new Array(2));
+				trendData[n][0]=result[i].Record;
+				trendData[n][1]=result[i].Record;
 			}
+
+			alert(trendData);
 			
 			$.plot("#trend",trendData);
     		}
