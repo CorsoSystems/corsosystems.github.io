@@ -19,9 +19,10 @@ $(function(){
 				trendData.push(new Array(2));
 				trendData[n][0]=result[i].Record;
 				trendData[n][1]=result[i].Record;
+				alert(trendData);
 			}
 
-			alert(trendData);
+
 			
 			$.plot("#trend",trendData);
     		}
