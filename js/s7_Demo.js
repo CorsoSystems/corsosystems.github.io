@@ -15,11 +15,11 @@ $(function(){
     			var options="";
     			
 			for(var i in result){
-				trendData.push([result[i].Record,result[i].Record]);
-
+				var n = trendData.length;
+				trendData.push(new Array());
+				trendData[n].push=result[i].Record;
+				trendData[n].push=result[i].Record;
 			}
-
-			alert(trendData);
 			
 			$.plot("#trend",trendData);
     		}
