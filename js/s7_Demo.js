@@ -15,7 +15,7 @@ $(function(){
     			var options="";
     			
 			for(var i in result){
-				trendData.push([result[i]].Record, i)
+				trendData.push([result[i].Record, i])
 			}
 			
 			$.plot("#trend",[trendData]);
