@@ -15,12 +15,12 @@ $(function(){
     			var options="";
     			
 			for(var i in result){
-				trendData.push([result[i].Record, i])
-				alert(Date.parse(result[i].Date + " "+ result[i]["UTC Time"]));
-				//alert(result[i].Date + " "+ result[i]["UTC Time"],"M/DD/YYYY HH:MM:SS");
+				trendData.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Record])
 			}
 			
-			$.plot("#trend",[trendData]);
+			$.plot("#trend",[trendData],{
+				xaxis: { mode: "time" }
+			});
     		}
 	})
 });
