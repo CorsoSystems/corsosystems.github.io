@@ -11,14 +11,19 @@ $(function(){
       				}
     			}
     			var trendData = [];
+                                 var trendData1 = [];
     			var result = $.csv.toObjects(data);
     			var options="";
     			
 			for(var i in result){
 				trendData.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
 			}
+
+                                for(var i in result){
+                                    trendData1.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Off])
+                                }
 			
-			$.plot("#trend",[trendData],{
+			$.plot("#trend",[trendData,trendData1],{
 				xaxis: { mode: "time" }
 			});
     		}
