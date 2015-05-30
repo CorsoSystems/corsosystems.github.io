@@ -16,7 +16,7 @@ $(function(){
     			
 			for(var i in result){
 				trendData.push([result[i].Record, i])
-				alert(Date(result[i].Date + " "+ result[i]["UTC Time"]));
+				alert(Date.parse(result[i].Date + " "+ result[i]["UTC Time"]));
 				//alert(result[i].Date + " "+ result[i]["UTC Time"],"M/DD/YYYY HH:MM:SS");
 			}
 			
