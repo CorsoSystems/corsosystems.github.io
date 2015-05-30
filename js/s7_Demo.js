@@ -16,6 +16,7 @@ $(function(){
     			
 			for(var i in result){
 				trendData.push([result[i].Record, i])
+				alert(moment(result[i].Date + " "+ result[i]["UTC Time"],"MM/DD/YYYY HH:MM:SS"))
 			}
 			
 			$.plot("#trend",[trendData]);
