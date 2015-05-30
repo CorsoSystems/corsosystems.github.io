@@ -15,7 +15,7 @@ $(function(){
     			var options="";
     			
 			for(var i in result){
-				trendData.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Record])
+				trendData.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
 			}
 			
 			$.plot("#trend",[trendData],{
