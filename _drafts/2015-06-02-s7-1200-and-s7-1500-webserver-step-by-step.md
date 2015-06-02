@@ -19,9 +19,9 @@ date: "02-06-2015"
 
 Info on why this is useful, OEM systems, reducing complexity, MCI link to case study, how it could be done better, etc.
 
+Blurb about what a web server is, how it works, etc.
 
-
-<h4>Step 1 - Enabling the web server</h4>
+<h4>Enabling the web server</h4>
 
 <p>The first step is to enable the web server. After opening your application, go to your PLC's Device Configuration menu, select the Web server item in the tree, and check "Activate Web server on all modules on this device". Compile your project and download to the processor</p>
 
@@ -41,7 +41,7 @@ Info on why this is useful, OEM systems, reducing complexity, MCI link to case s
 
 <p>The real power of the web server comes into play when you enable user pages, or custom HTML pages you can use to interact with your PLC data, and generate things like trends and dashboard controls for detailed data analysis in your browser.</p>
 
-<h4>Step 2 - Enabling user pages</h4>
+<h4>Enabling user pages</h4>
 
 <p>The first thing you need to do is create a directory to hold your user pages. In this case we are using a folder called S7_1200_Web on the C:\ drive. Create an HTML file in this directory and put some HTML in so we can verify everything is working properly. For testing this can be the following:</p>
 
@@ -72,6 +72,181 @@ Info on why this is useful, OEM systems, reducing complexity, MCI link to case s
 <p>Navigating to the page will display the HTML page you requested, in this case we will see a basic trend configured based on a data log file in the PLC. This functionality will be covered later in this article.</p>
 
 <insert image 10 here/>
+
+<h4>Building Powerful User Pages</h4>
+
+<p>With user pages enabled in the PLC's web server, we can now expand into a lot of different areas. Dashboards, reports, trends, API's, the list goes on. What you choose to do with your pages is entirely dependent on your needs, and we will cover some of the common use cases we have implemented on most of the web-based systems we have developed over the years.</p>
+
+<h5>General Concepts</h5>
+
+<p>While it is possible to include all of your HTML and Javascript/jQuery code in your user pages directory and on the PLC itself, you might find it beneficial to host the files on another machine on the network, or use a content delivery network (CDN) to deliver the files you need for client-side functionality. Including these files directly in the PLC can cause to large amounts of memory usage, potentially impacting your data logging capabilities. Hosting this files on a different machine or CDN alleviates these issues and can also speed up the load time of your pages. This article will demonstrate how to use a CDN to deliver the jQuery libraries we will be using.</p>
+
+<p>In line with hosting libraries outside of the PLC, we have found hosting a Javascript file on another machine and updating it during development saves a lot of time compared to generating blocks for user pages, compiling, downloading the processor, and rebooting every time a change is made. Using a different machine allows you to edit the Javascript file on the machine, save it, and simply refresh the browser to update the page with any changes. This results in a significant time savings over the course of developing and testing a full application.</p>
+
+<p>We will cover the various functionality components below, in no particular order. At this point you can jump around the article to find what interests you most and work through the exercise without a whole lot of overlap between sections.</p>
+
+<h4>Basic Trending</h4>
+
+<p>If you are using the data log functionality of the S7-1200 or the S7-1500, one powerful tool you can use in your user pages is trending. Given the relative simplicity of most web servers, including the one in our PLC, we will focus on implementing client based trending tools through the use of Javascript and jQuery.</p>
+
+<p>There are a variety of frameworks you can use for this, D3, High Charts, Google Charts, or our framework of choice Flot Charts. They all have their pros and cons, some including license ramifications, open-source vs. closed source, and free vs. paid. We have found Flot Charts to work extremely well for our needs, typically trending time-stamped process data. If you have any questions about our experience with any of the tools we have used, please feel free to reach out and ask.</p>
+
+<p>The basic overview of this section is we will generate a date/time range using date/time pickers on the page. When the user selects the date range and clicks the "Update" button we will request a list of data log files and based on their name, including the date/time the logs began, will select the appropriate file, parse its contents into the format required by Flot and will then display the trend to the user with the correct date/time range on the X-Axis.</p>
+
+<p>First we will go through the process of generating a basic trend with fixed data set. From there we will get into dynamic datasets with date range selections. To demonstrate basic trending our PLC has a small log file tracking the run status of two pumps as seen below:</p>
+
+<insert image 11 here />
+
+<p>Data logs are stored as .CSV files in the S7-1200 and S7-1500 PLCs. This format defines the value of each column in the first line, with each column separated by a comma. Subsequent lines represent values at a particular timestamp, again with each column separated by a comma. This format, while useful for storage and analysis using a program like Excel, isn't directly useful for the approach we will take to generating a trend. The first step we need to accomplish is to break down the CSV data into something Javascript can deal with more effectively.</p>
+
+<p>To acoomplish this, we will use a jQuery library called jQuery-CSV. This library allows us to break the CSV file down into a list of objects we can easily manipulate to work with using Javascript.</p>
+
+<p>Following the tip to load libraries from a CDN, we will load the library from a CDN in the header of our HTML page. Keep in mind you can use any CDN you prefer, store the file on another machine on the network, or even put it directly in the PLC as necessary. Since we will be using jQuery libraries, we will also include the jQuery library itself:</p>
+
+&lt;head&gr;
+	&lt;script&gr; type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"&lt;/script&gr;
+	&lt;script&gr; type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"&lt;/script&gr;
+&lt;/head&gr;
+
+
+<p>We will do the same thing for the Flot Charts library, and for development purposes, the development version of the Javascript file we will use for testing. Since we are dealing with time series data, we will also include the Flot Time library, and the Moment.js library to simplify working with different date formats:</p>
+
+&lt;head&gr;
+	&lt;script&gr; type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"&lt;/script&gr;
+	&lt;script&gr; type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"&lt;/script&gr;
+	&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js"&gt;&lt;/script&gr;
+	&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.time.min.js"&gt;&lt;/script&gr;
+	&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js" type="text/javascript"&gt;&lt;/script&gr;
+	&lt;script src="http://corsosystems.com/js/s7_Demo.js" type="text/javascript"&gt;&lt;/script&gr;
+&lt;/head&gr;
+i
+<p>For Flot to function properly, we will need to add a &lt;div&gt; element to our page, and specify the width and height for our trend, and give it an ID so we can refer to it later in our Javascript code:</p>
+
+&lt;body&gt;
+	&lt;div id="trend" style="width:900px;height:450px;"&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+<p>This is the basic format we need to display a single trend on a page, so we are done with our HTML page for now. Save it to your user pages folder, generate blocks, and download to the processor. We will do the rest of the work to generate a trend in the s7_Demo.js file linked to in the header.</p>
+
+<p>Let's go through the code used to generate a trend line by line. If you are familiar with Javascript and jQuery this will be pretty straightforward, if not it will cover the basics of what is required for this piece of functionality, and you can find plenty of resources online to go as in-depth as you like on the language as a whole.</p>
+
+<p>The first line of code tells the browser to execute this code only after the pages has completely loaded. This is to make sure all of the Javascript files and jQuery libraries are ready, and the page itself is loaded and ready for us to interact with it:</p>
+
+<insert image 12 here/>
+
+<p>The next section defines and AJAX call to our server. This loads data from the specified URL without the user having to interact with the page, and doesn't require the page to be refreshed. We are specifying the specific URL for our datalog file in the URL parameter, telling the server we are requesting or "getting" data, specifying we want expect the data to be returned as text, and are defining the function we will execute when the AJAX call as successfully completed.</p>
+
+<insert image 13 here/>
+
+<p>The next line begins the code executing once our AJAX call is complete. The first step is to take the results from our AJAX call, in this case the data in the .CSV file, and use the jQuery-CSV library to convert it to a list of objects Javascript can more easily understand. This is accomplished by calling the jQuery function to convert a CSV file into objects as described in the jQuery-CSV documentation. Once this function has executed, we can use the variable "results" to generate the data we will use for the trend.</p>
+
+<p>The next two lines as simply declaring variables we will use to store the data for each of our trend lines.</p>
+
+<insert image 14 here/>
+
+<p>The meat of our Javascript code, where we take the data from the objects we generated from the CSV file and parse them for our trend comes next. We are using a for loop to iterate over all of the objects. Within this loop we are pushing data onto the arrays we defined previously. This simply adds a new element onto each array for each object in the list.</p>
+
+<p>The format Flot requires for trend data is an array of elements of the form [x value, y value]. For our trend we want the x-axis to display the timestamp, and the y-axis to display the value of each dataset at that time. Flot requires the timestamp data to be in a certain format, so we will have to manipulate the data in our object appropriately.</p>
+
+<p>The innermost portion of this function is adding together the "Date" and "UTC Time" columns from our object, with a space separating them. This gives us a human readable timestamp of the format "Month/Day/Year Hours:Minutes:Seconds". To turn this into the format Flot expects (milliseconds since January 1, 1970, 00:00:00) we use the simply use the parse function of the Date type in Javascript as shown below.</p>
+
+<insert image 15 here/>
+
+<p>This takes care of the x-axis value, for the y-value we specify the specific data point in our object, in this case Pump1_On or Pump2_On and include it in our elements to be pushed onto the appropriate array.</p>
+
+<p>The final piece of code except for closing brackets/parentheses is to generate the plot itself. To accomplish this we call the .plot() function of the Flot library. We pass the ID value of the div we created in our HTML file as the container for the trend to be put in to, specify an array of the variables we want to use for trend lines, in this case the variables we worked with in the previous section of code, and specify a mode of "time" for the x-axis.
+
+<insert image 16 here/>
+
+<p>This generates a basic trend on our page:</p>
+
+<insert image 17 here/>
+
+<h4>Advanced Trending</h4>
+
+<p>With the basics of trending covered, let's dive into some more advanced functionality. For our purposes the next step is to add a couple of date/time pickers to our page so we can select a start and end time for our trend. This lets your users narrow down the amount of data they are viewing at any given time and allows them to easily view historical data.</p>
+
+<p>Much like trend tools, there are a ton of options for date, time, and both date and time selection options. These can be simple HTML dropdown controls, or more complex jQuery components with additional functionality. For this tutorial we will use a jQuery date/time picker we have found to be very mobile friendly:</p>
+
+<insert image 18 here/>
+
+<p>This date/time picker control is an add-on to an existing library of user interface controls called jQuery-UI. To make it functional we need to include the jQuery-UI library, as well as the files for this partlcular control. For the rest of this article, assume we will be adding the required lines to our existing file, to save some space we won't keep repeating previous lines of code:</p>
+
+&lt;head&gt;
+	&lt;script&gr; type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"&lt;/script&gr;
+	&lt;script&gr; type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/jquery-ui-timepicker-addon.min.js"&lt;/script&gr;
+	&lt;ink href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"&gt;
+	&lt;link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/jquery-ui-timepicker-addon.min.css"&gt;
+&lt;/head&gt;
+
+<p>Notice we are also including references to two CSS files, these contain all of the styling for the various controls and will start to become more prevalent in later sections.</p>
+
+<p>To place a date/time picker on the page we need to add a div for each date/time picker we want to use, give it an ID so we can access it in Javascript, and then write the Javascript code we need to generate the control. Let's start with the HTML and break it down into further detail from there:</p>
+
+&lt;div&gt;
+        &lt;div&gt;
+            &lt;label&gt;Start Date/Time:&lt;/label&gt;
+                &lt;input id="startDatepicker" type="text" class="datetimepicker"/&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;label&gt;End Date/Time:&lt;/label&gt;
+                &lt;input id="endDatepicker" type="text" class="datetimepicker"/&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;button id="update" style="margin-top:-8px;"&gt;Update&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+<p>This code is pretty basic, we have a div acting as a container for everything, a div for the start time picker along with a label, again for the end time picker, and a button for the user to initiate an update of the trend. The next step is to add some Javascript to our page to create the date/time pickers, we will get to the button in a little while:</p>
+
+<insert image 19 here/>
+
+<p>This code will go right below the $(function() call so it is the first thing to be executed when the page loads. This is going to be a little more involved than simply creating the date/time picker to give us additional functionality by pre-populating the pickers.</p>
+
+<p>The first two lines define variables and set them to a value of the current time/date. The next line sets the startDate variable's hour to one hour ago, and the next line is there for posterity in case you wanted to choose a different range than simply the previous hour. The final two lines create the date/time picker and pre-populate their values with the start and end dates, with the correct formatting specified by the Moment.js library. Now when you load the page you will have two date/time pickers, with one at the current time, and one at the current time minus an hour.</p>
+
+<p>With the date/time pickers set up, we can put them to use. This will be one of the more complex portions of the process so far and will cover a lot of different concepts. The basic outline is the page will load with default values for the date/time range, or user will make an adjustment to the range and click the update button. We will get a list of the datalogs and their "last modified" timestamp. We will figure out which datalog best matches with the date range, and load it the same way we did in the previous section. We will leave some items for your own future exploration such as more in-depth interface design and working with date/time ranges spanning multiple data logs.</p>
+
+<p>First we need to know when the user clicks the update button. Using jQuery this is extremely easy using the onClick() function:</p>
+
+<insert image 20 here/>
+
+<p>This code does a couple of things, it checks to make sure the date/time pickers have a value and if they do, it calls the updateTrendData() function. If they are empty it alerts the user and tells them to make a selection. We can accomplish the same functionality when the page loads by calling the updateTrendData() function after the date/time pickers have been created as in the previous section.</p>
+
+<p>The meat of this section is what happens in the updateTrendData() function. The first portion of this function needs to determine what datalog file we need to use to populate our trend, based on when it was last edited in relation to other datalogs that may exist. We are going to make an assumption to simplify development. The assumption is datalogs will only be modified as data is added to them, and once a new datalog has been created, we will assume its start time is later in time than the previous datalog's last modification. This allows us to use the datalog information available by default to narrow down the file we need to load without having to go into the PLC code and do anything like provide a timestamp as part of the datalog name when it is created. In this case simple is better.</p>
+
+<p>How do we get the timestamp data from the datalogs in the PLC?</p>
+
+Accessing list of logs on file page
+
+searching for correct log
+
+JS Code breakdown for reading in with limits on data
+
+Show final trend
+
+<h4>Dashboards</h4>
+
+
+
+<h4>Reporting</h4>
+
+talk about generating PDF's?
+Email functionality?
+Page layouts
+Print CSS styles
+
+<h4>Recipes</h4>
+
+
+
+<h4>HMI Functionality</h4>
+Twitter bootstrap for buttons
+
+
 
 
 
