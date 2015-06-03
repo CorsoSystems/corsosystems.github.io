@@ -38,7 +38,7 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
             success:function(data){
                 var response = $('<html />').html(data);
                 $(response).find('.fbChanged').each(function(index){
-                    if($(this).text().length>0){
+                    if($(this).text().length>7){
                         alert($(this).text());
                     }
                     
