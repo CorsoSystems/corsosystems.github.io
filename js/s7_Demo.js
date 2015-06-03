@@ -37,7 +37,7 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
             dataType:'text',
             success:function(data){
                 var response = $('<html />').html(data);
-                response.find$('.fbChanged').each(function(index){
+                response.find($('.fbChanged')).each(function(index){
                     alert($(this).text());
                 });
             }
