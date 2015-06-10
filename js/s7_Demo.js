@@ -32,18 +32,22 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
 	})
 
     $.ajax({
-            url:'http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/',
-            type:'get',
-            dataType:'text',
-            success:function(data){
-                var response = $('<html />').html(data);
-                $(response).find('.systemTime .fbTime').each(function(index){
-                    if($(this).text().length>7){
-                        alert($(this).text());
-                    }
-                    
-                });
+        url:'http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/',
+        type:'get',
+        dataType:'text',
+        success:function(data){
+            var response = $('<html />').html(data);
+            var timestamps = [];
+            var fileName = '';
+            $(response).find('.systemTime .fbTime').each(function(index){
+                if($(this).text().length>7){
+                    timestamps.push(Date.parse($(this).text());
+                }
+            });
+            for(var i=0;i<timestamps.length;i++){
+                alert(timestamps[i]);
             }
+        }
     })
 
 
