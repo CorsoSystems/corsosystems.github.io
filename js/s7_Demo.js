@@ -53,13 +53,6 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
                     }
                 }
             });
-
-            for(var i=0;i<timestamps.length;i++){
-                
-                    filename = 
-                }
-            }
-
         }
     })
 
