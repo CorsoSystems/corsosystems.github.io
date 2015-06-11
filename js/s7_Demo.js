@@ -5,6 +5,9 @@ $(function(){
     startDate.setHours(date.getHours()-1);
     date.setHours(date.getHours()-0);
 
+    $('#startDatepicker').datetimepicker();
+     $('#endDatepicker').datetimepicker();
+
     $('#startDatepicker').val(moment(startDate).format("MM/DD/YYYY h:mm:ss A"));
     $('#endDatepicker').val(moment(date).format("MM/DD/YYYY h:mm:ss A"));
 
@@ -37,17 +40,26 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
         dataType:'text',
         success:function(data){
             var response = $('<html />').html(data);
-            var timestamps = [];
+            var timestamp = '';
             var fileName = '';
+            var start = Date.parse($('#startDatepicker').val());
+            var end = Date.parse($('#endDatepicker').val());
+
             $(response).find('.systemTime .fbTime').each(function(index){
                 if($(this).text().length>7){
-                    timestamps.push(Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY")));
-                    //alert($(this).text());
+                    timestamp = Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY"));
+                    if(timestamp>=start && timestamp<= end){
+
+                    }
                 }
             });
+
             for(var i=0;i<timestamps.length;i++){
-                alert(timestamps[i]);
+                
+                    filename = 
+                }
             }
+
         }
     })
 
