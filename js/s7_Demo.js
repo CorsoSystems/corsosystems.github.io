@@ -53,7 +53,7 @@ $(function(){
                                 }
             
                                $.plot("#trend",[pump1Data,pump2Data],{
-                                    xaxis: { mode: "time" }
+                                    xaxis: { mode: "time", timezone: "browser" }
                                 });
                             }
                         })
