@@ -59,7 +59,7 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
             });
 
             $('#fileTable').find('tr').each(function(index){
-                if($(this).find('.fbChanged .systemTime .fbTime').length>7){
+                if($(this).find('.fbChanged .systemTime .fbTime').text().length>7){
                     timestamp = Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY"));
                     //if(timestamp>=start && timestamp<= end){
                         alert('@');
