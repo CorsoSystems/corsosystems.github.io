@@ -47,7 +47,7 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
 
             $('#fileTable').html($(response).find('#fileBrowserTable').html());
 
-
+            $('.hiddenOnSmall').remove();
 
             $('#fileTable').find('.systemTime .fbTime').each(function(index){
                 if($(this).text().length>7){
