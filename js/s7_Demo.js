@@ -15,6 +15,30 @@ $(function(){
         updateTrend();
     });
 
+    function generateTrend(fileName){
+        $.ajax({
+            url:'http://192.168.0.1/DataLogs/'+fileName,
+            type:'get',
+            dataType:'text',
+            success:function(data){
+                var result = $.csv.toObjects(data);
+                var pump1Data = [];
+                var pump2Data = [];
+                        
+                for(var i in result){
+                    if(Date.parse(result[i].Date + " "+ result[i]["UTC Time"]) >= start && Date.parse(result[i].Date + " "+ result[i]["UTC Time"])<=end){
+                        pump1Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
+                        pump2Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Off])
+                    }
+                }
+            
+                $.plot("#trend",[pump1Data,pump2Data],{
+                    xaxis: { mode: "time", timezone: "browser" }
+                });
+            }
+        })
+    }
+
     function updateTrend(){
 
     $.ajax({
@@ -35,32 +59,14 @@ $(function(){
                     timestamp = Date.parse(moment($(this).find('.fbChanged .systemTime .fbTime').text(),"hh:mm:ss a MM/DD/YYYY"));
                     if(timestamp>=start && timestamp<= end){
                         fileName = $(this).find('.fileBrowserName .hiddenOnSmall a').text();
-
-                        $.ajax({
-                            url:'http://192.168.0.1/DataLogs/'+fileName,
-                            type:'get',
-                            dataType:'text',
-                            success:function(data){
-                                var result = $.csv.toObjects(data);
-                                var pump1Data = [];
-                                var pump2Data = [];
-                        
-                                for(var i in result){
-                                    if(Date.parse(result[i].Date + " "+ result[i]["UTC Time"]) >= start && Date.parse(result[i].Date + " "+ result[i]["UTC Time"])<=end){
-                                        pump1Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
-                                        pump2Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Off])
-                                    }
-                                }
-            
-                               $.plot("#trend",[pump1Data,pump2Data],{
-                                    xaxis: { mode: "time", timezone: "browser" }
-                                });
-                            }
-                        })
+                        generateTrend(fileName);
                     }
                 }
             });
         }
     })
     }
+
+
+
 });
