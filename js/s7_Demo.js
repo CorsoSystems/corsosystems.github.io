@@ -49,7 +49,7 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
                 if($(this).text().length>7){
                     timestamp = Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY"));
                     //if(timestamp>=start && timestamp<= end){
-                        fileName = $(this).closest('.fileBrowserName').find('a').text();
+                        fileName = $(this).closest('.fileBrowserName').find('span').find('a').text();
                         alert(fileName);
                     //}
                 }
