@@ -11,6 +11,12 @@ $(function(){
     $('#startDatepicker').val(moment(startDate).format("MM/DD/YYYY h:mm:ss A"));
     $('#endDatepicker').val(moment(date).format("MM/DD/YYYY h:mm:ss A"));
 
+    $('#update').on('click', function() {
+        updateTrend();
+    });
+
+    function updateTrend(){
+
     $.ajax({
         url:'http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/',
         type:'get',
@@ -27,7 +33,7 @@ $(function(){
             $('#fileTable').find('tr').each(function(index){
                 if($(this).find('.fbChanged .systemTime .fbTime').text().length>7){
                     timestamp = Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY"));
-                    //if(timestamp>=start && timestamp<= end){
+                    if(timestamp>=start && timestamp<= end){
                         fileName = $(this).find('.fileBrowserName .hiddenOnSmall a').text();
 
                         $.ajax({
@@ -49,11 +55,10 @@ $(function(){
                                 });
                             }
                         })
-                    //}
+                    }
                 }
             });
         }
     })
-
-
+    }
 });
