@@ -40,8 +40,8 @@ $(function(){
                                 var pump2Data = [];
                         
                                 for(var i in result){
-                                    pump1Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Pump1_On])
-                                    pump2Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Pump2_On])
+                                    pump1Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
+                                    pump2Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Off])
                                 }
             
                                $.plot("#trend",[pump1Data,pump2Data],{
