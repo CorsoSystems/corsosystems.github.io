@@ -15,7 +15,7 @@ $(function(){
         updateTrend();
     });
 
-    function generateTrend(fileName){
+    function generateTrend(fileName, start, end){
         $.ajax({
             url:'http://192.168.0.1/DataLogs/'+fileName,
             type:'get',
@@ -59,7 +59,7 @@ $(function(){
                     timestamp = Date.parse(moment($(this).find('.fbChanged .systemTime .fbTime').text(),"hh:mm:ss a MM/DD/YYYY"));
                     if(timestamp>=start && timestamp<= end){
                         fileName = $(this).find('.fileBrowserName .hiddenOnSmall a').text();
-                        generateTrend(fileName);
+                        generateTrend(fileName, start, end);
                     }
                 }
             });
