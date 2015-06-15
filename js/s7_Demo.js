@@ -32,7 +32,7 @@ $(function(){
 
             $('#fileTable').find('tr').each(function(index){
                 if($(this).find('.fbChanged .systemTime .fbTime').text().length>7){
-                    timestamp = Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY"));
+                    timestamp = Date.parse(moment($(this).find('.fbChanged .systemTime .fbTime').text(),"hh:mm:ss a MM/DD/YYYY"));
                     if(timestamp>=start && timestamp<= end){
                         fileName = $(this).find('.fileBrowserName .hiddenOnSmall a').text();
 
