@@ -47,13 +47,11 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
 
             $('#fileTable').html($(response).find('#fileBrowserTable').html());
 
-            $('.hiddenOnSmall').remove();
-
             $('#fileTable').find('.systemTime .fbTime').each(function(index){
                 if($(this).text().length>7){
                     timestamp = Date.parse(moment($(this).text(),"hh:mm:ss a MM/DD/YYYY"));
                     //if(timestamp>=start && timestamp<= end){
-                        alert($(this).closest('.fileBrowserName').html());
+                        alert($(this).closest('td.fileBrowserName .hiddenOnSmall').html());
                         fileName = $(this).closest('.fileBrowserName').find('span').find('a').text();
                         
                     //}
