@@ -29,7 +29,7 @@ $(function(){
             var end = Date.parse($('#endDatepicker').val());
 
             $('#fileTable').html($(response).find('#fileBrowserTable').html());
-            $('#fileTable').css('visibility', 'hidden');
+            $('#fileTable').css('display', 'none');
             $('#fileTable').find('tr').each(function(index){
                 if($(this).find('.fbChanged .systemTime .fbTime').text().length>7){
                     timestamp = Date.parse(moment($(this).find('.fbChanged .systemTime .fbTime').text(),"hh:mm:ss a MM/DD/YYYY"));
