@@ -45,7 +45,7 @@ http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/
             var start = Date.parse($('#startDatepicker').val());
             var end = Date.parse($('#endDatepicker').val());
 
-            alert($(response).find('.fileBrowserTable').html());
+            alert($(response).find('#fileBrowserTable').html());
 
             $(response).find('.systemTime .fbTime').each(function(index){
                 if($(this).text().length>7){
