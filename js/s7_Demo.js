@@ -46,8 +46,10 @@ $(function(){
                                 var pump2Data = [];
                         
                                 for(var i in result){
-                                    pump1Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
-                                    pump2Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Off])
+                                    if(Date.parse(result[i].Date + " "+ result[i]["UTC Time"]) >= start && Date.parse(result[i].Date + " "+ result[i]["UTC Time"])<=end){
+                                        pump1Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].On])
+                                        pump2Data.push([Date.parse(result[i].Date + " "+ result[i]["UTC Time"]),result[i].Off])
+                                    }
                                 }
             
                                $.plot("#trend",[pump1Data,pump2Data],{
