@@ -4,7 +4,7 @@ layout: blog_post
 title: "Siemens S7-1200 and S7-1500 Web Server Step-By-Step - Web-based Trending"
 page_title: "Siemens S7-1200 and S7-1500 Web Server Step-By-Step - Web-based Trending"
 tags: ["Education"]
-image: "/img/s7Trend.png"
+image: "/img/s7trend.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>This Step-By-Step tutorial series covers everything you need to know about using the web server in Siemens' S7-1200 and S7-1500 PLCs. After reading this series you will understand how to configure the web server, generate trends from data logs, handle recipe management in the PLC, and build a fully functional HMI and Reporting system you can use in any web browser, with mobile functionality built right in.</p>"
