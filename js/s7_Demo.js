@@ -40,31 +40,33 @@ $(function(){
     }
 
     function updateTrend(){
+        var timeStamps = [];
 
-    $.ajax({
-        url:'http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/',
-        type:'get',
-        dataType:'text',
-        success:function(data){
-            var response = $('<html />').html(data);
-            var timestamp = '';
-            var fileName = '';
-            var start = Date.parse($('#startDatepicker').val());
-            var end = Date.parse($('#endDatepicker').val());
+        $.ajax({
+            url:'http://192.168.0.1/Portal/Portal.mwsl?PriNav=FileBrowser&Path=/DataLogs/',
+            type:'get',
+            dataType:'text',
+            success:function(data){
+                var response = $('<html />').html(data);
+                var timestamp = '';
+                var fileName = '';
+                var start = Date.parse($('#startDatepicker').val());
+                var end = Date.parse($('#endDatepicker').val());
 
-            $('#fileTable').html($(response).find('#fileBrowserTable').html());
-            $('#fileTable').css('display', 'none');
-            $('#fileTable').find('tr').each(function(index){
-                if($(this).find('.fbChanged .systemTime .fbTime').text().length>7){
-                    timestamp = Date.parse(moment($(this).find('.fbChanged .systemTime .fbTime').text(),"hh:mm:ss a MM/DD/YYYY"));
-                    if(timestamp>=start && timestamp<= end){
-                        fileName = $(this).find('.fileBrowserName .hiddenOnSmall a').text();
-                        generateTrend(fileName, start, end);
+                $('#fileTable').html($(response).find('#fileBrowserTable').html());
+                $('#fileTable').css('display', 'none');
+                $('#fileTable').find('tr').each(function(index){
+                    if($(this).find('.fbChanged .systemTime .fbTime').text().length>7){
+                        timestamp = Date.parse(moment($(this).find('.fbChanged .systemTime .fbTime').text(),"hh:mm:ss a MM/DD/YYYY"));
+                        if(timestamp>=start && timestamp<= end){
+                            fileName = $(this).find('.fileBrowserName .hiddenOnSmall a').text();
+                            generateTrend(fileName, start, end);
+                            break;
+                        }
                     }
-                }
-            });
-        }
-    })
+                });
+            }
+        })
     }
 
 
