@@ -10,7 +10,7 @@ author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 thumbnail: "/img/pareto.jpg"
 blurb: "<p>Learn the essentials of Pareto Analysis and how you can use it to easily prioritize your continuous improvement ovjectives.</p>"
-date: "20-10-2014"
+date: "19-06-2015"
 ---
 
 
