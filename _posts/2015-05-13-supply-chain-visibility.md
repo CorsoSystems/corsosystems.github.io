@@ -12,7 +12,7 @@ date: "13-05-2015"
 ---
 
 
-<p>Lean manufacturing is one of the best way to boost productivity while cutting costs, but taking the first step to get there can seem overwhelming without access to the right information.</p>
+<p>Lean manufacturing is one of the best ways to boost productivity while cutting costs, but taking the first step to get there can seem overwhelming without access to the right information.</p>
 
 <h4><b style="color:#f64100;">Make Sense of All That Data</b></h4>
 
