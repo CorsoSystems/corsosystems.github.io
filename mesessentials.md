@@ -171,7 +171,7 @@ tagline: Reduce your manufacturing costs 30% with the facilities you already hav
 		<div id="mc_embed_signup">
 			<form action="//corsosystems.us8.list-manage.com/subscribe/post?u=9c3aca2e795f5d04e5358a747&amp;id=1ef6dd1aa2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     				<div id="mc_embed_signup_scroll">
-					<label for="mce-EMAIL" style="text-align:center;">Sign up for MES Essentials on Thursday July 16th @ 2:30 PM CDT</label>
+					<label for="mce-EMAIL" style="text-align:center;">Sign up for MES Essentials on Thursday July 16th @ 2:00 PM CDT</label>
 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="width:80%;margin-left:10%">
     					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     					<div style="position: absolute; left: -5000px;"><input type="text" name="	b_9c3aca2e795f5d04e5358a747_1ef6dd1aa2" tabindex="-1" value=""></div>
